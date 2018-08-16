@@ -19,7 +19,7 @@ $(function() {
   getMessageDetail(messageid, lan_id)
 
   function getMessageDetail(messageid, lan_id){
-    $.post(api_host + '/public/api/news/get', {
+    $.post(api_host + '/api/news/get', {
       id: messageid,
       language: Number(lan_id)||3
     }, res => {

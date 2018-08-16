@@ -1,6 +1,6 @@
 $(function(){
   var lan_id = getQueryString('lan_id') || 0
-  $.post(api_host+'/public/api/Eqaa/typelist', {
+  $.post(api_host+'/api/Eqaa/typelist', {
     language: lan_id
   }, res => {
     if(res.error_code == 0){
@@ -25,7 +25,7 @@ $(function(){
     var $type = $('.question_form .faq_question_list').val();
     var $reason = $('.question_form .reason').val();
 
-    $.post(api_host + '/public/api/Eqaa/add', {
+    $.post(api_host + '/api/Eqaa/add', {
       name: $uname,
       email: $email,
       tel: $phone,

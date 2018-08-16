@@ -41,7 +41,7 @@ $(function () {
     var lan_id = getQueryString('lan_id') || 3;
 
     function getBiology(){
-        $.post(api_host+'/public/api/Braa/index',{
+        $.post(api_host+'/api/Braa/index',{
             language: lan_id
         }, res => {
             if(res.error_code == 0){

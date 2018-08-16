@@ -31,7 +31,7 @@ $(function() {
   var language = getQueryString('lan') || 'CHT';
   var lan_id = getQueryString('lan_id') || 3;
   // 获取消息类型
-  $.post(api_host + '/public/api/news/typelist', {
+  $.post(api_host + '/api/news/typelist', {
     language: lan_id
   }, res => {
     if(res.error_code == 0){
@@ -55,7 +55,7 @@ $(function() {
   })
 
   function getNewsList(typeid, lan_id){
-    $.post(api_host + '/public/api/news/index', {
+    $.post(api_host + '/api/news/index', {
       typeid,
       language: lan_id
     }, res => {
