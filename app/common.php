@@ -24,7 +24,6 @@ function api_arr($code,$msg="",$arr=array()){
     $result['msg']=$msg;
     $result['res']=$arr;
     echo json_encode($result);
-
 }
 
 /**获取json数据
