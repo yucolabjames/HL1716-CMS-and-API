@@ -27,6 +27,7 @@ $(function() {
     
     $.post(api_host+'/api/contact/index', { language:lan_id }, res => {
       if(res.error_code == 0){
+        console.log(res.res)
         $('.concat_phone').text(res.res.tel)
         $('.concat_email').html(`<a class="link" href="mailto:${res.res.email}">${res.res.email}</a>`)
 
@@ -37,7 +38,7 @@ $(function() {
         $('.concat_banner h1').text(res.res.data[0].header_title)
         $('.concat_banner p').text(res.res.data[0].header_content)
       }
-    })
+    }, 'json')
   })();
 
   $('.concat_reset').on('click', e => {
