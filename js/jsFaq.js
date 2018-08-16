@@ -21,12 +21,12 @@ $(function () {
                               </li>`
           })
           $('.question_list').html(questionHtml)
-          getAnwserList('', 1, lan_id)
+          getAnwserList('', '',1, lan_id)
           
           // 根据问题获取列表
           $('.question_list').on('click', 'a', e => {
             var typeid = e.target.dataset.id;
-            getAnwserList(typeid, 1, lan_id)
+            getAnwserList('', typeid, 1, lan_id)
           })
         }
       }, 'json')
