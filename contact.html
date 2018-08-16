@@ -40,13 +40,10 @@
                    <ul class="list-inline mainMenu clearfix">
                         <li class="lang-opt hidden-xs"><div class="dropdown">
                           <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                           <span class="current_lang"></span> <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
                           </div> 
 
                           <ul class="dropdown-menu select-language" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>简</li>
-                            <li>ENG</li>
                           </ul>
                         </div>
                         </li>
@@ -152,16 +149,16 @@
       <div class="text-center">
         <h2 class="sessionTitle"></h2>
       </div>
-        <form>
+        <form class="question_form">
             <div class="form-field">
-              <input class="form-control concat_username" placeholder="">
+              <input class="form-control concat_username username" placeholder="">
             </div>
             <div class="form-field clearfix">
-              <div class="grid col-xs-6"><input class="form-control concat_email" placeholder=""></div>
-              <div class="grid col-xs-6"><input class="form-control concat_phone" placeholder=""></div>
+              <div class="grid col-xs-6"><input class="form-control concat_email email" placeholder=""></div>
+              <div class="grid col-xs-6"><input class="form-control concat_phone phone" placeholder=""></div>
             </div>
             <div class="form-field">
-              <textarea class="form-control concat_reason" placeholder=""></textarea>
+              <textarea class="form-control concat_reason content" placeholder=""></textarea>
             </div>
             <div class="btn-wrapper text-center">
               <a href="" class="btn theme5 concat_reset"></a>
@@ -236,7 +233,7 @@
     <script src="js/jsContact.js"></script>
 </body>
 </html>
-<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDSYnILdBP-iR03gBOZvreyn732VWwPB00"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSYnILdBP-iR03gBOZvreyn732VWwPB00"></script>
 
  
  <script type="text/javascript">
