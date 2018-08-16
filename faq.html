@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <Title>Bu Virtual Habitat</Title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.png">
+  <link href="//fonts.googleapis.com/css?family=Comfortaa:300,400,700|News+Cycle:400,700|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="js/vendor/animsition-master/dist/css/animsition.min.css">
+  <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="js/vendor/slick-1.8.0/slick/slick-theme.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="js/vendor/select2-develop/dist/css/select2.min.css">
+  <link rel="stylesheet" href="js/vendor/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.css">
+  <!-- script src="//use.typekit.net/xjn7mvl.js"></script-->
+  <!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/static.css" rel="stylesheet">
+  <link href="css/style_theme2.css" rel="stylesheet">
+  <link href="css/style_mobile.css" rel="stylesheet">
+
+</head>
+
+<body id="faq">
+
+  <div class="animsition">
+    <header>
+
+      <div class="container clearfix">
+        <div class="top-nav">
+          <ul class="list-inline mainMenu clearfix">
+            <li class="lang-opt hidden-xs">
+              <div class="dropdown">
+                <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  ENG
+                  <span class="icon-r">
+                    <img src="images/common/icon-lang.svg">
+                  </span>
+                </div>
+                
+                <ul class="dropdown-menu select-language" aria-labelledby="dLabel"> </ul>
+              </div>
+            </li>
+            <li class="logo-core text-center">
+              <a href="index.html" class="logo">
+                <img src="images/common/logo.svg" class="img-fluid">
+              </a>
+            </li>
+            <li class="text-right widget-social hidden-xs">
+              <a href="">
+                <img src="images/common/icon-facebook.svg" class="svg img-fluid">
+              </a>
+              <a href="">
+                <img src="images/common/icon-instagram.svg" class="svg img-fluid">
+              </a>
+            </li>
+          </ul>
+
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#login-menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <hr>
+        <nav class="navbar-menu">
+          <div class="collapse navbar-collapse" id="login-menu">
+            <ul class="nav-menu">
+              <!-- 2 -->
+              <li class="">
+                <a href="about.html" class="nav1"></a>
+              </li>
+              <!-- 3 -->
+              <li class="">
+                <a href="hall.html" class="nav2"></a>
+              </li>
+              <!-- 4 -->
+              <li class="active">
+                <a href="faq.html" class="nav3"></a>
+              </li>
+              <!-- 5 -->
+              <li class="">
+                <a href="news.html" class="nav4"></a>
+              </li>
+              <!-- 6 -->
+              <li class="">
+                <a href="memberLogin.html" class="nav5"></a>
+              </li>
+              <!-- 7 -->
+              <li>
+                <a href="contact.html" class="nav6"></a>
+              </li>
+              <li class="booking">
+                <a class="btn theme6" href="booking.html">
+                  <span class="icon">
+                    <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+                  </span>
+                  <span class="nav7"></span>
+                </a>
+              </li>
+              <ul class="lang-btn clearfix" aria-labelledby="dLabel">
+                <li>
+                  <img src="images/common/icon-lang.svg">
+                </li>
+                <li>繁</li>
+                <li>簡</li>
+              </ul>
+            </ul>
+          </div>
+
+
+
+          <!-- /.navbar-collapse -->
+
+        </nav>
+      </div>
+    </header>
+
+    <!-- 问答类型tab -->
+    <section class="sessionFaq text-center">
+      <div class="container">
+        <h1 class="sessionTitles faq_title">
+          
+        </h1>
+
+        <ul class="widget-tab clearfix question_list" role="tablist">
+          <!-- <li role="presentation" class="active">
+            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">All</a>
+          </li>
+          <li role="presentation">
+            <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">超載的地球</a>
+          </li>
+          <li role="presentation">
+            <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">2050面臨</a>
+          </li>
+          <li role="presentation">
+            <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"> 我們的生活模式</a>
+          </li> -->
+        </ul>
+
+        <div class="pos-search">
+          <input class="widget-search lang_faq_search"  placeholder="">
+          <button type="button" class="searchBtn" >
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 问答类型列表 -->
+    <section class="faqList">
+      <div class="container">
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">
+            <div class="col-xs-12 col-sm-4 character">
+              <a href="faq_question.html">
+                <img src="images/faq/character.png" alt="提问" class="img-full">
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-8 faqRow">
+              <div class="panel-group answer_list" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <!-- <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="profile">
+            <div class="col-xs-12 col-sm-4 character">
+              <img src="images/faq/character.png" class="img-full">
+            </div>
+            <div class="col-xs-12 col-sm-8 faqRow">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="messages">
+            <div class="col-xs-12 col-sm-4 character">
+              <img src="images/faq/character.png" class="img-full">
+            </div>
+            <div class="col-xs-12 col-sm-8 faqRow">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="settings">
+            <div class="col-xs-12 col-sm-4 character">
+              <img src="images/faq/character.png" class="img-full">
+            </div>
+            <div class="col-xs-12 col-sm-8 faqRow">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="faqGrid">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        <span class="icon">
+                          <img src="images/faq/icon-q.png" class="img-fluid">
+                        </span>這要幹嘛的？
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="pbody">
+                      <span class="icon">
+                        <img src="images/faq/icon-a.png" class="img-fluid">
+                      </span>
+                      <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <footer>
+      <div class="container">
+        <div class="clearfix">
+          <div class="visible-xs widget-social">
+            關注我們
+            <br>
+            <ul>
+              <li>
+                <a href="">
+                  <img src="images/common/icon-facebook.svg" class="svg img-fluid">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="images/common/icon-instagram.svg" class="svg img-fluid">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 widget-link">
+            <ul>
+              <li>
+                <a href="" class="lang_footer_copyright">版權</a>
+              </li>
+              <li>
+                <a href="" class="lang_footer_mianze">免責聲明</a>
+              </li>
+              <li>
+                <a href="" class="lang_footer_private">私隱政策聲明</a>
+              </li>
+              <li>
+                <a href="" class="lang_footer_guide">網頁指南</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hidden-xs col-sm-4 widget-social">
+            關注我們
+            <br>
+            <ul>
+              <li>
+                <a href="">
+                  <img src="images/common/icon-facebook.svg" class="svg img-fluid">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="images/common/icon-instagram.svg" class="svg img-fluid">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 widget-contact">
+            <ul>
+              <li>
+                <span class="lang_footer_addr"></span>: 九龍塘浸會大學道</li>
+              <li>
+                <span class="lang_footer_time"></span> : 星期一至日上午10時至下午7時</li>
+              <li>
+                <span class="lang_footer_phone"></span> : 852-35008335</li>
+              <li>
+                <span class="lang_footer_email"></span> : info@bu.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright text-center bu_copyright"></div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+  <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="js/vendor/waypoint/waypoints.min.js"></script>
+  <script src="js/vendor/select2-develop/dist/js/select2.min.js"></script>
+  <script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="js/vendor/animsition-master/dist/js/animsition.js"></script>
+  <script src="js/vendor/jquery-match-height-master/jquery.matchHeight.js"></script>
+  <script src="js/vendor/backstretch/jquery.backstretch.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+  <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/language.js"></script>
+  <script src="js/jsFaq.js"></script>
+</body>
+
+</html>
