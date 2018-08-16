@@ -16,7 +16,7 @@ $(function() {
     var lan_id = getQueryString('lan_id') || 3;
     $.get(api_host+'/api/Index/index?language='+lan_id, res => {
       handleData(res.res)
-    })
+    }, 'json')
 
     function handleData(data){
       console.log(data)
