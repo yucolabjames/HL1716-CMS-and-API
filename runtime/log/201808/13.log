@@ -1,0 +1,2787 @@
+---------------------------------------------------------------
+[ 2018-08-13T15:34:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index [运行时间：0.085444s][吞吐率：11.70req/s] [内存消耗：1,708.84kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:35:51+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=ENG
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=ENG [运行时间：0.079275s][吞吐率：12.61req/s] [内存消耗：1,788.41kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'ENG',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\Index::$dao[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:21]
+[ error ] [1]Call to a member function where() on null[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:22]
+---------------------------------------------------------------
+[ 2018-08-13T15:36:39+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=ENG
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=ENG [运行时间：0.029875s][吞吐率：33.47req/s] [内存消耗：1,588.29kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'ENG',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:37:00+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=ENG
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=ENG [运行时间：0.052905s][吞吐率：18.90req/s] [内存消耗：1,789.01kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'ENG',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\Index::$dao[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:21]
+[ error ] [1]Call to a member function where() on null[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:22]
+---------------------------------------------------------------
+[ 2018-08-13T15:37:01+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=ENG
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=ENG [运行时间：0.057290s][吞吐率：17.46req/s] [内存消耗：1,789.01kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'ENG',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\Index::$dao[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:21]
+[ error ] [1]Call to a member function where() on null[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:22]
+---------------------------------------------------------------
+[ 2018-08-13T15:37:40+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=ENG
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=ENG [运行时间：0.058036s][吞吐率：17.23req/s] [内存消耗：2,495.58kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'ENG',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:37:51+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=ENG
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=ENG [运行时间：0.103709s][吞吐率：9.64req/s] [内存消耗：2,768.02kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'ENG',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012791s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.019145s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'ENG' LIMIT 1 [ RunTime:0.009536s ]
+[ error ] [8]Undefined property: app\api\controller\Index::$upload_host[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:54]
+---------------------------------------------------------------
+[ 2018-08-13T15:38:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.075900s][吞吐率：13.18req/s] [内存消耗：2,767.17kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000851s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.003226s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000768s ]
+[ error ] [8]Undefined property: app\api\controller\Index::$upload_host[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:54]
+---------------------------------------------------------------
+[ 2018-08-13T15:38:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=CHS
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=CHS [运行时间：0.061123s][吞吐率：16.36req/s] [内存消耗：2,767.07kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000658s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.015938s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHS' LIMIT 1 [ RunTime:0.000802s ]
+[ error ] [8]Undefined property: app\api\controller\Index::$upload_host[/Users/gangh/php/yucolabcms/app/api/controller/Index.php:54]
+---------------------------------------------------------------
+[ 2018-08-13T15:39:53+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/api/Index/index?language=CHS
+[ info ] 127.0.0.1/yucolabcms/public/api/Index/index?language=CHS [运行时间：0.123304s][吞吐率：8.11req/s] [内存消耗：2,701.48kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005071s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHS' LIMIT 1 [ RunTime:0.000817s ]
+---------------------------------------------------------------
+[ 2018-08-13T15:40:25+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Index/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHS [运行时间：0.136361s][吞吐率：7.33req/s] [内存消耗：2,700.17kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000931s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.018841s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHS' LIMIT 1 [ RunTime:0.000939s ]
+---------------------------------------------------------------
+[ 2018-08-13T15:41:44+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHS [运行时间：0.152987s][吞吐率：6.54req/s] [内存消耗：2,700.54kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001022s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.019883s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHS' LIMIT 1 [ RunTime:0.000921s ]
+---------------------------------------------------------------
+[ 2018-08-13T15:44:48+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHS [运行时间：0.171953s][吞吐率：5.82req/s] [内存消耗：2,700.75kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001241s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.021946s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHS' LIMIT 1 [ RunTime:0.002294s ]
+---------------------------------------------------------------
+[ 2018-08-13T15:57:56+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.061169s][吞吐率：16.35req/s] [内存消耗：1,485.45kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:30+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.052642s][吞吐率：19.00req/s] [内存消耗：1,485.57kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:30+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.026189s][吞吐率：38.18req/s] [内存消耗：1,485.57kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:31+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.028319s][吞吐率：35.31req/s] [内存消耗：1,485.57kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:31+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.037449s][吞吐率：26.70req/s] [内存消耗：1,485.57kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:31+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.025012s][吞吐率：39.98req/s] [内存消耗：1,485.57kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:31+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.041900s][吞吐率：23.87req/s] [内存消耗：1,485.57kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:32+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.023859s][吞吐率：41.91req/s] [内存消耗：1,485.57kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:32+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.028059s][吞吐率：35.64req/s] [内存消耗：1,485.48kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:45+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.042623s][吞吐率：23.46req/s] [内存消耗：2,510.55kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T15:59:46+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.034673s][吞吐率：28.84req/s] [内存消耗：2,510.55kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:00:47+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.091799s][吞吐率：10.89req/s] [内存消耗：2,919.55kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000875s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_eqaa` [ RunTime:0.005697s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_eqaa` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_eqaa` WHERE  (  1=1 ) ORDER BY status asc,id desc LIMIT 0,15 [ RunTime:0.000850s ]
+[ error ] [2]call_user_func_array() expects parameter 1 to be a valid callback, class 'think\Collection' does not have a method 'field'[/Users/gangh/php/yucolabcms/thinkphp/library/think/Paginator.php:398]
+---------------------------------------------------------------
+[ 2018-08-13T16:01:32+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.070950s][吞吐率：14.09req/s] [内存消耗：2,511.34kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:01:33+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.040094s][吞吐率：24.94req/s] [内存消耗：2,511.34kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:01:34+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.028500s][吞吐率：35.09req/s] [内存消耗：2,511.34kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:01:34+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.027885s][吞吐率：35.86req/s] [内存消耗：2,511.34kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/api/lang/en-us.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:02:46+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.056970s][吞吐率：17.55req/s] [内存消耗：2,518.91kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:02:46+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.034505s][吞吐率：28.98req/s] [内存消耗：2,518.91kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:02:46+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.034212s][吞吐率：29.23req/s] [内存消耗：2,518.91kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:02:47+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.037133s][吞吐率：26.93req/s] [内存消耗：2,518.91kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:02:47+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.034782s][吞吐率：28.75req/s] [内存消耗：2,518.91kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:09:06+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.067108s][吞吐率：14.90req/s] [内存消耗：1,419.20kb] [文件加载：29]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'Cookie' (T_STRING)[/Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php:38]
+---------------------------------------------------------------
+[ 2018-08-13T16:09:20+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.044426s][吞吐率：22.51req/s] [内存消耗：2,520.93kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:09:40+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.034750s][吞吐率：28.78req/s] [内存消耗：2,520.46kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:09:41+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.034586s][吞吐率：28.91req/s] [内存消耗：2,520.46kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:10:17+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.035995s][吞吐率：27.78req/s] [内存消耗：2,520.53kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:10:18+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.039930s][吞吐率：25.04req/s] [内存消耗：2,520.53kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T16:10:18+08:00 ] 192.168.0.113 192.168.0.113 GET /yucolabcms/public/api/Eqaa/index?language=CHS
+[ info ] 192.168.0.113/yucolabcms/public/api/Eqaa/index?language=CHS [运行时间：0.031102s][吞吐率：32.15req/s] [内存消耗：2,520.53kb] [文件加载：37]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHS',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ /Users/gangh/php/yucolabcms/app/api/controller/Eqaa.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-13T17:20:31+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=ENG
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=ENG [运行时间：0.155570s][吞吐率：6.43req/s] [内存消耗：2,710.48kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'ENG',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001744s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.020759s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'ENG' LIMIT 1 [ RunTime:0.001046s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:20:43+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.050064s][吞吐率：19.97req/s] [内存消耗：2,710.06kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000691s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005823s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000766s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:27:59+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.070385s][吞吐率：14.21req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000717s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.020848s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.001301s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:32:55+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.085630s][吞吐率：11.68req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.034837s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000949s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:33:06+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.047754s][吞吐率：20.94req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000817s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.006143s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000806s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:33:16+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.046485s][吞吐率：21.51req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000748s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005713s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.001183s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:33:21+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.046241s][吞吐率：21.63req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005213s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000691s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:33:30+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.047184s][吞吐率：21.19req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.006597s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000741s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:34:43+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.047332s][吞吐率：21.13req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005004s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000818s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:35:20+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.055604s][吞吐率：17.98req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.006432s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.005710s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:35:31+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.059974s][吞吐率：16.67req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000819s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005110s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000876s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:37:03+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.050447s][吞吐率：19.82req/s] [内存消耗：2,710.38kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.010907s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.001218s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:37:06+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.047693s][吞吐率：20.97req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005287s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000732s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:37:28+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.050184s][吞吐率：19.93req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000684s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.003481s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:38:15+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.054963s][吞吐率：18.19req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.004761s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.007030s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:38:49+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.049162s][吞吐率：20.34req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005694s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000780s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:39:31+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.045544s][吞吐率：21.96req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005450s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:39:53+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.066536s][吞吐率：15.03req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000816s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.004846s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.001971s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:40:09+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.046538s][吞吐率：21.49req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.004195s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:40:35+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.045940s][吞吐率：21.77req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005451s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000745s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:40:42+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.048632s][吞吐率：20.56req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005749s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:40:55+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.048504s][吞吐率：20.62req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000740s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005621s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000785s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:41:15+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.049715s][吞吐率：20.11req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.004359s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000712s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:42:04+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.047830s][吞吐率：20.91req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005432s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000741s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:42:24+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.048203s][吞吐率：20.75req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000714s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005328s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000745s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:43:18+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.048815s][吞吐率：20.49req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005372s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000790s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:43:36+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.045524s][吞吐率：21.97req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.004838s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000727s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:43:41+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.050055s][吞吐率：19.98req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.006534s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:43:57+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.052332s][吞吐率：19.11req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.006692s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000741s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:44:04+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.051539s][吞吐率：19.40req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000763s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005340s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.005767s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:44:49+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.051364s][吞吐率：19.47req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.010684s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000857s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:45:17+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.047683s][吞吐率：20.97req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005472s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:45:31+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.051123s][吞吐率：19.56req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000706s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.003800s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000720s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:45:35+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.040274s][吞吐率：24.83req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.004958s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000794s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:46:21+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.044412s][吞吐率：22.52req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005213s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000772s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:46:26+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.052410s][吞吐率：19.08req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000827s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005963s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000767s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:46:38+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.049618s][吞吐率：20.15req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000941s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.006829s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:46:43+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.051368s][吞吐率：19.47req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005616s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:46:51+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.050163s][吞吐率：19.93req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000706s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.007122s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000844s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:47:01+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.049499s][吞吐率：20.20req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000757s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.006431s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000862s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:52:40+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.070198s][吞吐率：14.25req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000726s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.020441s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.001268s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:52:51+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.045986s][吞吐率：21.75req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000811s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005515s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000767s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:53:02+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.047889s][吞吐率：20.88req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000684s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.003368s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.005653s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:53:37+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.050737s][吞吐率：19.71req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005432s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000730s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:53:51+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.058874s][吞吐率：16.99req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.012302s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.001739s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:59:25+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.093547s][吞吐率：10.69req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.021016s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.002762s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:59:37+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.050222s][吞吐率：19.91req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000770s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.007861s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000758s ]
+---------------------------------------------------------------
+[ 2018-08-13T17:59:41+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.050534s][吞吐率：19.79req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.006247s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000747s ]
+---------------------------------------------------------------
+[ 2018-08-13T18:02:20+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.048183s][吞吐率：20.75req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000788s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.004985s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000791s ]
+---------------------------------------------------------------
+[ 2018-08-13T18:02:40+08:00 ] 192.168.0.113 192.168.0.109 GET /yucolabcms/public/api/Index/index?language=CHT
+[ info ] 192.168.0.113/yucolabcms/public/api/Index/index?language=CHT [运行时间：0.046103s][吞吐率：21.69req/s] [内存消耗：2,710.01kb] [文件加载：41]
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.113',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://localhost/HK/HL1716-frontend/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'CHT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ /Users/gangh/php/yucolabcms/app/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_home` [ RunTime:0.005454s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_home` WHERE  `language` = 'CHT' LIMIT 1 [ RunTime:0.000809s ]

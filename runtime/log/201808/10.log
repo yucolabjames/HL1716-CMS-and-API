@@ -1,0 +1,4250 @@
+---------------------------------------------------------------
+[ 2018-08-10T10:44:17+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.075859s][吞吐率：13.18req/s] [内存消耗：1,404.28kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]syntax error, unexpected ';'[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:26]
+---------------------------------------------------------------
+[ 2018-08-10T10:44:17+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.029627s][吞吐率：33.75req/s] [内存消耗：1,404.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]syntax error, unexpected ';'[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:26]
+---------------------------------------------------------------
+[ 2018-08-10T10:44:18+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.030495s][吞吐率：32.79req/s] [内存消耗：1,404.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]syntax error, unexpected ';'[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:26]
+---------------------------------------------------------------
+[ 2018-08-10T10:44:18+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.038559s][吞吐率：25.93req/s] [内存消耗：1,404.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]syntax error, unexpected ';'[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:26]
+---------------------------------------------------------------
+[ 2018-08-10T10:44:18+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.029796s][吞吐率：33.56req/s] [内存消耗：1,404.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]syntax error, unexpected ';'[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:26]
+---------------------------------------------------------------
+[ 2018-08-10T10:44:19+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.048084s][吞吐率：20.80req/s] [内存消耗：1,404.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]syntax error, unexpected ';'[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:26]
+---------------------------------------------------------------
+[ 2018-08-10T10:44:20+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.022909s][吞吐率：43.65req/s] [内存消耗：1,404.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]syntax error, unexpected ';'[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:26]
+---------------------------------------------------------------
+[ 2018-08-10T10:44:20+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.031625s][吞吐率：31.62req/s] [内存消耗：1,404.27kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]syntax error, unexpected ';'[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:26]
+---------------------------------------------------------------
+[ 2018-08-10T10:44:52+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.035427s][吞吐率：28.23req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:53+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.026820s][吞吐率：37.29req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:53+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.025138s][吞吐率：39.78req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.027397s][吞吐率：36.50req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.026310s][吞吐率：38.01req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.024970s][吞吐率：40.05req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.026059s][吞吐率：38.37req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.024098s][吞吐率：41.50req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.028468s][吞吐率：35.13req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.025460s][吞吐率：39.28req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.025467s][吞吐率：39.27req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.025281s][吞吐率：39.56req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.024216s][吞吐率：41.29req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.025421s][吞吐率：39.34req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.024960s][吞吐率：40.06req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.024240s][吞吐率：41.25req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.023827s][吞吐率：41.97req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:57+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.022719s][吞吐率：44.02req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:44:57+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.031906s][吞吐率：31.34req/s] [内存消耗：1,716.43kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:45:07+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.098795s][吞吐率：10.12req/s] [内存消耗：2,934.28kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ error ] [1]Class 'app\admin\controller\Page' not found[/Users/gangh/php/yucolabcms/app/admin/controller/Index.php:15]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004940s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006629s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.008070s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_administrator` LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` LIMIT 0,1 [ RunTime:0.001075s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:45:45+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.059562s][吞吐率：16.79req/s] [内存消耗：2,936.03kb] [文件加载：48]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ error ] [8]Undefined variable: pages[/Users/gangh/php/yucolabcms/app/admin/controller/Index.php:18]
+[ error ] [0]template not exists:/Users/gangh/php/yucolabcms/public/../app/admin/view/index/index.html[/Users/gangh/php/yucolabcms/thinkphp/library/think/view/driver/Think.php:80]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005114s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_administrator` LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` LIMIT 0,1 [ RunTime:0.000678s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:45:46+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.062661s][吞吐率：15.96req/s] [内存消耗：2,936.05kb] [文件加载：48]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ error ] [8]Undefined variable: pages[/Users/gangh/php/yucolabcms/app/admin/controller/Index.php:18]
+[ error ] [0]template not exists:/Users/gangh/php/yucolabcms/public/../app/admin/view/index/index.html[/Users/gangh/php/yucolabcms/thinkphp/library/think/view/driver/Think.php:80]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000956s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006333s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_administrator` LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` LIMIT 0,1 [ RunTime:0.000752s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:45:46+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.062660s][吞吐率：15.96req/s] [内存消耗：2,936.03kb] [文件加载：48]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ error ] [8]Undefined variable: pages[/Users/gangh/php/yucolabcms/app/admin/controller/Index.php:18]
+[ error ] [0]template not exists:/Users/gangh/php/yucolabcms/public/../app/admin/view/index/index.html[/Users/gangh/php/yucolabcms/thinkphp/library/think/view/driver/Think.php:80]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000899s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005119s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_administrator` LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` LIMIT 0,1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:45:46+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.066810s][吞吐率：14.97req/s] [内存消耗：2,936.03kb] [文件加载：48]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ error ] [8]Undefined variable: pages[/Users/gangh/php/yucolabcms/app/admin/controller/Index.php:18]
+[ error ] [0]template not exists:/Users/gangh/php/yucolabcms/public/../app/admin/view/index/index.html[/Users/gangh/php/yucolabcms/thinkphp/library/think/view/driver/Think.php:80]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006255s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_administrator` LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` LIMIT 0,1 [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:45:58+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.044539s][吞吐率：22.45req/s] [内存消耗：2,750.20kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000809s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005047s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:45:59+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.044381s][吞吐率：22.53req/s] [内存消耗：2,750.20kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000707s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003810s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:45:59+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.044752s][吞吐率：22.35req/s] [内存消耗：2,750.20kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000658s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005248s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:46:19+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.052110s][吞吐率：19.19req/s] [内存消耗：2,750.27kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005484s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000786s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:46:19+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.051863s][吞吐率：19.28req/s] [内存消耗：2,750.27kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005687s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000842s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:46:19+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.044546s][吞吐率：22.45req/s] [内存消耗：2,750.27kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000713s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005031s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:46:20+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.043316s][吞吐率：23.09req/s] [内存消耗：2,750.27kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004933s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000678s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:46:20+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045492s][吞吐率：21.98req/s] [内存消耗：2,750.27kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000862s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005591s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:46:33+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.049144s][吞吐率：20.35req/s] [内存消耗：2,750.45kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000982s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003651s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000870s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:46:34+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045663s][吞吐率：21.90req/s] [内存消耗：2,750.52kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006050s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000694s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:46:34+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.046354s][吞吐率：21.57req/s] [内存消耗：2,750.52kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000837s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005308s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:01+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.043960s][吞吐率：22.75req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004587s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000659s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:01+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045485s][吞吐率：21.99req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005283s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000740s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:01+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.039092s][吞吐率：25.58req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000734s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005118s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:02+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.044639s][吞吐率：22.40req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005021s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:13+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.048781s][吞吐率：20.50req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000749s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005233s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.005142s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:14+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.050968s][吞吐率：19.62req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005584s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:14+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045298s][吞吐率：22.08req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005246s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:24+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.046379s][吞吐率：21.56req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004673s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000686s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:25+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.046344s][吞吐率：21.58req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005182s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:25+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045788s][吞吐率：21.84req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004980s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000686s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:25+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.046232s][吞吐率：21.63req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000642s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006182s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000714s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:25+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045764s][吞吐率：21.85req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004839s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000716s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:26+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.047318s][吞吐率：21.13req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006154s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000707s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:26+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.043895s][吞吐率：22.78req/s] [内存消耗：2,750.23kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000725s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004669s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000740s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.078841s][吞吐率：12.68req/s] [内存消耗：2,749.88kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000859s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003785s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000724s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.038584s][吞吐率：25.92req/s] [内存消耗：2,749.88kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005691s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045418s][吞吐率：22.02req/s] [内存消耗：2,749.88kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000767s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005955s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000660s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:47:57+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.043165s][吞吐率：23.17req/s] [内存消耗：2,749.88kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000860s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004374s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000800s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:40+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.044279s][吞吐率：22.58req/s] [内存消耗：2,750.13kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000828s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004732s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000737s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:40+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.048564s][吞吐率：20.59req/s] [内存消耗：2,750.03kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005527s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000774s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:40+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.044887s][吞吐率：22.28req/s] [内存消耗：2,750.03kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005141s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000705s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:48+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.066388s][吞吐率：15.06req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004745s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000738s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.049021s][吞吐率：20.40req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003499s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.004724s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.053472s][吞吐率：18.70req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000702s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004845s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.008041s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.046920s][吞吐率：21.31req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.007095s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000728s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.046820s][吞吐率：21.36req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005644s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000708s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:50+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.053202s][吞吐率：18.80req/s] [内存消耗：2,750.33kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006483s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:48:59+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.053271s][吞吐率：18.77req/s] [内存消耗：2,749.99kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003704s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:49:00+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045420s][吞吐率：22.02req/s] [内存消耗：2,749.99kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000656s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005357s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000678s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:49:00+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.045166s][吞吐率：22.14req/s] [内存消耗：2,749.99kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000760s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005515s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000686s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:49:00+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.049375s][吞吐率：20.25req/s] [内存消耗：2,749.99kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000840s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006160s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000690s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:49:00+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.046133s][吞吐率：21.68req/s] [内存消耗：2,749.99kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005200s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:49:08+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.042444s][吞吐率：23.56req/s] [内存消耗：2,749.99kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001010s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004834s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:49:09+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.044351s][吞吐率：22.55req/s] [内存消耗：2,749.99kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004985s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000783s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:49:09+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.046626s][吞吐率：21.45req/s] [内存消耗：2,749.99kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant user_id - assumed 'user_id'[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005043s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000659s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:49:21+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.023665s][吞吐率：42.26req/s] [内存消耗：1,589.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:49:22+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.023634s][吞吐率：42.31req/s] [内存消耗：1,589.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:49:22+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.026392s][吞吐率：37.89req/s] [内存消耗：1,589.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:49:22+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.024768s][吞吐率：40.37req/s] [内存消耗：1,589.05kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:49:40+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.026710s][吞吐率：37.44req/s] [内存消耗：1,697.69kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.025372s][吞吐率：39.41req/s] [内存消耗：1,697.69kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.024582s][吞吐率：40.68req/s] [内存消耗：1,697.69kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:50:20+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.022726s][吞吐率：44.00req/s] [内存消耗：1,589.06kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:50:20+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.022965s][吞吐率：43.54req/s] [内存消耗：1,589.06kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:50:21+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.023367s][吞吐率：42.80req/s] [内存消耗：1,589.06kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:50:21+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.022977s][吞吐率：43.52req/s] [内存消耗：1,589.06kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:50:21+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.023730s][吞吐率：42.14req/s] [内存消耗：1,589.06kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:50:21+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/index/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/index/index [运行时间：0.022536s][吞吐率：44.37req/s] [内存消耗：1,589.06kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:50:33+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index [运行时间：0.029411s][吞吐率：34.00req/s] [内存消耗：1,715.91kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:50:52+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=123456
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=123456 [运行时间：0.063391s][吞吐率：15.78req/s] [内存消耗：2,766.32kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined variable: data[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:14]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000739s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004567s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` IS NULL LIMIT 1 [ RunTime:0.003806s ]
+---------------------------------------------------------------
+[ 2018-08-10T10:51:23+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=123456
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=123456 [运行时间：0.033015s][吞吐率：30.29req/s] [内存消耗：1,595.86kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:51:23+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=123456
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=123456 [运行时间：0.024255s][吞吐率：41.23req/s] [内存消耗：1,595.88kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T10:58:39+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=123456
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=123456 [运行时间：0.117212s][吞吐率：8.53req/s] [内存消耗：2,769.07kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.018683s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.002472s ]
+[ error ] [8]Undefined index: pwd[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:17]
+---------------------------------------------------------------
+[ 2018-08-10T10:58:48+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.064750s][吞吐率：15.44req/s] [内存消耗：2,768.52kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.008466s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000733s ]
+[ error ] [8]Undefined index: pwd[/Users/gangh/php/yucolabcms/app/admin/controller/Login.php:17]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:11+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.060017s][吞吐率：16.66req/s] [内存消耗：2,583.38kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005256s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:26+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.046924s][吞吐率：21.31req/s] [内存消耗：2,701.85kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004955s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000841s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:50+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.046059s][吞吐率：21.71req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005462s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000720s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:53+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.047603s][吞吐率：21.01req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000862s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006134s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000763s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.044957s][吞吐率：22.24req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005438s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.043637s][吞吐率：22.92req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005002s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.044908s][吞吐率：22.27req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004786s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.042912s][吞吐率：23.30req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004798s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:54+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.078414s][吞吐率：12.75req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000698s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004830s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000966s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.072713s][吞吐率：13.75req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001322s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004187s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.080811s][吞吐率：12.37req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004056s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000632s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.077370s][吞吐率：12.92req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001067s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004082s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.081140s][吞吐率：12.32req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003929s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.043060s][吞吐率：23.22req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000687s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.004917s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.041027s][吞吐率：24.37req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003514s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.068801s][吞吐率：14.53req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003758s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.040470s][吞吐率：24.71req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003914s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.054419s][吞吐率：18.38req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000757s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.006249s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000855s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.079910s][吞吐率：12.51req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.016708s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001173s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:56+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.080288s][吞吐率：12.46req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000595s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003937s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.023696s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:00:57+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/login/index?username=admin&password=admin321
+[ info ] 127.0.0.1/yucolabcms/public/admin/login/index?username=admin&password=admin321 [运行时间：0.077735s][吞吐率：12.86req/s] [内存消耗：2,701.73kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin321',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000800s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003585s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000785s ]
+---------------------------------------------------------------
+[ 2018-08-10T11:29:26+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.175159s][吞吐率：5.71req/s] [内存消耗：2,698.34kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Language->index[ /Users/gangh/php/yucolabcms/app/admin/controller/Language.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.019832s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.009830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_language` [ RunTime:0.007217s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`language` FROM `yu_language` [ RunTime:0.001059s ]
+---------------------------------------------------------------
+[ 2018-08-10T13:57:08+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.077360s][吞吐率：12.93req/s] [内存消耗：1,602.09kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.069637s][吞吐率：14.36req/s] [内存消耗：1,677.66kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:17]
+---------------------------------------------------------------
+[ 2018-08-10T16:01:18+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.018577s][吞吐率：53.83req/s] [内存消耗：1,677.66kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:17]
+---------------------------------------------------------------
+[ 2018-08-10T16:01:18+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.019275s][吞吐率：51.88req/s] [内存消耗：1,677.66kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:17]
+---------------------------------------------------------------
+[ 2018-08-10T16:01:18+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.019068s][吞吐率：52.44req/s] [内存消耗：1,677.66kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[/Users/gangh/php/yucolabcms/app/admin/controller/Common.php:17]
+---------------------------------------------------------------
+[ 2018-08-10T16:01:29+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.035817s][吞吐率：27.92req/s] [内存消耗：1,592.98kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:46+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.024392s][吞吐率：41.00req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.023050s][吞吐率：43.38req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.022754s][吞吐率：43.95req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.023296s][吞吐率：42.93req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.021923s][吞吐率：45.61req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.023710s][吞吐率：42.18req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.022970s][吞吐率：43.54req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:48+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.023370s][吞吐率：42.79req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:48+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.022860s][吞吐率：43.74req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:48+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.022845s][吞吐率：43.77req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:48+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.024337s][吞吐率：41.09req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:48+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.023658s][吞吐率：42.27req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:48+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.023257s][吞吐率：43.00req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.023264s][吞吐率：42.98req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.022570s][吞吐率：44.31req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T16:01:49+08:00 ] 127.0.0.1 127.0.0.1 GET /yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t
+[ info ] 127.0.0.1/yucolabcms/public/admin/Language/index?userid=y5gq*3YhOp1t [运行时间：0.022332s][吞吐率：44.78req/s] [内存消耗：1,593.60kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=baf1442f220f041ff2a6ad82cb43dc71',
+)
+[ info ] [ PARAM ] array (
+  'userid' => 'y5gq*3YhOp1t',
+)
+[ info ] [ LANG ] /Users/gangh/php/yucolabcms/public/../app/admin/lang/en-us.php
+[ info ] [ LOG ] INIT File
