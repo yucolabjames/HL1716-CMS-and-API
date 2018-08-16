@@ -21,6 +21,7 @@ $(function(){
           languageHTML += `<li data-language="${item.language}" data-id="${item.id}">${item.name}</li>`
           
         })
+        
         $('.select-language').html(languageHTML)
 
         if($('.current_lang').html() == ''){
@@ -31,7 +32,7 @@ $(function(){
           })
         }
       }
-    })
+    }, 'json')
   })();
   
   // 渲染静态文字
