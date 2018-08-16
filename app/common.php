@@ -23,7 +23,7 @@ function api_arr($code,$msg="",$arr=array()){
     $result['error_code']=$code;
     $result['msg']=$msg;
     $result['res']=$arr;
-    return json_encode($result);
+    echo json_encode($result);
 
 }
 
