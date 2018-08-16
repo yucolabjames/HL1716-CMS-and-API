@@ -20,11 +20,11 @@ $(function() {
     })
   })();
   
-
+  var language = getQueryString('lan') || 'CHT';
+  var lan_id = getQueryString('lan_id') || 3;
   // 获取网页数据
   ;(() => {
-    var language = getQueryString('lan') || 'CHT';
-    var lan_id = getQueryString('lan_id') || 3;
+    
     $.post(api_host+'/public/api/contact/index', { language:lan_id }, res => {
       if(res.error_code == 0){
         $('.concat_phone').text(res.res.tel)
@@ -39,6 +39,33 @@ $(function() {
       }
     })
   })();
+
+  $('.concat_reset').on('click', e => {
+    e.preventDefault();
+    $('.question_form input, .question_form textarea').val('')
+  })
+  $('.concat_submit').on('click', e => {
+    e.preventDefault();
+    var $uname = $('.question_form .username').val();
+    var $email = $('.question_form .email').val();
+    var $phone = $('.question_form .phone').val();
+    var $content = $('.question_form .content').val();
+
+    $.post(api_host + '/public/api/contact/opinion', {
+      name: $uname,
+      email: $email,
+      tel: $phone,
+      content: $content,
+      language: lan_id || 3
+    }, res => {
+      if(res.error_code == 0){
+        alert('提交成功')
+      } else {
+        alert(res.msg)
+      }
+    }, 'json')
+
+  })
 
   
   

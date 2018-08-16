@@ -1,13 +1,14 @@
 $(function(){
+  var lang = getQueryString('lan') || 'CHT';
+  $('.current_lang').html(lang)
   $(".select-language").on('click', 'li', (e) => {
     var target = e.target;
 
     var language = target.dataset.language;
     
-
     var search = location.search.substr(1).split('&')
     
-    window.location.search = '?lan='+language+'&lan_id='+target.dataset.id;
+    window.location.search = '?lan='+language+'&lan_id='+target.dataset.id+'&lang='+target.dataset.language;
   })
 
   ;(() => {
@@ -15,11 +16,20 @@ $(function(){
   
       if(res.error_code == 0){
         var languageHTML = ``
+        var lang = ''
         res.res.forEach( item => {
           languageHTML += `<li data-language="${item.language}" data-id="${item.id}">${item.name}</li>`
+          
         })
         $('.select-language').html(languageHTML)
-  
+
+        if($('.current_lang').html() == ''){
+          res.res.forEach( item => {
+            if(item.id === 'CHT'){
+              $('.current_lang').html(item.language)
+            }
+          })
+        }
       }
     })
   })();
