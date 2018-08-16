@@ -23,7 +23,8 @@ function api_arr($code,$msg="",$arr=array()){
     $return['error_code']=$code;
     $return['msg']=$msg;
     $return['res']=$arr;
-    return $return;
+    return json_decode(json_encode($return),true);
+
 }
 
 /**获取json数据
