@@ -12,7 +12,7 @@ $(function(){
   })
 
   ;(() => {
-    $.post(api_host+'/public/api/Language/index', res => {
+    $.post(api_host+'/api/Language/index', res => {
   
       if(res.error_code == 0){
         var languageHTML = ``
