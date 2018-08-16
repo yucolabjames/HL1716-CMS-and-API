@@ -11,7 +11,7 @@ $(function () {
   var lan_id = getQueryString('lan_id') || 3;
   (() => {
     const getApi = () => {
-      $.post(api_host+'/public/api/Ehall/index', {
+      $.post(api_host+'/api/Ehall/index', {
         language: lan_id
       }, res => {
         console.log( res )

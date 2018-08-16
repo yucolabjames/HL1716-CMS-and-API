@@ -8,7 +8,7 @@ $(function () {
     const getApi = () => {
 
       // get question list
-      $.post(api_host+'/public/api/Eqaa/typelist', {
+      $.post(api_host+'/api/Eqaa/typelist', {
         language: lan_id
       }, res => {
         if(res.error_code == 0){
@@ -32,14 +32,14 @@ $(function () {
       }, 'json')
 
       // get answer list
-      // $.post(api_host + '/public/api/Eqaa/index',)
+      // $.post(api_host + '/api/Eqaa/index',)
     }
 
     getApi();
 
     // 获取问答列表
     function getAnwserList(kw, typeid, page, lan_id){
-      $.post(api_host + '/public/api/Eqaa/index', {
+      $.post(api_host + '/api/Eqaa/index', {
         typeid,
         page,
         language:lan_id,
