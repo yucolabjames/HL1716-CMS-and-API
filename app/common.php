@@ -19,11 +19,11 @@ use PHPMailer\phpmailer\PHPMailer;
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 function api_arr($code,$msg="",$arr=array()){
     header("Content-type: text/html; charset=utf-8");
-    $return=array();
-    $return['error_code']=$code;
-    $return['msg']=$msg;
-    $return['res']=$arr;
-    return json_decode(json_encode($return),true);
+    $result=array();
+    $result['error_code']=$code;
+    $result['msg']=$msg;
+    $result['res']=$arr;
+    return json_encode($result);
 
 }
 
@@ -91,3 +91,4 @@ function encrypt($string,$operation){
         return str_replace('+','*',str_replace('=','',base64_encode($result))); 
     } 
 }
+
