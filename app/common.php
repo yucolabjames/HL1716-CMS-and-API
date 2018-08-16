@@ -7,6 +7,8 @@
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
 
+use PHPMailer\phpmailer\PHPMailer;
+
 // 应用公共文件
 /**ajax请求返回函数
  * @param int $code 错误代码
@@ -16,6 +18,7 @@
  */
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 function api_arr($code,$msg="",$arr=array()){
+    header("Content-type: text/html; charset=utf-8");
     $return=array();
     $return['error_code']=$code;
     $return['msg']=$msg;
