@@ -236,4 +236,20 @@ return [
     'list_rows' => 15,
     //前端网页默认语言
     'language' => 3,
+
+    //邮件发送配置
+    'email' =>  [
+        'host'  =>  'smtp.163.com',
+        'port'  =>  465,
+        'smtp_auth' =>  true,
+        'smtp_secure'  =>   'ssl',
+        'charset'   =>  'UTF-8',
+        'encoding'  =>  'base64',
+        'user_name' =>  'send_mail_tt@163.com',
+        'pass_word' =>  'twweaamhnfskvuxe',
+        'subject' =>  'Bu Virtual Habitat',
+        'from' =>  'send_mail_tt@163.com',
+        'from_name' =>  'Bu Virtual Habitat',
+
+    ]
 ];

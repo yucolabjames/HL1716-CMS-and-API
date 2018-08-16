@@ -7,7 +7,7 @@
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
 
-use PHPMailer\phpmailer\PHPMailer;
+use \PHPMailer\phpmailer;
 
 // 应用公共文件
 /**ajax请求返回函数
@@ -91,3 +91,36 @@ function encrypt($string,$operation){
     } 
 }
 
+/**
+* 发送邮箱
+* @param type $data 邮箱队列数据 包含邮箱地址 内容
+*/
+function send_email($data = []) {
+  
+  $mail = new PHPMailer; //实例化
+  $mail->IsSMTP(); // 启用SMTP
+  $mail->Host = config('email.host'); //SMTP服务器 以126邮箱为例子 
+  $mail->Port = config('email.port');  //邮件发送端口
+  $mail->SMTPAuth = config('email.smtp_auth');  //启用SMTP认证
+  $mail->SMTPSecure = config('email.smtp_secure');   // 设置安全验证方式为ssl
+  $mail->CharSet = config('email.charset'); //字符集
+  $mail->Encoding = config('email.encoding'); //编码方式
+  $mail->Username = config('email.user_name');  //你的邮箱 
+  $mail->Password = config('email.pass_word');  //你的密码 
+  $mail->Subject = config('email.subject'); //邮件标题  
+  $mail->From = config('email.from');  //发件人地址（也就是你的邮箱）
+  $mail->FromName = config('email.from_name');  //发件人姓名
+  if($data && is_array($data)){
+    foreach ($data as $k=>$v){
+      $mail->AddAddress($v['user_email']); //添加收件人（地址，昵称）
+      $mail->IsHTML(true); //支持html格式内容
+      $mail->Body = $v['content']; //邮件主体内容
+      //发送成功就删除
+      if ($mail->Send()) {
+        echo "success";
+      }else{
+          echo "Mailer Error: ".$mail->ErrorInfo;// 输出错误信息  
+      }
+    }
+  }           
+}

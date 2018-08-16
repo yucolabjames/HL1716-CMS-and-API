@@ -20980,3 +20980,2067 @@
 [ sql ] [ SQL ] INSERT INTO `yu_help` (`name` , `key` , `txt` , `image` , `content` , `language` , `create_time`) VALUES ('Make an appointment to visit the top header and text' , 'appointment_header' , ' Appointment visit' , 'uploads/2018/08-15/banner.jpg' , 'submit' , 1 , 1534329991) [ RunTime:0.000000s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `yu_logs` [ RunTime:0.004001s ]
 [ sql ] [ SQL ] INSERT INTO `yu_logs` (`type` , `userid` , `ip` , `act` , `log_desc`) VALUES (1 , 1 , '192.168.0.146' , 'Add help' , 'ID:3') [ RunTime:0.033002s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:19:41+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/admin/opinion/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/admin/opinion/index [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,166.37kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'opinion',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Opinion->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\admin\controller\Opinion.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_opinion` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_opinion` WHERE  (  1=1 and language =3 ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`email`,`tel`,`content`,`language`,`ip`,`createtime` FROM `yu_opinion` WHERE  (  1=1 and language =3 ) ORDER BY id desc LIMIT 0,15 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:19:52+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/admin/opinion/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/admin/opinion/index [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,167.73kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'opinion',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Opinion->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\admin\controller\Opinion.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_opinion` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_opinion` WHERE  (  1=1 and language =1 ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`email`,`tel`,`content`,`language`,`ip`,`createtime` FROM `yu_opinion` WHERE  (  1=1 and language =1 ) ORDER BY id desc LIMIT 0,15 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:19:57+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/admin/opinion/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/admin/opinion/index [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,166.37kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'opinion',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Opinion->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\admin\controller\Opinion.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_administrator` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_administrator` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_opinion` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_opinion` WHERE  (  1=1 and language =2 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`email`,`tel`,`content`,`language`,`ip`,`createtime` FROM `yu_opinion` WHERE  (  1=1 and language =2 ) ORDER BY id desc LIMIT 0,15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:20:09+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,056.92kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '2' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:20:12+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,056.92kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '1' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:20:14+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,057.41kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '3' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:26:44+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,090.84kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '3' [ RunTime:0.001000s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:26]
+---------------------------------------------------------------
+[ 2018-08-16T19:27:03+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,053.55kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '3' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:27:48+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,053.72kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '3' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:34:07+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/language/index [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：2,029.95kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_language` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`language` FROM `yu_language` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:35:04+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/language/index [运行时间：0.036003s][吞吐率：27.78req/s] [内存消耗：1,336.41kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPMailer\phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:100]
+---------------------------------------------------------------
+[ 2018-08-16T19:42:47+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,057.32kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '3' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:43:35+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,104.09kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = 3 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: language[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php:50]
+---------------------------------------------------------------
+[ 2018-08-16T19:43:48+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/index.php
+[ info ] 192.168.0.146/yucolab.cq.com/public/index.php [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,335.44kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\public/../app/admin\lang\en-us.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[x��T�n�F~�H��h�%i�RW�8ƃ���2?v�=��ԇ�Hb�RߠH�a.g��]�&�N��P|��}r���������ۍ{7���?\'w7��r{7�N_��t:y���~:�����L���7!���b�X�ltV���cS��.�<���ot�l�(iSC�k[2�aJ��YCr��2R�Z��eX�2K=�FK�D^bk4%�[��ǝ� ��kMMC_�o���}�iWG�+]K�%���N��<��ʯV�c�y�-�����u�E��3Cs��x�_�l5�����E9���yѬ�
+Ξ)�y�]�⥐p<C��S�4����KT�[�|�T8gV�R��E�=�����Oa��؛3ˈ��BIi�w_:kװ7�m)��⽷��C��[�H{����G�� �Q�5�؃���)(Z
+c�F�;8�x�2����b�n�Ԉ�k��N�ɡ�`�q�6���Y+�����G�Td��
+�K��x��Y��s���ಳ�G�6�R���}��K��K"����!p�0mA��bܫD����ԗ1��x�̆��C<�~أ�8�1x���.��^x����%�-R�49�#ht�;4��X�Y�1�$�XW�(s��3�/|gX Cn����ֻ��H0�/��ןh�:W��=��w��Yb���8[T�Țݠ吋��e�W�������7�~�*��>5�O��)�T����h��m@/Ј�nk�߫\�N�b�>Y�L����G��s�������+E[����H�F<����ow�7�ݮ4L����<��`�X�������E�~��{��9@���-�x>��j�~/�{�|�
+���8���C��~Í�[1hҬR�ƞؐl�sݡr�����5f8���q/��	�:�J�~n�y��S4�/�{��wҏ:�5/��A��nA?�Z()���ߏl��P��~\�x]�k�Nno���Q�(13) : eval()'d code(1) : eval()'d code:5]
+---------------------------------------------------------------
+[ 2018-08-16T19:45:22+08:00 ] 192.168.0.146 192.168.0.146 POST /yucolab.cq.com/public/api/contact/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/contact/index [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：2,045.59kb] [文件加载：40]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.0.146',
+  'connection' => 'keep-alive',
+  'content-length' => '933',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'header' => 'uploads/2018/08-15/contactBg.jpg',
+  'coordinate' => '22.336098,114.182748',
+  'tel' => '(852) 34112384',
+  'email' => 'hkorc@hkbu.edu.hk',
+  'address' => '香港九龍塘香港浸會大學善衡校園呂明才中心5樓505室',
+  'office_hours' => '星期一至五上午九時至下午一時;\\r\\n下午二時至下午五時半\\r\\n周六、周日及公眾假期休息',
+  'header_title' => '聯絡我們',
+  'header_content' => '化主詩物趣足沒車心臺我大苦理體實',
+  'language' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Contact->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Contact.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_config` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `yu_contact_config` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_contact_content` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `a`.`address`,`a`.`office_hours`,`a`.`header_title`,`a`.`header_content`,`b`.`language` FROM `yu_contact_content` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '3' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:56:30+08:00 ] 127.0.0.1 127.0.0.1 POST /public/api/ehall/index
+[ info ] yucolab.cq.com/public/api/ehall/index [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,037.03kb] [文件加载：40]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ehall',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'content-length' => '214',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'name' => 'Make an appointment to visit the top header and text',
+  'key' => 'appointment_header',
+  'txt' => ' Appointment visit',
+  'image' => 'uploads/2018/08-15/banner.jpg',
+  'content' => 'submit',
+  'language' => '1',
+  'create_time' => '1534329991',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ehall->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Ehall.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_ehall` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.language as language_key FROM `yu_ehall` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '1' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:56:43+08:00 ] 127.0.0.1 127.0.0.1 POST /public/api/ehall/index
+[ info ] yucolab.cq.com/public/api/ehall/index [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,045.80kb] [文件加载：40]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ehall',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'content-length' => '214',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'name' => 'Make an appointment to visit the top header and text',
+  'key' => 'appointment_header',
+  'txt' => ' Appointment visit',
+  'image' => 'uploads/2018/08-15/banner.jpg',
+  'content' => 'submit',
+  'language' => '3',
+  'create_time' => '1534329991',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ehall->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Ehall.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_ehall` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.language as language_key FROM `yu_ehall` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '3' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T19:59:55+08:00 ] 127.0.0.1 127.0.0.1 POST /public/api/ehall/index
+[ info ] yucolab.cq.com/public/api/ehall/index [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,045.07kb] [文件加载：40]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ehall',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'content-length' => '214',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '2Plj2UqB1Jrk',
+  'name' => 'Make an appointment to visit the top header and text',
+  'key' => 'appointment_header',
+  'txt' => ' Appointment visit',
+  'image' => 'uploads/2018/08-15/banner.jpg',
+  'content' => 'submit',
+  'language' => '3',
+  'create_time' => '1534329991',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ehall->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Ehall.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_ehall` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.language as language_key FROM `yu_ehall` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = '3' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:02:04+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,335.97kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'PHPMailer\phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:99]
+---------------------------------------------------------------
+[ 2018-08-16T20:12:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,336.01kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:99]
+---------------------------------------------------------------
+[ 2018-08-16T20:14:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,336.29kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:99]
+---------------------------------------------------------------
+[ 2018-08-16T20:15:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,336.01kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:99]
+---------------------------------------------------------------
+[ 2018-08-16T20:15:06+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,336.01kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:99]
+---------------------------------------------------------------
+[ 2018-08-16T20:19:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,336.66kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Loader' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:99]
+---------------------------------------------------------------
+[ 2018-08-16T20:19:34+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,336.77kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:101]
+---------------------------------------------------------------
+[ 2018-08-16T20:20:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,336.56kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:101]
+---------------------------------------------------------------
+[ 2018-08-16T20:25:28+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,336.15kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'mail\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:100]
+---------------------------------------------------------------
+[ 2018-08-16T20:27:11+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,336.54kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:102]
+---------------------------------------------------------------
+[ 2018-08-16T20:28:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,205.82kb] [文件加载：31]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T20:30:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,336.73kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:102]
+---------------------------------------------------------------
+[ 2018-08-16T20:32:13+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,336.54kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:102]
+---------------------------------------------------------------
+[ 2018-08-16T20:33:25+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,336.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'phpmailer\PHPMailer' not found[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\common.php:102]
+---------------------------------------------------------------
+[ 2018-08-16T20:34:26+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.781045s][吞吐率：1.28req/s] [内存消耗：2,467.02kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_language` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`language` FROM `yu_language` [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:34:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.488028s][吞吐率：2.05req/s] [内存消耗：2,467.09kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_language` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`language` FROM `yu_language` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:35:06+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.478027s][吞吐率：2.09req/s] [内存消耗：2,467.09kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_language` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`language` FROM `yu_language` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-16T20:35:28+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.425025s][吞吐率：2.35req/s] [内存消耗：1,659.59kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T20:40:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.773044s][吞吐率：1.29req/s] [内存消耗：1,649.67kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T20:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.716041s][吞吐率：1.40req/s] [内存消耗：1,649.56kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T20:52:01+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/index.php?api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/index.php?api/language/index [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：960.99kb] [文件加载：31]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'api/language/index' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T20:52:14+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/index.php?api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/index.php?api/language/index [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：960.96kb] [文件加载：31]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'api/language/index' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T20:53:54+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/index.php?api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/index.php?api/language/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：961.17kb] [文件加载：31]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'api/language/index' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:12:20+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/language/index [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：823.77kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yucolab.cq.com',
+    1 => 'public',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:15:41+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/language/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：824.02kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yucolab.cq.com',
+    1 => 'public',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:17:08+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/language/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：824.02kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yucolab.cq.com',
+    1 => 'public',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:20:21+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/language/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：824.02kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yucolab.cq.com',
+    1 => 'public',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:20:23+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/public/api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/public/api/language/index [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：824.02kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yucolab.cq.com',
+    1 => 'public',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'language' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:21:12+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/index.php
+[ info ] 192.168.0.146/yucolab.cq.com/index.php [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：961.16kb] [文件加载：31]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_pk_id.1.f5e3=aa3d54506379145f.1534425661.1.1534425661.1534425661.; _pk_ses.1.f5e3=*',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:21:30+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/index.php?api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/index.php?api/language/index [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：961.48kb] [文件加载：31]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_pk_id.1.f5e3=aa3d54506379145f.1534425661.1.1534425661.1534425661.; _pk_ses.1.f5e3=*',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'api/language/index' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:24:03+08:00 ] 192.168.0.146 192.168.0.146 GET /yucolab.cq.com/api/language/index
+[ info ] 192.168.0.146/yucolab.cq.com/api/language/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：829.35kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yucolab.cq.com',
+    1 => 'api',
+    2 => 'language',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_pk_id.1.f5e3=aa3d54506379145f.1534425661.1.1534425661.1534425661.; _pk_ses.1.f5e3=*',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '192.168.0.146',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:24:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/language/index
+[ info ] yucolab.cq.com/api/language/index [运行时间：0.055004s][吞吐率：18.18req/s] [内存消耗：1,359.76kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]pfsockopen(): unable to connect to ssl://smtp.163.com:465 (Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP?)[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\extend\PHPMailer\class.smtp.php:136]
+---------------------------------------------------------------
+[ 2018-08-16T21:25:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/language/index
+[ info ] yucolab.cq.com/api/language/index [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,614.11kb] [文件加载：40]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_language` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`language` FROM `yu_language` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:30:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/news/get
+[ info ] yucolab.cq.com/api/news/get [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,631.58kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\News->get[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant IS_POST - assumed 'IS_POST'[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php:116]
+[ error ] [8]未定义数组索引: id[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php:117]
+---------------------------------------------------------------
+[ 2018-08-16T21:32:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/news/get
+[ info ] yucolab.cq.com/api/news/get [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,631.68kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\News->get[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant IS_POST - assumed 'IS_POST'[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php:116]
+[ error ] [8]未定义数组索引: id[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php:117]
+---------------------------------------------------------------
+[ 2018-08-16T21:32:30+08:00 ] 127.0.0.1 127.0.0.1 GET /api/news/get
+[ info ] yucolab.cq.com/api/news/get [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,631.63kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\News->get[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant IS_POST - assumed 'IS_POST'[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php:116]
+[ error ] [8]未定义数组索引: id[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php:117]
+---------------------------------------------------------------
+[ 2018-08-16T21:32:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/news/get
+[ info ] yucolab.cq.com/public/api/news/get [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：828.30kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'api',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/news/get
+[ info ] yucolab.cq.com/api/news/get [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,631.44kb] [文件加载：42]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\News->get[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant IS_POST - assumed 'IS_POST'[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php:116]
+[ error ] [8]未定义数组索引: id[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\News.php:117]
+---------------------------------------------------------------
+[ 2018-08-16T21:34:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/ehall/index
+[ info ] yucolab.cq.com/public/api/ehall/index [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：2,046.91kb] [文件加载：40]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ehall',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ehall->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Ehall.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_ehall` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `a`.*,b.language as language_key FROM `yu_ehall` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  `a`.`language` = 3 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:35:05+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,021.73kb] [文件加载：40]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_language` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`language` FROM `yu_language` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.020002s][吞吐率：49.99req/s] [内存消耗：829.04kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'api',
+    2 => 'language',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:41:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/language/index
+[ info ] yucolab.cq.com/api/language/index [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,360.30kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'yucolab.cq.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]pfsockopen(): unable to connect to ssl://smtp.163.com:465 (Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP?)[E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\extend\PHPMailer\class.smtp.php:136]
+---------------------------------------------------------------
+[ 2018-08-16T21:50:12+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/eqaa/index
+[ info ] yucolab.cq.com/public/api/eqaa/index [运行时间：0.449025s][吞吐率：2.23req/s] [内存消耗：2,166.28kb] [文件加载：43]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'eqaa',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Eqaa->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Eqaa.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=museum;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_eqaa` [ RunTime:0.396022s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yu_eqaa` WHERE  (  isview = 1 and language='3' ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`status`,`isview`,`type_id`,`ask`,`answer`,`language` FROM `yu_eqaa` WHERE  (  isview = 1 and language='3' ) ORDER BY sort asc,id desc LIMIT 0,15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yu_eqaa_typename` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `a`.`name` FROM `yu_eqaa_typename` `a` INNER JOIN `yu_language` `b` ON `b`.`id`=`a`.`language` WHERE  (  a.type_id='1' and a.language = 3 ) LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-08-16T21:55:06+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.968056s][吞吐率：1.03req/s] [内存消耗：1,650.72kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:55:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.674039s][吞吐率：1.48req/s] [内存消耗：1,650.67kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T21:58:32+08:00 ] 127.0.0.1 127.0.0.1 GET /public/api/language/index
+[ info ] yucolab.cq.com/public/api/language/index [运行时间：0.779044s][吞吐率：1.28req/s] [内存消耗：1,652.63kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'language',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yucolab.cq.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Language->index[ E:\phpStudy\PHPTutorial\WWW\yucolab.cq.com\app\api\controller\Language.php ]
+[ info ] [ LOG ] INIT File
