@@ -1,0 +1,22 @@
+
+.bx-wrapper .bx-pager {
+    z-index: 100;top:  inherit;bottom:30px; width: 100%; text-align: center;
+}
+.bx-wrapper .bx-pager-item{
+    display:inline-block;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item {
+    margin: 8px 5px;
+}
+
+.logo img{ max-width: 300px;}
+
+.session-hall .grid-item:focus{
+    outline:none;
+}
+
+@media (max-width: 767px) {
+    .bx-wrapper .bx-pager {bottom:10px;}
+    .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item{ margin: 8px 0px;}
+}
