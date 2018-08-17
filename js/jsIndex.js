@@ -1,9 +1,7 @@
 $(function() {
     // INSERT YOUR JAVASCRIPT HERE
    $(window).bind('load resize', function() {
-      $('.session-earth .grid-item').matchHeight({
-        property: 'min-height' ,
-      });
+      
 
       $('.widget-slider .grid-item').matchHeight({
         property: 'min-height' ,
@@ -56,10 +54,16 @@ $(function() {
                           <div class="col-xs-12 col-sm-6 col-md-4 text-wrapper grid-item">
                               <div class="pos-text">
                                 <div class="paragraph">估計<div class="font-large count"> ${data.ebr.number}</div>${data.ebr.text}</div>
-                                <a href="" class="btn theme1"><span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>再過100年地球將會?</a>
+                                <a href="about.html?lan_id=${lan_id}&language=${language}" class="btn theme1"><span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>再過100年地球將會?</a>
                             </div>
                           </div>`
       $("#biology").html(biologyHtml)
+      $('.session-earth .grid-item').matchHeight({
+        property: 'min-height' ,
+      });
+      $('.widget-slider .grid-item').matchHeight({
+        property: 'min-height' ,
+      });
 
       // 预定背景图
       $('#booking_preview').prop('src', uploaded + ''+ data.backg)
@@ -84,6 +88,8 @@ $(function() {
 
       $('.workshop').find('img').prop('src', uploaded+''+zone.workshop.img)
       $('.workshop').find('div').text(zone.workshop.text)
+
+     
     }
   }
 
