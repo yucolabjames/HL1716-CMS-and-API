@@ -47,7 +47,7 @@ class Eqaa extends Common
         #分页
         $page   = $this->request->param('page')?$this->request->param('page'):1;
         //是否显示
-        $where = 'isview = 1';
+        //$where = 'isview = 1';
     	#判断类型是否选择
         if ($typeid) {
             $where .= " and type_id='$typeid'";
