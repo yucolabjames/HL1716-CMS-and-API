@@ -70,35 +70,39 @@ class News extends Common
         $where = 'isview = 1';
     	//判断类型是否选择
     	if ($typeid) {
-            $where .= " and type_id='$typeid'";
+            $where .= " and a.type_id='$typeid'";
         }
          $where_type = "";
         //判断语言类型是否存在
         if ($language) {
-            $where .= " and language='$language'";
+            $where .= " and b.language='$language'";
             $where_type = " and b.id = ".$language;
         }
 
         //查询
-        $list = $this->dao
+        $list = $this->dao->alias('a')
+        ->join('yu_news_content b','b.news_id = a.id')
+        ->join('yu_news_typename c','c.type_id = a.type_id')
         ->where($where)
         ->order('id desc')
-        ->field('id,isview,cover,header,type_id,sort')
+        ->field('a.id,a.isview,a.cover,a.header,a.type_id,a.sort,b.language,b.title,b.description,b.date,b.content,b.banner,c.name as type_name')
         ->paginate(array('list_rows'=>config('list_rows'),'page'=>$page,'type'=>'Bootstrap'))
         ->toArray();
 
         foreach ($list['data'] as $k=>$v) {
-            //查询类型名称
-            $list['data'][$k]['type_name'] = $this->daoTypename->alias('a')
-            ->join('yu_language b','b.id = a.language')
-            ->where("a.type_id='{$v['type_id']}' ".$where_type)
-            ->value('a.name');
+
             //查询内容
-            $list['data'][$k]['data'] = $this->content
-            ->where("news_id='{$v['id']}'")
-            ->field('language,title,description,date,content,banner')
-            ->select();
-            $list['data'][$k]['data'][0]['banner'] = json_decode($list['data'][$k]['data'][0]['banner'],true);
+            $data['language'] = $v['language'];
+            $data['title'] = $v['title'];
+            $data['description'] = $v['description'];
+            $data['date'] = $v['date'];
+            $data['content'] = $v['content'];
+            $data['banner'] = $v['banner'];
+            $list['data'][$k]['data'] = $data;
+            //滚动图
+            $list['data'][$k]['banner'] = json_decode($v['banner'],true);
+
+            $list['data'][$k]['data'][0]['banner'] = json_decode($v['banner'],true);
         }
 
         $list['domain'] = $this->upload_host;
@@ -118,11 +122,18 @@ class News extends Common
             if(empty($id)){
                return api_arr(0,'','missing parameters of id'); 
             }
+            $where['a.id'] = $id;
+            //获取语言类型
+            $language = $this->request->param('language')?$this->request->param('language'):config('language');
+            //判断语言类型是否存在
+            if ($language) {
+                $where['b.language'] = $language;
+            }
 
             $info = $this->dao->alias('a')
             ->join('yu_news_content b','b.news_id = a.id')
             ->join('yu_news_typename c','a.type_id = c.type_id and c.language = a.language')
-            ->where('a.id',$id)
+            ->where($where)
             ->field('a.id,a.header ,b.description,b.content,b.banner,c.name as type_name')
             ->find();
             if($info){
