@@ -22,7 +22,6 @@ class Index extends Common{
     public function index(){
     	#获取语言
     	$language = $this->request->param('language')?$this->request->param('language'):config('language');
-
     	#判断语言是否选择
     	if ($language) {
     		#查询数据
@@ -31,6 +30,7 @@ class Index extends Common{
 	    	->where('a.language',$language)
 	    	->field('a.*,b.language as language_key')
 	    	->find();
+
 	    	#默认空数组
 	    	$infoArray = array();
 	    	#判断查询数据

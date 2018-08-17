@@ -121,7 +121,7 @@ class News extends Common
 
             $info = $this->dao->alias('a')
             ->join('yu_news_content b','b.news_id = a.id')
-            ->join('yu_news_typename c','a.type_id = c.id and c.language = a.language')
+            ->join('yu_news_typename c','a.type_id = c.type_id and c.language = a.language')
             ->where('a.id',$id)
             ->field('a.id,a.header ,b.description,b.content,b.banner,c.name as type_name')
             ->find();
