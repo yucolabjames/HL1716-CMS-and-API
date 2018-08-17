@@ -32,8 +32,8 @@ class Eqaa extends Common
 
 	#获取专家问答
     public function index(){
-        $lang = Lang::range('en-us');
-        Lang::load(APP_PATH.'api/index/lang/'.$lang.EXT,$lang);//加载当前语言包
+       // $lang = Lang::range('en-us');
+       // Lang::load(APP_PATH.'api/index/lang/'.$lang.EXT,$lang);//加载当前语言包
 
     	#获取类型
     	$typeid = $this->request->param('typeid');

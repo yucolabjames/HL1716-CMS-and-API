@@ -89,11 +89,11 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
 })();
 // API config
 (function($, win){
-    // window.api_host = 'http://192.168.0.146/yucolab.cq.com'
-    // window.uploaded = 'http://192.168.0.146/yucolab.cq.com/public/'
+    window.api_host = 'http://yucolab.cq.com'
+    window.uploaded = 'http://yucolab.cq.com/public/'
 
-    window.api_host = 'http://54.223.82.58:5052'
-    window.uploaded = 'http://54.223.82.58:5052/public/'
+    // window.api_host = 'http://54.223.82.58:5052'
+    // window.uploaded = 'http://54.223.82.58:5052/public/'
 
     
 })(jQuery, window)
