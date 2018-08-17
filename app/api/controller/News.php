@@ -67,7 +67,7 @@ class News extends Common
         //分页
         $page   = $this->request->param('page')?$this->request->param('page'):1;
         //是否显示
-        $where = 'isview = 1';
+        $where = 'a.isview = 1';
     	//判断类型是否选择
     	if ($typeid) {
             $where .= " and a.type_id='$typeid'";
@@ -75,7 +75,7 @@ class News extends Common
          $where_type = "";
         //判断语言类型是否存在
         if ($language) {
-            $where .= " and b.language='$language'";
+            $where .= " and b.language='$language' and c.language = '$language'";
             $where_type = " and b.id = ".$language;
         }
 
@@ -88,7 +88,7 @@ class News extends Common
         ->field('a.id,a.isview,a.cover,a.header,a.type_id,a.sort,b.language,b.title,b.description,b.date,b.content,b.banner,c.name as type_name')
         ->paginate(array('list_rows'=>config('list_rows'),'page'=>$page,'type'=>'Bootstrap'))
         ->toArray();
-
+        
         foreach ($list['data'] as $k=>$v) {
 
             //查询内容
