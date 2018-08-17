@@ -74,7 +74,7 @@ $(function() {
             .attr('href', `newsDetail.html?lan_id=${lan_id}&lan=${language}&lang=${language}`)
             .attr({
               'data-id': res.res.data[val].id,
-              'data-title': res.res.data[val].type_name
+              'data-title': res.res.data[val].data[0].title
             })
         })
       }
