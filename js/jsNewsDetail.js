@@ -18,7 +18,7 @@ $(function() {
   var subtitle = sessionData.title
   
   var lan_id = getQueryString('lan_id')
-  var language = getQueryString('language')
+  var language = getQueryString('lan')
 
   getMessageDetail(messageid, lan_id)
 
