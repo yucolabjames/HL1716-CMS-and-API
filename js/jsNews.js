@@ -71,7 +71,7 @@ $(function() {
           $(item).find('date').text(res.res.data[val].data[0].date)
           $(item)
             .find('a')
-            .attr('href', `newsDetail.html?lan_id=${lan_id}&language=${language}`)
+            .attr('href', `newsDetail.html?lan_id=${lan_id}&lan=${language}&lang=${language}`)
             .attr({
               'data-id': res.res.data[val].id,
               'data-title': res.res.data[val].type_name

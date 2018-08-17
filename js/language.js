@@ -97,10 +97,13 @@ $(function(){
         },
 
         about: {
+          title: '超載的地球',
           crisis: '2050 面臨毀滅性糧食危機',
           shenchan: '生産危機',
           liangshi: '本港糧食供應',
-          nongye: '有機農業'
+          nongye: '有機農業',
+          navs1: '極端氣候變',
+          navs2: '生物數目銳減',
         },
 
         index: {
@@ -166,10 +169,13 @@ $(function(){
           title: 'NEWS'
         },
         about: {
+          title: '超載的地球ENG',
           crisis: '2050 面臨毀滅性糧食危機',
           shenchan: '生産危機Y',
           liangshi: '本港糧食供應Y',
-          nongye: '有機農業Y'
+          nongye: '有機農業Y',
+          navs1: '極端氣候變ENG',
+          navs2: '生物數目銳減ENG',
         },
 
         index: {
@@ -234,10 +240,13 @@ $(function(){
         },
 
         about: {
+          title: '超载的地球',
           crisis: '2050 面临毁灭性粮食危机',
           shenchan: '生产危机',
           liangshi: '本港粮食供应',
-          nongye: '有机农业'
+          nongye: '有机农业',
+          navs1: '极端气候变',
+          navs2: '生物数目锐减',
         },
         index: {
           lang_index_Continued: '可持续资源馆'
@@ -304,9 +313,12 @@ $(function(){
 
     // about
     $('.lang_about_crisis').text(lang[language].about.crisis)
+    $('.lang_about_title').text(lang[language].about.title)
     $('.lang_about_shengchan').text(lang[language].about.shenchan)
     $('.lang_about_liangshi').text(lang[language].about.liangshi)
     $('.lang_about_nongye').text(lang[language].about.nongye)
+    $('.lang_about_navs1').text(lang[language].about.navs1)
+    $('.lang_about_navs2').text(lang[language].about.navs2)
 
 
     var lan_id = getQueryString('lan_id') || 3;
