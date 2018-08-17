@@ -13,10 +13,19 @@ $(function() {
   });
 
 
-
-  var messageid = sessionStorage.getItem('news_id')
+  var sessionData = JSON.parse(sessionStorage.getItem('news_id'))
+  var messageid = sessionData.id
+  var subtitle = sessionData.title
+  
   var lan_id = getQueryString('lan_id')
+  var language = getQueryString('language')
+
   getMessageDetail(messageid, lan_id)
+
+  $(".lang_news_detail_title").prop('href', `news.html?lan=${language}&lan_id=${lan_id}`)
+  $(".lang_news_detail_subtitle")
+      .text(subtitle)
+      .prop('href', `news.html?lan=${language}&lan_id=${lan_id}`)
 
   function getMessageDetail(messageid, lan_id){
     $.post(api_host + '/api/news/get', {
@@ -41,7 +50,7 @@ $(function() {
                           </div>`
         })
         $('.relatedSlider').html(bannerHtml)
-
+        $(".lang_news_detail_currenttitle").text(res.res.description)
         $('.relatedSlider').bxSlider({
           auto: true,
           autoControls: false,

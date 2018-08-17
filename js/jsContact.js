@@ -45,6 +45,7 @@ $(function() {
     e.preventDefault();
     $('.question_form input, .question_form textarea').val('')
   })
+
   $('.concat_submit').on('click', e => {
     e.preventDefault();
     var $uname = $('.question_form .username').val();

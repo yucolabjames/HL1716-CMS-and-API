@@ -69,12 +69,21 @@ $(function() {
           $(item).find('img').prop('src', uploaded+''+res.res.data[val].cover)
           $(item).find('.desp-title').text(res.res.data[val].description)
           $(item).find('date').text(res.res.data[val].data[0].date)
-          $(item).find('a').attr('href', `newsDetail.html?lan_id=${lan_id}&language=${language}`).attr('data-id', res.res.data[val].id)
+          $(item)
+            .find('a')
+            .attr('href', `newsDetail.html?lan_id=${lan_id}&language=${language}`)
+            .attr({
+              'data-id': res.res.data[val].id,
+              'data-title': res.res.data[val].type_name
+            })
         })
       }
 
       $(".grid-item a").on('click', function(e) {
-        sessionStorage.setItem('news_id', $(this).data('id'))
+        sessionStorage.setItem('news_id', JSON.stringify({
+          id: $(this).data('id'),
+          title: $(this).data('title')
+        }))
       })
 
       initLayout()

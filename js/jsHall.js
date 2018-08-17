@@ -31,28 +31,28 @@ $(function () {
               });
           });
 
-          $('.title').text(res.res.srp.title)
-          $('.sub_title').text(res.res.srp.summary)
+          $('.title').html(res.res.srp.title)
+          $('.sub_title').html(res.res.srp.summary)
 
           $('.set1').css('background-image', 'url('+uploaded+'/'+res.res.images1.image+')')
-          $('.set1 h4').text(res.res.images1.title)
-          $('.set1 p').text(res.res.images1.summary)
+          $('.set1 h4').html(res.res.images1.title)
+          $('.set1 p').html(res.res.images1.summary)
 
           $('.set2').css('background-image', 'url('+uploaded+'/'+res.res.images2.image+')')
-          $('.set2 h4').text(res.res.images2.title)
-          $('.set2 p').text(res.res.images2.summary)
+          $('.set2 h4').html(res.res.images2.title)
+          $('.set2 p').html(res.res.images2.summary)
 
           $('.set3').css('background-image', 'url('+uploaded+'/'+res.res.images3.image+')')
-          $('.set3 h4').text(res.res.images3.title)
-          $('.set3 p').text(res.res.images3.summary)
+          $('.set3 h4').html(res.res.images3.title)
+          $('.set3 p').html(res.res.images3.summary)
 
           $('.set4').css('background-image', 'url('+uploaded+'/'+res.res.images4.image+')')
-          $('.set4 h4').text(res.res.images4.title)
-          $('.set4 p').text(res.res.images4.summary)
+          $('.set4 h4').html(res.res.images4.title)
+          $('.set4 p').html(res.res.images4.summary)
 
           $('.set5').css('background-image', 'url('+uploaded+'/'+res.res.images5.image+')')
-          $('.set5 h4').text(res.res.images5.title)
-          $('.set5 p').text(res.res.images5.summary)
+          $('.set5 h4').html(res.res.images5.title)
+          $('.set5 p').html(res.res.images5.summary)
           
 
           $('.section-hallIntro').show();

@@ -37,6 +37,19 @@ $(function () {
 
     getApi();
 
+    $(".lang_faq_search").on('keydown', e => {
+      if(e.keyCode == 13){
+        var val = $('.lang_faq_search').val();
+        if(val == ''){
+          alert('请输入查询关键字')
+          $('.lang_faq_search').focus();
+          return 
+        }
+    
+        getAnwserList(val, '', 1, lan_id)
+      }
+    })
+
     // 获取问答列表
     function getAnwserList(kw, typeid, page, lan_id){
       $.post(api_host + '/api/Eqaa/index', {
