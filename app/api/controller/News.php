@@ -122,7 +122,7 @@ class News extends Common
             $info = $this->dao->alias('a')
             ->join('yu_news_content b','b.news_id = a.id')
             ->where('a.id',$id)
-            ->field('a.id,a.header ,b.content,b.banner')
+            ->field('a.id,a.header ,b.description,b.content,b.banner')
             ->find();
             if($info){
                 $info['banner'] = json_decode($info['banner'],true);
