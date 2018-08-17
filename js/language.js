@@ -112,7 +112,8 @@ $(function(){
         },
 
         index: {
-          lang_index_Continued: '可持續資源舘'
+          lang_index_Continued: '可持續資源舘',
+          biology_title: '生物資源也有耗盡的一天?'
         },
 
         footer_copyright: {
@@ -223,7 +224,8 @@ $(function(){
         },
 
         index: {
-          lang_index_Continued: 'Continued'
+          lang_index_Continued: 'Continued',
+          biology_title: '生物資源也有耗盡的一天?ENG'
         },
 
         footer_copyright: {
@@ -333,7 +335,8 @@ $(function(){
           navs2: '生物数目锐减',
         },
         index: {
-          lang_index_Continued: '可持续资源馆'
+          lang_index_Continued: '可持续资源馆',
+          biology_title: '生物资源也有耗尽的一天?'
         },
         footer_copyright: {
           copyright: 'BU©版权所有2018 。',
@@ -391,6 +394,7 @@ $(function(){
     
     // Home
     $('.lang_index_Continued').text(lang[language].index.lang_index_Continued)
+    $('.biology_title').text(lang[language].index.biology_title)
   
     // 主体导航语言更改
     $('.nav1').text(lang[language].navigations.biology)
