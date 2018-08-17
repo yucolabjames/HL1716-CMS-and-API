@@ -108,6 +108,39 @@ $(function(){
 
         index: {
           lang_index_Continued: '可持續資源舘'
+        },
+
+        footer_copyright: {
+          copyright: 'BU©版權所有2018 。',
+          links:[
+            {
+              text: '版權',
+            },
+            {
+              text: '免責聲明',
+            },
+            {
+              text: '私隱政策聲明'
+            },
+            {
+              text: '網頁指南'
+            }],
+          addr: {
+            label: '地址',
+            value: '九龍塘浸會大學道'
+          },
+          opentime: {
+            label: '開放時間',
+            value: '星期一至日上午10時至下午7時'
+          },
+          phone: {
+            label: '聯絡電話',
+            value: '852-35008335'
+          },
+          email: {
+            label: '電郵地址',
+            value: 'info@bu.com'
+          }
         }
       },
 
@@ -180,6 +213,40 @@ $(function(){
 
         index: {
           lang_index_Continued: 'Continued'
+        },
+
+        footer_copyright: {
+          copyright: 'BU© copyright 2018 。',
+          links:[
+            {
+              text: '版權ENG',
+            },
+            {
+              text: '免責聲明ENG',
+            },
+            {
+              text: '私隱政策聲明ENG'
+            },
+            {
+              text: '網頁指南ENG'
+            }
+          ],
+          addr: {
+            label: 'address',
+            value: '九龍塘浸會大學道'
+          },
+          opentime: {
+            label: 'opentime',
+            value: '星期一至日上午10時至下午7時'
+          },
+          phone: {
+            label: 'phone',
+            value: '852-35008335'
+          },
+          email: {
+            label: 'email',
+            value: 'info@bu.com'
+          }
         }
       },
       CHS: {
@@ -250,6 +317,39 @@ $(function(){
         },
         index: {
           lang_index_Continued: '可持续资源馆'
+        },
+        footer_copyright: {
+          copyright: 'BU©版权所有2018 。',
+          links: [
+            {
+              text: '版权',
+            },
+            {
+              text: '免责声明',
+            },
+            {
+              text: '私隐政策声明'
+            },
+            {
+              text: '网页指南'
+            }
+          ],
+          addr: {
+            label: '地址',
+            value: '九龙塘浸会大道'
+          },
+          opentime: {
+            label: '开放时间',
+            value: '星期一至日上午10时至下午7时'
+          },
+          phone: {
+            label: '联络电话',
+            value: '852-35008335'
+          },
+          email: {
+            label: '电邮地址',
+            value: 'info@bu.com'
+          }
         }
       }
     }
@@ -330,6 +430,23 @@ $(function(){
       }
       
     })
+
+    $(".lang_about_link li").each((index, item) => {
+      $(item).find('a').text(lang[language].footer_copyright.links[index].text)
+    })
+
+    $(".lang_footer_addr_label").text(lang[language].footer_copyright.addr.label)
+    $(".lang_footer_addr_value").text(lang[language].footer_copyright.addr.value)
+
+    $(".lang_footer_opentime_label").text(lang[language].footer_copyright.opentime.label)
+    $(".lang_footer_opentime_value").text(lang[language].footer_copyright.opentime.value)
+
+    $(".lang_footer_phone_label").text(lang[language].footer_copyright.phone.label)
+    $(".lang_footer_phone_value").text(lang[language].footer_copyright.phone.value)
+
+    $(".lang_footer_email_label").text(lang[language].footer_copyright.email.label)
+    $(".lang_footer_email_value").text(lang[language].footer_copyright.email.value)
+    $(".lang_footer_copyright").text(lang[language].footer_copyright.copyright)
   })();
   
   
