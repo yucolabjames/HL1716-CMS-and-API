@@ -92,6 +92,9 @@ $(function(){
             press: '进程繁'
           }
         },
+        news_detail: {
+          title: '最新消息繁体'
+        },
 
         about: {
           crisis: '2050 面臨毀滅性糧食危機',
@@ -147,7 +150,7 @@ $(function(){
         },
 
         news: {
-          title: '最新消息y',
+          title: 'LASTE NEWS',
           subTitle: "最新消息y",
 
           navs: {
@@ -157,6 +160,10 @@ $(function(){
             media: '媒体y',
             press: '进程y'
           }
+        },
+
+        news_detail: {
+          title: 'NEWS'
         },
         about: {
           crisis: '2050 面臨毀滅性糧食危機',
@@ -222,6 +229,9 @@ $(function(){
             press: '进程'
           }
         },
+        news_detail: {
+          title: '最新消息'
+        },
 
         about: {
           crisis: '2050 面临毁灭性粮食危机',
@@ -283,6 +293,8 @@ $(function(){
 
     // news 
     $(".lang_news_title").text(lang[language].news.title)
+    $(".lang_news_detail_title").text(lang[language].news_detail.title)
+    
     $(".lang_news_subtitle").text(lang[language].news.subTitle)
     $('.lang_news_selecttype').text(lang[language].news.navs.selecttype)
     $('.lang_news_all').text(lang[language].news.navs.all)
@@ -295,6 +307,17 @@ $(function(){
     $('.lang_about_shengchan').text(lang[language].about.shenchan)
     $('.lang_about_liangshi').text(lang[language].about.liangshi)
     $('.lang_about_nongye').text(lang[language].about.nongye)
+
+
+    var lan_id = getQueryString('lan_id') || 3;
+    $(".nav-menu li").each( (index, item) => {
+      var href = $(item).find('a').prop('href')
+      if(href){
+        href += `?lan=${language}&lan_id=${lan_id}`;
+        $(item).find('a').prop('href', href)
+      }
+      
+    })
   })();
   
   

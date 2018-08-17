@@ -21,6 +21,7 @@
     <!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/static.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
    
@@ -36,12 +37,12 @@
                    <ul class="list-inline mainMenu clearfix">
                         <li class="lang-opt hidden-xs"><div class="dropdown">
                           <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                            <span class="current_lang"></span>
+                            <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
                           </div> 
 
-                          <ul class="dropdown-menu" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>簡</li>
+                          <ul class="dropdown-menu select-language" aria-labelledby="dLabel">
+                            
                           </ul>
                         </div>
                         </li>
@@ -62,38 +63,38 @@
                 <hr>
                  <nav class="navbar-menu">
                     <div class="collapse navbar-collapse" id="login-menu">
-                      <ul class="nav-menu">
-						<!-- 2 -->
-                        <li class="">
-                            <a href="about.html" >生物資源與農業</a>
-                        </li>
-						<!-- 3 -->
-                        <li class="">
-                            <a href="hall.html" >展覽館</a>
-                        </li>
-						<!-- 4 -->
-                        <li class="">
-                            <a href="faq.html" >問問專家</a>
-                        </li>
-						<!-- 5 -->
-                        <li class="">
-                            <a href="news.html" >最新消息</a>
-                        </li>
-						<!-- 6 -->
-                        <li class="active">
-                            <a href="memberLogin.html" >會員專區</a>
-                        </li>
-						<!-- 7 -->
-                        <li class="">
-                            <a href="contact.html" >聯絡我們</a>
-                        </li>
-                        <li class="booking"><a class="btn theme6" href="booking.html" ><span class="icon"><img src="images/common/icon-calendar2.svg" class="svg img-fluid"></span> 預約</a></li>
-                         <ul class="lang-btn clearfix" aria-labelledby="dLabel">
-                            <li><img src="images/common/icon-lang.svg"></li>
-                            <li>繁</li>
-                            <li>簡</li>
+                        <ul class="nav-menu">
+                            <!-- 2 -->
+                            <li class="">
+                                <a href="about.html" class="nav1"></a>
+                            </li>
+                            <!-- 3 -->
+                            <li class="">
+                                <a href="hall.html" class="nav2"></a>
+                            </li>
+                            <!-- 4 -->
+                            <li class="">
+                                <a href="faq.html" class="nav3"></a>
+                            </li>
+                            <!-- 5 -->
+                            <li >
+                                <a href="news.html" class="nav4"></a>
+                            </li>
+                            <!-- 6 -->
+                            <li class="active">
+                                <a href="memberLogin.html" class="nav5"></a>
+                            </li>
+                            <!-- 7 -->
+                            <li >
+                                <a href="contact.html" class="nav6"></a>
+                            </li>
+                            <li class="booking"><a class="btn theme6" href="booking.html" ><span class="icon"><img src="images/common/icon-calendar2.svg" class="svg img-fluid"></span> <span class="nav7"></span></a></li>
+                             <ul class="lang-btn clearfix" aria-labelledby="dLabel">
+                                <li><img src="images/common/icon-lang.svg"></li>
+                                <li>繁</li>
+                                <li>簡</li>
+                              </ul>
                           </ul>
-                      </ul>
                     </div>
 
                    
@@ -221,9 +222,10 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/jsLogin.js"></script>
 </body>
 </html>
- <script src="js/jsLogin.js"></script>
 
 
 

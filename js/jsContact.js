@@ -45,6 +45,7 @@ $(function() {
     e.preventDefault();
     $('.question_form input, .question_form textarea').val('')
   })
+
   $('.concat_submit').on('click', e => {
     e.preventDefault();
     var $uname = $('.question_form .username').val();
@@ -61,6 +62,7 @@ $(function() {
     }, res => {
       if(res.error_code == 0){
         alert('提交成功')
+        $('.question_form input, .question_form textarea').val('')
       } else {
         alert(res.msg)
       }
