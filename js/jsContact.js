@@ -61,6 +61,7 @@ $(function() {
     }, res => {
       if(res.error_code == 0){
         alert('提交成功')
+        $('.question_form input, .question_form textarea').val('')
       } else {
         alert(res.msg)
       }
