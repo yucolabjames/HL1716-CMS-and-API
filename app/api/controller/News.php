@@ -128,11 +128,12 @@ class News extends Common
             //判断语言类型是否存在
             if ($language) {
                 $where['b.language'] = $language;
+                $where['c.language'] = $language;
             }
 
             $info = $this->dao->alias('a')
             ->join('yu_news_content b','b.news_id = a.id')
-            ->join('yu_news_typename c','a.type_id = c.type_id and c.language = a.language')
+            ->join('yu_news_typename c','a.type_id = c.type_id')
             ->where($where)
             ->field('a.id,a.header ,b.description,b.content,b.banner,c.name as type_name')
             ->find();
