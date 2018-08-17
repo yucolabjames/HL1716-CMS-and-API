@@ -52,6 +52,11 @@ $(function(){
         concat_email: '電子郵箱:',
         office_addr: '辦公地址:',
         office_time: '辦公時間:',
+
+        concat: {
+          title: '聯絡我們',
+          sub_title: '化主詩物趣足沒車心臺我大苦理體實'
+        },
   
         navigations: {
           biology: '生物資源與農業',
@@ -112,6 +117,7 @@ $(function(){
 
         footer_copyright: {
           copyright: 'BU©版權所有2018 。',
+          about_me: '關注我們',
           links:[
             {
               text: '版權',
@@ -156,6 +162,11 @@ $(function(){
         concat_email: 'email:',
         office_addr: 'office addr:',
         office_time: 'office time:',
+
+        concat: {
+          title: 'Concat me',
+          sub_title: '化主詩物趣足沒車心臺我大苦理體實ENG'
+        },
   
         navigations: {
           biology: '生物资源与农业y',
@@ -217,6 +228,7 @@ $(function(){
 
         footer_copyright: {
           copyright: 'BU© copyright 2018 。',
+          about_me: 'watch',
           links:[
             {
               text: '版權ENG',
@@ -273,6 +285,11 @@ $(function(){
           
         },
 
+        concat: {
+          title: '联络我们',
+          sub_title: '化主詩物趣足沒車心臺我大苦理體實'
+        },
+
         footer: {
           copyright: '版权',
           mianze: '免责声明',
@@ -320,6 +337,7 @@ $(function(){
         },
         footer_copyright: {
           copyright: 'BU©版权所有2018 。',
+          about_me: '关注我们',
           links: [
             {
               text: '版权',
@@ -447,6 +465,9 @@ $(function(){
     $(".lang_footer_email_label").text(lang[language].footer_copyright.email.label)
     $(".lang_footer_email_value").text(lang[language].footer_copyright.email.value)
     $(".lang_footer_copyright").text(lang[language].footer_copyright.copyright)
+    $(".lang_about_me").text(lang[language].footer_copyright.about_me)
+    $('.lang_concat_title').text(lang[language].concat.title)
+    $('.lang_concat_sub_title').text(lang[language].concat.sub_title)
   })();
   
   
