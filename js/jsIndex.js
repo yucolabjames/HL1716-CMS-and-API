@@ -1,9 +1,7 @@
 $(function() {
     // INSERT YOUR JAVASCRIPT HERE
    $(window).bind('load resize', function() {
-      $('.session-earth .grid-item').matchHeight({
-        property: 'min-height' ,
-      });
+      
 
       $('.widget-slider .grid-item').matchHeight({
         property: 'min-height' ,
@@ -60,6 +58,12 @@ $(function() {
                             </div>
                           </div>`
       $("#biology").html(biologyHtml)
+      $('.session-earth .grid-item').matchHeight({
+        property: 'min-height' ,
+      });
+      $('.widget-slider .grid-item').matchHeight({
+        property: 'min-height' ,
+      });
 
       // 预定背景图
       $('#booking_preview').prop('src', uploaded + ''+ data.backg)
@@ -84,6 +88,8 @@ $(function() {
 
       $('.workshop').find('img').prop('src', uploaded+''+zone.workshop.img)
       $('.workshop').find('div').text(zone.workshop.text)
+
+     
     }
   }
 

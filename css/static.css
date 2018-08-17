@@ -2,3 +2,6 @@
 .cursor{
   cursor: pointer;
 }
+.select-language li{
+  padding:0 10px;
+}
