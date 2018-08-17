@@ -24,7 +24,12 @@
     <link href="css/static.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
-   
+    <style>
+        .member_login .username, 
+        .member_login .password{
+            color: white;
+        }
+    </style>
 </head>
 
 <body id="login">
@@ -110,28 +115,28 @@
     <div class="container">
       
       <div class="widget-form panel-login">
-         <h1 class="panel-title">會員專區</h1>
+         <h1 class="panel-title lang_member_area_title"></h1>
           <div class="login-box">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis .</p>
-            <form>
+            <p class="lang_login_infomation"></p>
+            <form class="member_login">
                <div class="form-field">
-                <input class="form-control" placeholder="登入賬號">
+                <input class="form-control username" placeholder="">
               </div>
                <div class="form-field">
-                <input class="form-control" placeholder="登入密碼">
+                <input type="password" class="form-control password" placeholder="">
               </div>
               <div class="form-field">
                 <ul class="inline-list clearfix">
-                  <li class="text-left"><a data-fancybox="" data-src="#how" href="javascript:;"><span class="icon"><img src="images/common/icon-info.svg"></span>如何獲得登入資料？</a></li>
-                  <li class="text-right"><a data-fancybox="" data-src="#forgot" href="javascript:;">> 忘記密碼??</a></li>
+                  <li class="text-left"><a data-fancybox="" data-src="#how" href="javascript:;"><span class="icon"><img src="images/common/icon-info.svg"></span><span class="lang_get_profile"></span></a></li>
+                  <li class="text-right"><a data-fancybox="" data-src="#forgot" href="javascript:;" class="lang_forget_password"></a></li>
                 </ul>
               </div>
               <div class="btn-list">
-                <a href="memberLanding.html" class="btn theme3">
-                <span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>
-                <div class="btn-wrapper">立即<br>登入</div>
-                <div class="circle"></div>
-              </a>     
+                <a href="memberLanding.html"  class="btn theme3 member_login_submit">
+                    <span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>
+                    <div class="btn-wrapper lang_member_login"></div>
+                    <div class="circle"></div>
+                </a>     
               </div>
             </form>
           </div>

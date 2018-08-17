@@ -95,5 +95,24 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
     window.api_host = 'http://54.223.82.58:5052'
     window.uploaded = 'http://54.223.82.58:5052/public/'
 
+    window.api_origin = 'http://www.hl1716.yucolab.com/buhk_sgallery/api'
+    var data = {
+        "platform": "ios",
+        "device_id": "ABCD1234EFGH5678",
+        "version": "1.0.0"
+      }
+    $.post(window.api_origin + '/init', JSON.stringify(data), res => {
+        console.log(res)
+      }, 'json')
     
+    // $.ajax({
+    //     url: window.api_origin + '/init',
+    //     methods: 'POST',
+     
+    //     data: JSON.stringify(data),
+    //     dataType:'json',
+    //     success(res){
+    //         console.log(res)
+    //     }
+    // })
 })(jQuery, window)

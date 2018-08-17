@@ -149,6 +149,16 @@ $(function(){
             label: '電郵地址',
             value: 'info@bu.com'
           }
+        },
+
+        member: {
+          title: '會員專區',
+          name_placeholder: '登入賬號',
+          password_placeholder: '登入密碼',
+          infomation: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis .',
+          get_profile: '如何獲得登入資料？',
+          for_password: '忘記密碼?',
+          login_text: '立即<br>登入'
         }
       },
 
@@ -228,6 +238,16 @@ $(function(){
         index: {
           lang_index_Continued: 'Continued',
           biology_title: '生物資源也有耗盡的一天?ENG'
+        },
+
+        member: {
+          title: 'Member Area',
+          name_placeholder: 'Account',
+          password_placeholder: 'Password',
+          infomation: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis .',
+          get_profile: 'How to get info?',
+          for_password: 'forget password?',
+          login_text: 'Login'
         },
 
         footer_copyright: {
@@ -341,6 +361,15 @@ $(function(){
           lang_index_Continued: '可持续资源馆',
           biology_title: '生物资源也有耗尽的一天?'
         },
+        member: {
+          title: '会员专区',
+          name_placeholder: '登入账号',
+          password_placeholder: '登入密码',
+          infomation: '测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字',
+          get_profile: '如何获得登入资料',
+          for_password: '忘记密码?',
+          login_text: '立即<br>登入'
+        },
         footer_copyright: {
           copyright: 'BU©版权所有2018 。',
           about_me: '关注我们',
@@ -377,10 +406,19 @@ $(function(){
         }
       }
     }
-    console.log(language)
+    
+    window.lang = lang;
     if(language !== '' && language !== 'CHT' && language !== 'CHS' && language !== "ENG"){
       language = 'CHT'
     }
+
+    // members
+    $('.lang_member_area_title').text(lang[language].member.title)
+    $('.member_login .username').prop('placeholder', lang[language].member.name_placeholder)
+    $('.member_login .password').prop('placeholder', lang[language].member.password_placeholder)
+    $('.lang_member_login').html(lang[language].member.login_text)
+    $('.lang_get_profile').html(lang[language].member.get_profile)
+    $('.lang_forget_password').html(lang[language].member.for_password)
   
     $('.sessionTitle').text(lang[language].sessionTitle)
     $('.concat_username').attr('placeholder', lang[language].name)
