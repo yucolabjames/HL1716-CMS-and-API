@@ -112,6 +112,7 @@ $(function(){
 
         footer_copyright: {
           copyright: 'BU©版權所有2018 。',
+          about_me: '關注我們',
           links:[
             {
               text: '版權',
@@ -217,6 +218,7 @@ $(function(){
 
         footer_copyright: {
           copyright: 'BU© copyright 2018 。',
+          about_me: 'watch',
           links:[
             {
               text: '版權ENG',
@@ -320,6 +322,7 @@ $(function(){
         },
         footer_copyright: {
           copyright: 'BU©版权所有2018 。',
+          about_me: '关注我们',
           links: [
             {
               text: '版权',
@@ -447,6 +450,7 @@ $(function(){
     $(".lang_footer_email_label").text(lang[language].footer_copyright.email.label)
     $(".lang_footer_email_value").text(lang[language].footer_copyright.email.value)
     $(".lang_footer_copyright").text(lang[language].footer_copyright.copyright)
+    $(".lang_about_me").text(lang[language].footer_copyright.about_me)
   })();
   
   
