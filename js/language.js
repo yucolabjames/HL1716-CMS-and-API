@@ -109,6 +109,7 @@ $(function(){
           nongye: '有機農業',
           navs1: '極端氣候變',
           navs2: '生物數目銳減',
+          touch: '你感受到熱浪嗎？'
         },
 
         index: {
@@ -221,6 +222,7 @@ $(function(){
           nongye: '有機農業Y',
           navs1: '極端氣候變ENG',
           navs2: '生物數目銳減ENG',
+          touch: '你感受到熱浪嗎？ENG'
         },
 
         index: {
@@ -333,6 +335,7 @@ $(function(){
           nongye: '有机农业',
           navs1: '极端气候变',
           navs2: '生物数目锐减',
+          touch: '你感受到热浪吗？'
         },
         index: {
           lang_index_Continued: '可持续资源馆',
@@ -441,6 +444,7 @@ $(function(){
     $('.lang_about_nongye').text(lang[language].about.nongye)
     $('.lang_about_navs1').text(lang[language].about.navs1)
     $('.lang_about_navs2').text(lang[language].about.navs2)
+    $('.lang_about_touch').text(lang[language].about.touch)
 
 
     var lan_id = getQueryString('lan_id') || 3;
