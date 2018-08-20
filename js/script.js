@@ -92,27 +92,93 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
     // window.api_host = 'http://192.168.0.146/yucolab.cq.com'
     // window.uploaded = 'http://192.168.0.146/yucolab.cq.com/public/'
 
-    window.api_host = 'http://54.223.82.58:5052'
-    window.uploaded = 'http://54.223.82.58:5052/public/'
+    window.api_host = 'http://47.75.35.19/'
+    window.uploaded = 'http://47.75.35.19/public/'
 
-    window.api_origin = 'http://www.hl1716.yucolab.com/buhk_sgallery/api'
+    window.api_origin = 'https://www.hl1716.yucolab.com/buhk_sgallery/api'
     var data = {
         "platform": "ios",
         "device_id": "ABCD1234EFGH5678",
         "version": "1.0.0"
       }
-    $.post(window.api_origin + '/init', JSON.stringify(data), res => {
-        console.log(res)
-      }, 'json')
+    // $.post(window.api_origin + '/init', JSON.stringify(data), res => {
+    //     console.log(res)
+    //   }, 'json')
+    var config;
+
     
-    // $.ajax({
-    //     url: window.api_origin + '/init',
-    //     methods: 'POST',
-     
-    //     data: JSON.stringify(data),
-    //     dataType:'json',
-    //     success(res){
-    //         console.log(res)
-    //     }
-    // })
+    function getToken(){
+        return new Promise((resolve, reject) => {
+            if(sessionStorage.getItem('user_token') == null){
+                
+                $.ajax({
+                    url: window.api_origin + '/init',
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': "application/json"
+                    },
+                    data: JSON.stringify(data),
+                    dataType:'json',
+                    success(res){
+                       sessionStorage.setItem('user_token', JSON.stringify(res))
+                       resolve(res)
+                    }
+                })
+            } else {
+                config = sessionStorage.getItem('user_token')
+                resolve(JSON.parse(config))
+            }
+        })
+    }
+
+    var api = {
+        auth: {
+            login(header, body){
+                return new Promise( (resolve, reject) => {
+                    $.ajax({
+                        url: window.api_origin + '/auth/login',
+                        method: 'POST',
+                        headers: {
+                            'Accept-Language': header.lang || 'zh',
+                            'Content-Type': "application/json",
+                            'Authorization': header.auth
+                        },
+                        data: JSON.stringify(body),
+                        dataType:'json',
+                        success(res){
+                           resolve(res)
+                        },
+                        error(error){
+                            reject(error)
+                        }
+                    })
+                })
+            },
+            forgot_password(header, body){
+                return new Promise( (resolve, reject) => {
+                    $.ajax({
+                        url: window.api_origin + '/auth/forgot_password',
+                        method: 'POST',
+                        headers: {
+                            'Accept-Language': header.lang || 'zh',
+                            'Content-Type': "application/json",
+                            'Authorization': header.auth
+                        },
+                        data: JSON.stringify(body),
+                        dataType:'json',
+                        success(res){
+                           resolve(res)
+                        },
+                        error(error){
+                            reject(error)
+                        }
+                    })
+                })
+            }
+        }
+    }
+    
+    window.getToken = getToken;
+    window.api = api;
+
 })(jQuery, window)

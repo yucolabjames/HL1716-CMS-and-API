@@ -158,8 +158,13 @@ $(function(){
           infomation: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis .',
           get_profile: '如何獲得登入資料？',
           for_password: '忘記密碼?',
-          login_text: '立即<br>登入'
-        }
+          login_text: '立即<br>登入',
+          reset_password: '重設密碼',
+          reset_placeholder: '登入電郵'
+        },
+        member_landing: {
+          title: '歡迎登入您的太空任務檔案。'
+        },
       },
 
       ENG: {
@@ -247,7 +252,12 @@ $(function(){
           infomation: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis .',
           get_profile: 'How to get info?',
           for_password: 'forget password?',
-          login_text: 'Login'
+          login_text: 'Login',
+          reset_password: 'reset',
+          reset_placeholder: 'email'
+        },
+        member_landing: {
+          title: '歡迎登入您的太空任務檔案。ENG'
         },
 
         footer_copyright: {
@@ -368,7 +378,12 @@ $(function(){
           infomation: '测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字',
           get_profile: '如何获得登入资料',
           for_password: '忘记密码?',
-          login_text: '立即<br>登入'
+          login_text: '立即<br>登入',
+          reset_password: '重设密码',
+          reset_placeholder: '登入电邮'
+        },
+        member_landing: {
+          title: '欢迎登录您的太空任务档案'
         },
         footer_copyright: {
           copyright: 'BU©版权所有2018 。',
@@ -419,6 +434,8 @@ $(function(){
     $('.lang_member_login').html(lang[language].member.login_text)
     $('.lang_get_profile').html(lang[language].member.get_profile)
     $('.lang_forget_password').html(lang[language].member.for_password)
+    $('.lang_reset_password').html(lang[language].member.reset_password)
+    $('.lang_reset_placeholder').prop('placeholder', lang[language].member.reset_placeholder)
   
     $('.sessionTitle').text(lang[language].sessionTitle)
     $('.concat_username').attr('placeholder', lang[language].name)
