@@ -21,6 +21,7 @@
     <!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/static.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
    
@@ -28,7 +29,7 @@
 
 <body id="login">
    
-    <div class="animsition">
+    <div class="animsition" >
         <header>
        
             <div class="container clearfix">
@@ -36,12 +37,12 @@
                    <ul class="list-inline mainMenu clearfix">
                         <li class="lang-opt hidden-xs"><div class="dropdown">
                           <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                            <span class="current_lang"></span>
+                            <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
                           </div> 
 
-                          <ul class="dropdown-menu" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>簡</li>
+                          <ul class="dropdown-menu select-language" aria-labelledby="dLabel">
+                            
                           </ul>
                         </div>
                         </li>
@@ -104,7 +105,7 @@
        </div>
     </header>
     
-  <section class="section-loglanding">
+  <section class="section-loglanding" id="vue_app">
     <div class="container">
       
       <div class="session-logined">
@@ -113,8 +114,8 @@
           <div class="top-part">
             <div class="clearfix">
               <div class="grid col-xs-12 col-sm-6">
-                <h1 class="">Hello, Sam Chan</h1>
-                <p>歡迎登入您的太空任務檔案。</p>
+                <h1 class="">Hello, {{user.username}}</h1>
+                <p>{{lang.member_landing.title}}</p>
               </div>
                <div class="grid theme2 col-xs-12 col-sm-6">
                 任務次數:2<br>
@@ -264,9 +265,11 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/lib/vue.min.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/jsLoginLand.js"></script>
 </body>
 </html>
- <script src="js/jsLoginLand.js"></script>
 
 
 
