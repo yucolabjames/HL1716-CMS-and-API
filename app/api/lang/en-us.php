@@ -1,5 +1,5 @@
 <?php
 return [
     'TITLE'=>'Language switching',
-　　'NOW_LANG'=>'Switch',
+　　'NOW_LANG'=>'Switch'
 ];
