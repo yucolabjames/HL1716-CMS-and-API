@@ -21,6 +21,7 @@
     <!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/static.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
     <style>
@@ -111,14 +112,14 @@
     <div class="session-myprofile">
         <div class="pos-grid">
         <div class="container">
-          <div class="title">Hello, Sam Chan</div>
+          <div class="title">{{lang.member_landing.hello}}, {{user.username}}</div>
           <div class="info">
-            Score:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span>最後更新日期: 3/11/2017 15:00
+            {{lang.member_landing.score}}:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span>{{lang.member_landing.last_update}}: 3/11/2017 15:00
              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br class="hidden-xs">Aenean commodo ligula eget dolor.</p>
           </div>
           <ul class="btn-wrapper">
-            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>我的足跡</a></li>
-            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>我的帳戶</a></li>
+            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>{{lang.member_landing.my_footprint}}</a></li>
+            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>{{lang.member_landing.my_account}}</a></li>
           </ul>
          </div>
         </div>   
@@ -129,15 +130,15 @@
       <div class="container">
         <div class="top-nav text-center">
           <ul class="widget-submenu hidden-xs clearfix">
-              <li class="active"><a href="profile.html">消失的物種</a></li>
+              <li class="active"><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game2.html">動物拯救隊</a></li>
+              <li><a href="profile_game2.html">{{lang.member_landing.coll2}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+              <li><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game4.html">錦囊集</a></li>
+              <li><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game5.html">低碳百貨</a></li>     
+              <li><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li>     
           </ul>
 
           <div class="visible-xs">
@@ -164,13 +165,14 @@
             <div class="col-xs-12 col-sm-4 score">
               <div class="bar">
                   <div class="widget-counter">
-                    <span class="font-large">4/27</span>種生物已解鎖
+                    <span class="font-large">4/27</span>
+                    {{lang.member_landing.tab1.chart_text}}
                   </div> 
                   <canvas id="donut" style="width:100%;" height="250"></canvas>
                 </div>
               </div>
             <div class="col-xs-12 col-sm-8 paragraph">
-              <h1><span class="icon"><img src="images/profile/game-icon1.svg"></span>消失的物種</h1>
+              <h1><span class="icon"><img src="images/profile/game-icon1.svg"></span>{{lang.member_landing.coll1}}</h1>
               友正司經送響太資表用處，市官公對好動和坐統問清表害不交一會、之世待想養為是每去一所職公！根庭作色日如方大想步在流重下物合演好所家個輪的研的又改資和動讀院先生。
               <div class="showlist">
                 <ul class="type-list">
@@ -192,9 +194,9 @@
                       <img src="images/profile/game-icon01.png" class="img-fluid">
                     </div>
                     <div class="text-wrapper">
-                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'CHT'">{{item.chinese_name}}</div>
-                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'CHS'">{{item.chinese_name}}</div>
-                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'ENG'">{{item.english_name}}</div>
+                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'CN'">{{item.chinese_name}}</div>
+                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'ZH'">{{item.chinese_name}}</div>
+                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'EN'">{{item.english_name}}</div>
                     </div>
                     </a>
                 </div>
@@ -231,43 +233,43 @@
 
 
 
-     <footer>
-        <div class="container">
-            <div class="clearfix">
-                 <div class="visible-xs widget-social">
-                    關注我們<br>
-                    <ul>
-                        <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                        <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 widget-link">
-                    <ul>
-                        <li><a href="">版權</a></li> 
-                        <li><a href="">免責聲明</a></li> 
-                        <li><a href="">私隱政策聲明</a></li> 
-                        <li><a href="">網頁指南</a></li>
-                    </ul>
-                </div>
-                 <div class="hidden-xs col-sm-4 widget-social">
-                    關注我們<br>
-                    <ul>
-                        <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                        <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 widget-contact">
-                   <ul>
-                        <li>地址: 九龍塘浸會大學道</li>
-                        <li>開放時間 : 星期一至日上午10時至下午7時</li>
-                        <li>聯絡電話 : 852-35008335</li>
-                        <li>電郵地址 : info@bu.com</li>
-                    </ul>
-                </div>
-            </div>
+    <footer>
+      <div class="container">
+          <div class="clearfix">
+              <div class="visible-xs widget-social">
+                  <span class="lang_about_me"></span><br>
+                  <ul>
+                      <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
+                      <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 widget-link lang_about_link">
+                  <ul>
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li>
+                  </ul>
+              </div>
+              <div class="hidden-xs col-sm-4 widget-social">
+                  <span class="lang_about_me"></span><br>
+                  <ul>
+                      <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
+                      <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 widget-contact">
+                <ul>
+                      <li><span class="lang_footer_addr_label"></span> : <span class="lang_footer_addr_value"></span></li>
+                      <li><span class="lang_footer_opentime_label"></span> : <span class="lang_footer_opentime_value"></span></li>
+                      <li><span class="lang_footer_phone_label"></span> : <span class="lang_footer_phone_value"></span></li>
+                      <li><span class="lang_footer_email_label"></span> : <span class="lang_footer_email_value"></span></li>
+                  </ul>
+              </div>
+          </div>
 
-            <div class="copyright text-center">BU©版權所有2018 。</div>
-        </div>
+          <div class="copyright text-center lang_footer_copyright"></div>
+      </div>
     </footer>
     </div>
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -295,48 +297,7 @@
 </html>
  <script src="js/jsProfile.js"></script>
 <script>
-  var donutEl = document.getElementById("donut").getContext("2d");
-      var donut = new Chart(donutEl).Doughnut(
-        // Datas
-        [
-          {
-            value: 6,
-            color:"#006bff",
-            highlight: "#006bff",
-            label: "ocean"
-          },
-          {
-            value: 5,
-            color: "#e98300",
-            highlight: "#e98300",
-            label: "Wetland"
-          },
-          {
-            value: 4,
-            color: "#3a9c8a",
-            highlight: "#3a9c8a",
-            label: "Woodland"
-          },
-          {
-            value: 12,
-            color: "#3a9c8a",
-            highlight: "#92c0d0",
-            label: "unlock"
-          }
-        ],
-        // Options
-        {
-          segmentShowStroke : false,
-          percentageInnerCutout : 90,
-          animationSteps : 27,
-          animationEasing : "easeOutBounce",
-          animateRotate : true,
-          animateScale : false,
-          responsive: true,
-          maintainAspectRatio: true,
-          showScale: true,
-          animateScale: true
-        });
+      
 
      // $(".dropdown li").find('.dLabel').val($(this).data('value'));
      

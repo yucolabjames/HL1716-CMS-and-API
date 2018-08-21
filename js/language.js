@@ -172,7 +172,9 @@ $(function(){
           coll3: '有機耕種技術農夫影片集',
           coll4: '錦囊集',
           coll5: '低碳百貨',
-
+          tab1: {
+            chart_text: '種生物已解鎖'
+          },
           tab5: {
             title: '低碳百貨',
             desc: `走進高端的購物中心，接受充滿挑戰的可持續消費訓練，認識現代消費模式，
@@ -180,7 +182,11 @@ $(function(){
             subtitle: '最近一次購物結算成績',
             sub_desc: '最不持續發展的地球消費'
           },
-          hello: '您好'
+          hello: '您好',
+          score: '分数',
+          last_update: '最後更新日期',
+          my_footprint: '我的足跡',
+          my_account: '我的帳戶'
         },
       },
 
@@ -283,7 +289,9 @@ $(function(){
           coll3: '有機耕種技術農夫影片集ENG',
           coll4: '錦囊集ENG',
           coll5: '低碳百貨ENG',
-
+          tab1: {
+            chart_text: 'bio unlocked'
+          },
           tab5: {
             title: '低碳百貨ENG',
             desc: `走進高端的購物中心，接受充滿挑戰的可持續消費訓練，認識現代消費模式，
@@ -291,7 +299,11 @@ $(function(){
             subtitle: '最近一次購物結算成績ENG',
             sub_desc: '最不持續發展的地球消費ENG'
           },
-          hello: 'Hello'
+          hello: 'hello',
+          score: 'score',
+          last_update: 'last update',
+          my_footprint: '我的足跡ENG',
+          my_account: '我的帳戶ENG'
         },
 
         footer_copyright: {
@@ -426,13 +438,20 @@ $(function(){
           coll3: '有机耕种农夫影片集',
           coll4: '锦囊集',
           coll5: '低碳百货',
+          tab1: {
+            chart_text: '种生物已解锁'
+          },
           tab5: {
             title: '低碳百货',
             desc: `走进高端的购物中心，接受充满挑战的可持续消费训练，认识现代消费模式，通过VR体验重新审视日常生活习惯，了解背后的生态习惯，学会做个精明环保的消费者`,
-            subtitle: '最近一次購物結算成績ENG',
-            sub_desc: '最不持續發展的地球消費ENG'
+            subtitle: '最后一次购物结算成绩',
+            sub_desc: '最不持续发展的地球消费'
           },
-          hello: '您好'
+          hello: '您好',
+          score: '分数',
+          last_update: '最后更新日期',
+          my_footprint: '我的足迹',
+          my_account: '我的账户'
         },
         footer_copyright: {
           copyright: 'BU©版权所有2018 。',

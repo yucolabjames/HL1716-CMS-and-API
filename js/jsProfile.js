@@ -65,11 +65,15 @@ $(function() {
                 var valid = false;
                 var config;
 
+                this.language =     language == 'CHT' ? 'ZH':
+                                    language == 'CHS' ? 'CN': 
+                                    language == 'ENG' ? 'EN': 'zh'
+
                 getToken().then( res => { 
                     valid = true; config = res; 
                     this.config = config;
                     this.getVirtualHabitat();
-                    api.me.me({lang: 'zh', auth: config.token}).then( res => {
+                    api.me.me({lang: this.language, auth: config.token}).then( res => {
                         console.log( res )
                     })
 
@@ -79,7 +83,8 @@ $(function() {
             },
             // 获取消失的物种
             getVirtualHabitat(){
-                api.virtual.user_animals({lang: language, auth: this.config.token}).then( res => {
+                this.renderCharts();
+                api.virtual.user_animals({lang: this.language, auth: this.config.token}).then( res => {
                     console.log(res)
                     this.Habitats = res;
                     this.Habitats_types = _.uniq(res.map( item => item.habitat_chinese_name ))
@@ -104,6 +109,51 @@ $(function() {
                         location.href = 'memberLogin.html?lang='+language
                     }
                 })
+            },
+
+            renderCharts(){
+                var donutEl = document.getElementById("donut").getContext("2d");
+                var donut = new Chart(donutEl).Doughnut(
+                    // Datas
+                    [
+                    {
+                        value: 6,
+                        color:"#006bff",
+                        highlight: "#006bff",
+                        label: "ocean"
+                    },
+                    {
+                        value: 5,
+                        color: "#e98300",
+                        highlight: "#e98300",
+                        label: "Wetland"
+                    },
+                    {
+                        value: 4,
+                        color: "#3a9c8a",
+                        highlight: "#3a9c8a",
+                        label: "Woodland"
+                    },
+                    {
+                        value: 12,
+                        color: "#3a9c8a",
+                        highlight: "#92c0d0",
+                        label: "unlock"
+                    }
+                    ],
+                    // Options
+                    {
+                    segmentShowStroke : false,
+                    percentageInnerCutout : 90,
+                    animationSteps : 27,
+                    animationEasing : "easeOutBounce",
+                    animateRotate : true,
+                    animateScale : false,
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    showScale: true,
+                    animateScale: true
+                    });
             }
         }
     })

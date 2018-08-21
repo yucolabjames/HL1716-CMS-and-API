@@ -21,6 +21,7 @@
     <!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/static.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
    
@@ -33,24 +34,22 @@
        
             <div class="container clearfix">
                 <div class="top-nav">
-                   <ul class="list-inline mainMenu clearfix">
-                        <li class="lang-opt hidden-xs"><div class="dropdown">
-                          <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
-                          </div> 
+                  <ul class="list-inline mainMenu clearfix">
+                    <li class="lang-opt hidden-xs"><div class="dropdown">
+                      <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="current_lang"></span>
+                        <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                      </div> 
 
-                          <ul class="dropdown-menu" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>簡</li>
-                          </ul>
-                        </div>
-                        </li>
-                        <li class="logo-core text-center"> <a href="index.html" class="logo"><img src="images/common/logo.svg" class="img-fluid"></a></li>
-                        <li class="text-right widget-social hidden-xs">
-                            <a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a>
-                            <a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a>
-                        </li>
-                   </ul>
+                      <ul class="dropdown-menu select-language" aria-labelledby="dLabel"></ul>
+                    </div>
+                    </li>
+                    <li class="logo-core text-center"> <a href="index.html" class="logo"><img src="images/common/logo.svg" class="img-fluid"></a></li>
+                    <li class="text-right widget-social hidden-xs">
+                        <a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a>
+                        <a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a>
+                    </li>
+                  </ul>
                    
                    
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#login-menu">
@@ -63,37 +62,43 @@
                  <nav class="navbar-menu">
                     <div class="collapse navbar-collapse" id="login-menu">
                       <ul class="nav-menu">
-						<!-- 2 -->
+                        <li class="">
+                          <a href="about.html" class="nav1"></a>
+                        </li>
+                        <!-- 3 -->
+                        <li class="">
+                          <a href="hall.html" class="nav2"></a>
+                        </li>
+                        <!-- 4 -->
+                        <li class="">
+                          <a href="faq.html" class="nav3"></a>
+                        </li>
+                        <!-- 5 -->
+                        <li class="">
+                          <a href="news.html" class="nav4"></a>
+                        </li>
+                        <!-- 6 -->
                         <li class="active">
-                            <a href="about.html" >生物資源與農業</a>
+                          <a href="memberLogin.html" class="nav5"></a>
                         </li>
-						<!-- 3 -->
-                        <li class="">
-                            <a href="hall.html" >展覽館</a>
+                        <!-- 7 -->
+                        <li>
+                          <a href="contact.html" class="nav6"></a>
                         </li>
-						<!-- 4 -->
-                        <li class="">
-                            <a href="faq.html" >問問專家</a>
-                        </li>
-						<!-- 5 -->
-                        <li class="">
-                            <a href="news.html" >最新消息</a>
-                        </li>
-						<!-- 6 -->
-                        <li class="active">
-                            <a href="memberLogin.html" >會員專區</a>
-                        </li>
-						<!-- 7 -->
-                        <li class="">
-                            <a href="contact.html" >聯絡我們</a>
-                        </li>
-                        <li class="booking"><a class="btn theme6" href="booking.html" ><span class="icon"><img src="images/common/icon-calendar2.svg" class="svg img-fluid"></span> 預約</a></li>
-                         <ul class="lang-btn clearfix" aria-labelledby="dLabel">
+                        <li class="booking">
+                            <a class="btn theme6" href="booking.html">
+                              <span class="icon">
+                                <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+                              </span>
+                              <span class="nav7"></span>
+                            </a>
+                          </li>
+                        <ul class="lang-btn clearfix select-language" aria-labelledby="dLabel">
                             <li><img src="images/common/icon-lang.svg"></li>
                             <li>繁</li>
                             <li>簡</li>
                           </ul>
-                      </ul>
+                        </ul>
                     </div>
 
                    
@@ -105,54 +110,54 @@
     </header>
     
 
-  <div class="section-profile">
+  <div class="section-profile" id="vue_app">
     <div class="session-myprofile">
-        <div class="pos-grid">
-        <div class="container">
-          <div class="title">Hello, Sam Chan</div>
-          <div class="info">
-            Score:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span> 最後更新日期: 3/11/2017 15:00
-             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>Aenean commodo ligula eget dolor.</p>
-          </div>
-          <ul class="btn-wrapper">
-            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>我的足跡</a></li>
-            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>我的帳戶</a></li>
-          </ul>
-         </div>
-        </div>   
-        <img src="images/profile/profileBgT.jpg" class="img-full hidden-xs">
-          <img src="images/profile/profileBgTm.jpg" class="img-full visible-xs">
+      <div class="pos-grid">
+      <div class="container">
+        <div class="title">{{lang.member_landing.hello}}, {{user.username}}</div>
+        <div class="info">
+          {{lang.member_landing.score}}:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span> {{lang.member_landing.last_update}}: 3/11/2017 15:00
+           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br class="hidden-xs">Aenean commodo ligula eget dolor.</p>
+        </div>
+        <ul class="btn-wrapper">
+          <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>{{lang.member_landing.my_footprint}}</a></li>
+          <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>{{lang.member_landing.my_account}}</a></li>
+        </ul>
+       </div>
+      </div>   
+      <img src="images/profile/profileBgT.jpg" class="img-full hidden-xs">
+      <img src="images/profile/profileBgTm.jpg" class="img-full visible-xs">
     </div>
     <div class="section-profileCon">
       <div class="container">
         <div class="top-nav text-center">
           <ul class="widget-submenu hidden-xs clearfix">
-              <li><a href="profile.html">消失的物種</a></li>
-              <li><span>|</span></li>
-              <li><a href="profile_game2.html">動物拯救隊</a></li>
-              <li><span>|</span></li>
-              <li><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
-              <li><span>|</span></li>
-              <li class="active"><a href="profile_game4.html">錦囊集</a></li>
-              <li><span>|</span></li>
-              <li><a href="profile_game5.html">低碳百貨</a></li>     
+            <li><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
+            <li><span>|</span></li>
+            <li><a href="profile_game2.html">{{lang.member_landing.coll2}}</a></li>
+            <li><span>|</span></li>
+            <li><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
+            <li><span>|</span></li>
+            <li class="active"><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
+            <li><span>|</span></li>
+            <li><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li>     
           </ul>
 
           <div class="visible-xs">
             <div class="widget-dd dropdown">
               <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                有機耕種技術農夫影片集<i class="icon fa fa-angle-down" aria-hidden="true"></i>
+                {{lang.member_landing.coll4}}<i class="icon fa fa-angle-down" aria-hidden="true"></i>
               </button>
               <ul class="dropdown-menu widget-option" aria-labelledby="dLabel">
-                <li data-value="消失的物種"><a href="profile.html">消失的物種</a></li>
+                <li data-value="Virtual habitat"><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               
-                <li  data-value="動物拯救隊"><a href="profile_game2.html" >動物拯救隊</a></li>
+                <li class="active" data-value="Pokemon go game"><a href="profile_game2.html" >{{lang.member_landing.coll2}}</a></li>
                 
-                <li data-value="有機耕種技術農夫影片集"><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+                <li data-value="有機耕種技術農夫"><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
                
-                <li class="active"data-value="錦囊集"><a href="profile_game4.html">錦囊集</a></li>
+                <li data-value="錦囊集"><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
                 
-                <li data-value="低碳百貨"><a href="profile_game5.html">低碳百貨</a></li> 
+                <li data-value="購物車"><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li> 
               </ul>
             </div>
           </div>
@@ -297,48 +302,10 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
+    <script src="js/lib/vue.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/jsProfile4A.js"></script>
 </body>
 </html>
- <script src="js/jsProfile.js"></script>
-<script>
-  var donutEl = document.getElementById("donut").getContext("2d");
-      var donut = new Chart(donutEl).Doughnut(
-        // Datas
-        [
-          {
-            value: 3,
-            color:"#9ccad6",
-            highlight: "#9ccad6",
-            label: "ocean"
-          },
-          {
-            value: 3,
-            color: "#ff5b52",
-            highlight: "#ff5b52",
-            label: "Wetland"
-          }
-        ],
-        // Options
-        {
-          segmentShowStroke : false,
-          percentageInnerCutout : 90,
-          animationSteps : 100,
-          animationEasing : "easeOutBounce",
-          animateRotate : true,
-          animateScale : false,
-          responsive: true,
-          maintainAspectRatio: true,
-          showScale: true,
-          animateScale: true
-        });
-
-      $('[data-fancybox]').fancybox({
-      protect: true,
-      
-    });
-         
-</script>
-
-
 

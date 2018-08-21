@@ -36,12 +36,12 @@
                    <ul class="list-inline mainMenu clearfix">
                         <li class="lang-opt hidden-xs"><div class="dropdown">
                           <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                            <span class="current_lang"></span>
+                            <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
                           </div> 
 
-                          <ul class="dropdown-menu" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>簡</li>
+                          <ul class="dropdown-menu select-language" aria-labelledby="dLabel">
+
                           </ul>
                         </div>
                         </li>
@@ -63,32 +63,38 @@
                  <nav class="navbar-menu">
                     <div class="collapse navbar-collapse" id="login-menu">
                       <ul class="nav-menu">
-						<!-- 2 -->
-                        <li class="active">
-                            <a href="about.html" >生物資源與農業</a>
-                        </li>
-						<!-- 3 -->
-                        <li class="">
-                            <a href="hall.html" >展覽館</a>
-                        </li>
-						<!-- 4 -->
-                        <li class="">
-                            <a href="faq.html" >問問專家</a>
-                        </li>
-						<!-- 5 -->
-                        <li class="">
-                            <a href="news.html" >最新消息</a>
-                        </li>
-						<!-- 6 -->
-                        <li class="active">
-                            <a href="memberLogin.html" >會員專區</a>
-                        </li>
-						<!-- 7 -->
-                        <li class="">
-                            <a href="contact.html" >聯絡我們</a>
-                        </li>
-                        <li class="booking"><a class="btn theme6" href="booking.html" ><span class="icon"><img src="images/common/icon-calendar2.svg" class="svg img-fluid"></span> 預約</a></li>
-                         <ul class="lang-btn clearfix" aria-labelledby="dLabel">
+						<li class="">
+                            <a href="about.html" class="nav1"></a>
+                          </li>
+                          <!-- 3 -->
+                          <li class="">
+                            <a href="hall.html" class="nav2"></a>
+                          </li>
+                          <!-- 4 -->
+                          <li class="">
+                            <a href="faq.html" class="nav3"></a>
+                          </li>
+                          <!-- 5 -->
+                          <li class="">
+                            <a href="news.html" class="nav4"></a>
+                          </li>
+                          <!-- 6 -->
+                          <li class="active">
+                            <a href="memberLogin.html" class="nav5"></a>
+                          </li>
+                          <!-- 7 -->
+                          <li>
+                            <a href="contact.html" class="nav6"></a>
+                          </li>
+                          <li class="booking">
+                              <a class="btn theme6" href="booking.html">
+                                <span class="icon">
+                                  <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+                                </span>
+                                <span class="nav7"></span>
+                              </a>
+                            </li>
+                        <ul class="lang-btn clearfix select-language" aria-labelledby="dLabel">
                             <li><img src="images/common/icon-lang.svg"></li>
                             <li>繁</li>
                             <li>簡</li>
@@ -105,54 +111,54 @@
     </header>
     
 
-  <div class="section-profile">
+  <div class="section-profile" id="vue_app">
     <div class="session-myprofile">
         <div class="pos-grid">
         <div class="container">
-          <div class="title">Hello, Sam Chan</div>
+          <div class="title">{{lang.member_landing.hello}}, {{user.username}}</div>
           <div class="info">
-            Score:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span> 最後更新日期: 3/11/2017 15:00
+            {{lang.member_landing.score}}:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span> {{lang.member_landing.last_update}}: 3/11/2017 15:00
              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br class="hidden-xs">Aenean commodo ligula eget dolor.</p>
           </div>
           <ul class="btn-wrapper">
-            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>我的足跡</a></li>
-            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>我的帳戶</a></li>
+            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>{{lang.member_landing.my_footprint}}</a></li>
+            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>{{lang.member_landing.my_account}}</a></li>
           </ul>
          </div>
         </div>   
          <img src="images/profile/profileBgT.jpg" class="img-full hidden-xs">
           <img src="images/profile/profileBgTm.jpg" class="img-full visible-xs">
     </div>
-    <div class="section-profileCon" id="vue_app">
+    <div class="section-profileCon">
       <div class="container">
         <div class="top-nav text-center">
           <ul class="widget-submenu hidden-xs clearfix">
-              <li><a href="profile.html">消失的物種</a></li>
+              <li><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               <li><span>|</span></li>
-              <li class="active"><a href="profile_game2.html">動物拯救隊</a></li>
+              <li class="active"><a href="profile_game2.html">{{lang.member_landing.coll2}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+              <li><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game4.html">錦囊集</a></li>
+              <li><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game5.html">低碳百貨</a></li>     
+              <li><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li>     
           </ul>
 
           <div class="visible-xs">
             <div class="widget-dd dropdown">
               <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                動物拯救隊<i class="icon fa fa-angle-down" aria-hidden="true"></i>
+                {{lang.member_landing.coll2}}<i class="icon fa fa-angle-down" aria-hidden="true"></i>
               </button>
               <ul class="dropdown-menu widget-option" aria-labelledby="dLabel">
-                <li data-value="Virtual habitat"><a href="profile.html">消失的物種</a></li>
+                <li data-value="Virtual habitat"><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               
-                <li class="active" data-value="Pokemon go game"><a href="profile_game2.html" >動物拯救隊</a></li>
+                <li class="active" data-value="Pokemon go game"><a href="profile_game2.html" >{{lang.member_landing.coll2}}</a></li>
                 
-                <li data-value="有機耕種技術農夫"><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+                <li data-value="有機耕種技術農夫"><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
                
-                <li data-value="錦囊集"><a href="profile_game4.html">錦囊集</a></li>
+                <li data-value="錦囊集"><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
                 
-                <li data-value="購物車"><a href="profile_game5.html">低碳百貨</a></li> 
+                <li data-value="購物車"><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li> 
               </ul>
             </div>
           </div>
@@ -168,7 +174,7 @@
                 </div>
               </div>
             <div class="col-xs-12 col-sm-8 paragraph">
-               <h1><span class="icon"><img src="images/profile/game-icon3.svg"></span>動物拯救隊</h1>
+               <h1><span class="icon"><img src="images/profile/game-icon3.svg"></span>{{lang.member_landing.coll2}}</h1>
               友正司經送響太資表用處，市官公對好動和坐統問清表害不交一會、之世待想養為是每去一所職公！根庭作色日如方大想步在流重下物合演好所家個輪的研的又改資和動讀院先生。
               
             </div>
@@ -177,8 +183,8 @@
             <div class="row">
                 <div class="col-xs-6 col-sm-3 grid-item" v-for="item in Habitats">
                     <a data-fancybox="gallery" href="images/profile/info_boar.png">
-                    <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game2_test.png" class="img-fluid"></div>
-                    <div class="text-wrapper"><div class="btn theme7">{{item.chinese_name}}</div></div>
+                        <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game2_test.png" class="img-fluid"></div>
+                        <div class="text-wrapper"><div class="btn theme7">{{item.chinese_name}}</div></div>
                     </a>
                 </div>
 
