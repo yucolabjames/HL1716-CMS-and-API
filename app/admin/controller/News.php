@@ -84,7 +84,7 @@ class News extends Common
      * @return     
      */
     public function get(){
-        if(IS_POST){
+        if($this->request->isPost()){
             $id = $_POST['id'];
             if(empty($id)){
                return api_arr(0,'','missing parameters of id'); 

@@ -108,7 +108,7 @@ class Contact extends Common
         if(empty($data['language'])){
             return api_arr(1,"language is require");
         }
-        if(IS_POST){
+        if($this->request->isPost()){
             $result = $this->op->insert($data);
 
             if ($result) {

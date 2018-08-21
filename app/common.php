@@ -19,6 +19,10 @@ use \PHPMailer\phpmailer;
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 function api_arr($code,$msg="",$arr=array()){
     header("Content-type: text/html; charset=utf-8");
+    header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
+    header("Access-Control-Allow-origin : *");
+    header("Access-Control-Allow-Headers : X-Requested-With");
+    header("Access-Control-Allow-Methods : POST,GET");
     $result=array();
     $result['error_code']=$code;
     $result['msg']=$msg;
@@ -92,9 +96,12 @@ function encrypt($string,$operation){
 }
 
 /**
-* 发送邮箱
-* @param type $data 邮箱队列数据 包含邮箱地址 内容
-*/
+ * 发送邮箱
+ * @author gyj <375023402@qq.com>
+ * @createtime 2018-08-20T10:09:07+0800
+ * @param      $data 发送邮箱数据
+ * @return     
+ */
 function send_email($data = []) {
   
   $mail = new PHPMailer; //实例化
@@ -123,4 +130,26 @@ function send_email($data = []) {
       }
     }
   }           
+}
+
+/**
+ * 校验日期格式是否正确
+ * 
+ * @param string $date 日期
+ * @param string $formats 需要检验的格式数组
+ * @return boolean
+ */
+function checkDateIsValid($date, $formats = array("Y-m-d", "Y/m/d","Ymd")) {
+    $unixTime = strtotime($date);
+    if (!$unixTime) { //strtotime转换不对，日期格式显然不对。
+        return false;
+    }
+    //校验日期的有效性，只要满足其中一个格式就OK
+    foreach ($formats as $format) {
+        if (date($format, $unixTime) == $date) {
+            return true;
+        }
+    }
+
+    return false;
 }
