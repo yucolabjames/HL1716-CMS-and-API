@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2018-08-17 17:46:33
+Date: 2018-08-21 09:41:59
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,19 +24,21 @@ CREATE TABLE `yu_administrator` (
   `username` varchar(100) DEFAULT NULL COMMENT '用户名',
   `password` varchar(100) DEFAULT NULL COMMENT '密码',
   `full_name` varchar(100) DEFAULT NULL COMMENT '姓名',
+  `enable` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '启用状态 1已启用 0未启用',
   `creator` int(11) DEFAULT NULL COMMENT '创建者',
   `createtime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `modifier` int(11) DEFAULT NULL COMMENT '修改者',
   `modifytime` datetime DEFAULT NULL COMMENT '修改时间',
   `modifytip` varchar(50) DEFAULT NULL COMMENT '修改ip',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COMMENT='管理员表';
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COMMENT='管理员表';
 
 -- ----------------------------
 -- Records of yu_administrator
 -- ----------------------------
-INSERT INTO `yu_administrator` VALUES ('1', 'admin', '314a83af865fe4dce89d24780f35f6a3', 'admin', null, '2018-08-07 10:44:36', null, null, null);
-INSERT INTO `yu_administrator` VALUES ('2', 'admin1', '314a83af865fe4dce89d24780f35f6a3', 'admin', null, '2018-08-07 10:44:36', null, null, null);
+INSERT INTO `yu_administrator` VALUES ('1', 'admin', '314a83af865fe4dce89d24780f35f6a3', 'admin', '1', '1', '2018-08-07 10:44:36', '1', '2018-08-20 14:24:24', '127.0.0.1');
+INSERT INTO `yu_administrator` VALUES ('2', 'admin1', '314a83af865fe4dce89d24780f35f6a3', 'admin', '1', '1', '2018-08-07 10:44:36', '1', '2018-08-20 14:24:27', '127.0.0.1');
+INSERT INTO `yu_administrator` VALUES ('3', 'test', '4ff9018a647ae315a7e6601a818b4940', null, '1', '1', '2018-08-20 15:15:27', '1', '2018-08-20 15:21:03', '127.0.0.1');
 
 -- ----------------------------
 -- Table structure for yu_braa
@@ -119,17 +121,18 @@ CREATE TABLE `yu_coupon` (
   `code` char(10) CHARACTER SET utf8mb4 NOT NULL DEFAULT '' COMMENT '折扣代码',
   `discount` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '折扣金额',
   `count` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '折扣码发放总数',
-  `status` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '状态  0 未使用 1已使用 2已失效',
   `start_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '起始时间',
   `end_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '结束时间',
   `create_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
   `update_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '更新时间',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='折扣表';
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='折扣表';
 
 -- ----------------------------
 -- Records of yu_coupon
 -- ----------------------------
+INSERT INTO `yu_coupon` VALUES ('1', '100代金券', '', '100', '100', '1514736000', '1546185600', '1534751523', '1534753211');
+INSERT INTO `yu_coupon` VALUES ('2', '100代金券', 'i4qi99feoe', '100', '100', '1514736000', '1546185600', '1534752847', '1534752847');
 
 -- ----------------------------
 -- Table structure for yu_ehall
@@ -268,6 +271,240 @@ INSERT INTO `yu_help` VALUES ('2', '预约参观顶部头图和文字', 'appoint
 INSERT INTO `yu_help` VALUES ('3', 'Make an appointment to visit the top header and te', 'appointment_header', ' Appointment visit', 'uploads/2018/08-15/banner.jpg', 'submit', '1', '1534329991', '0');
 
 -- ----------------------------
+-- Table structure for yu_holiday
+-- ----------------------------
+DROP TABLE IF EXISTS `yu_holiday`;
+CREATE TABLE `yu_holiday` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增编号',
+  `date` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '假期时间戳',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=52 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='香港公共假期表\r\n';
+
+-- ----------------------------
+-- Records of yu_holiday
+-- ----------------------------
+INSERT INTO `yu_holiday` VALUES ('1', '1483286400');
+INSERT INTO `yu_holiday` VALUES ('2', '1485532800');
+INSERT INTO `yu_holiday` VALUES ('3', '1485705600');
+INSERT INTO `yu_holiday` VALUES ('4', '1485792000');
+INSERT INTO `yu_holiday` VALUES ('5', '1491235200');
+INSERT INTO `yu_holiday` VALUES ('6', '1492099200');
+INSERT INTO `yu_holiday` VALUES ('7', '1492185600');
+INSERT INTO `yu_holiday` VALUES ('8', '1492358400');
+INSERT INTO `yu_holiday` VALUES ('9', '1493568000');
+INSERT INTO `yu_holiday` VALUES ('10', '1493740800');
+INSERT INTO `yu_holiday` VALUES ('11', '1496073600');
+INSERT INTO `yu_holiday` VALUES ('12', '1498838400');
+INSERT INTO `yu_holiday` VALUES ('13', '1506873600');
+INSERT INTO `yu_holiday` VALUES ('14', '1507132800');
+INSERT INTO `yu_holiday` VALUES ('15', '1509120000');
+INSERT INTO `yu_holiday` VALUES ('16', '1514131200');
+INSERT INTO `yu_holiday` VALUES ('17', '1514217600');
+INSERT INTO `yu_holiday` VALUES ('18', '1514736000');
+INSERT INTO `yu_holiday` VALUES ('19', '1518710400');
+INSERT INTO `yu_holiday` VALUES ('20', '1518796800');
+INSERT INTO `yu_holiday` VALUES ('21', '1518969600');
+INSERT INTO `yu_holiday` VALUES ('22', '1522339200');
+INSERT INTO `yu_holiday` VALUES ('23', '1522425600');
+INSERT INTO `yu_holiday` VALUES ('24', '1522598400');
+INSERT INTO `yu_holiday` VALUES ('25', '1522857600');
+INSERT INTO `yu_holiday` VALUES ('26', '1525104000');
+INSERT INTO `yu_holiday` VALUES ('27', '1526918400');
+INSERT INTO `yu_holiday` VALUES ('28', '1529251200');
+INSERT INTO `yu_holiday` VALUES ('29', '1530460800');
+INSERT INTO `yu_holiday` VALUES ('30', '1537804800');
+INSERT INTO `yu_holiday` VALUES ('31', '1538323200');
+INSERT INTO `yu_holiday` VALUES ('32', '1539705600');
+INSERT INTO `yu_holiday` VALUES ('33', '1545667200');
+INSERT INTO `yu_holiday` VALUES ('34', '1545753600');
+INSERT INTO `yu_holiday` VALUES ('35', '1546272000');
+INSERT INTO `yu_holiday` VALUES ('36', '1549296000');
+INSERT INTO `yu_holiday` VALUES ('37', '1549382400');
+INSERT INTO `yu_holiday` VALUES ('38', '1549468800');
+INSERT INTO `yu_holiday` VALUES ('39', '1554393600');
+INSERT INTO `yu_holiday` VALUES ('40', '1555603200');
+INSERT INTO `yu_holiday` VALUES ('41', '1555689600');
+INSERT INTO `yu_holiday` VALUES ('42', '1555862400');
+INSERT INTO `yu_holiday` VALUES ('43', '1556640000');
+INSERT INTO `yu_holiday` VALUES ('44', '1557676800');
+INSERT INTO `yu_holiday` VALUES ('45', '1559836800');
+INSERT INTO `yu_holiday` VALUES ('46', '1561910400');
+INSERT INTO `yu_holiday` VALUES ('47', '1568390400');
+INSERT INTO `yu_holiday` VALUES ('48', '1569859200');
+INSERT INTO `yu_holiday` VALUES ('49', '1570377600');
+INSERT INTO `yu_holiday` VALUES ('50', '1577203200');
+INSERT INTO `yu_holiday` VALUES ('51', '1577289600');
+
+-- ----------------------------
+-- Table structure for yu_holidayname
+-- ----------------------------
+DROP TABLE IF EXISTS `yu_holidayname`;
+CREATE TABLE `yu_holidayname` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增编号',
+  `type_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '公共假期表编号',
+  `language` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '语言类型',
+  `summary` char(50) NOT NULL DEFAULT '' COMMENT '假期名称',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=154 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='香港公共假期表描述\r\n';
+
+-- ----------------------------
+-- Records of yu_holidayname
+-- ----------------------------
+INSERT INTO `yu_holidayname` VALUES ('1', '1', '1', 'The day following the first day of January');
+INSERT INTO `yu_holidayname` VALUES ('2', '1', '2', '一月一日翌日');
+INSERT INTO `yu_holidayname` VALUES ('3', '1', '3', '一月一日翌日');
+INSERT INTO `yu_holidayname` VALUES ('4', '2', '1', 'Lunar New Year’s Day');
+INSERT INTO `yu_holidayname` VALUES ('5', '2', '2', '农历年初一');
+INSERT INTO `yu_holidayname` VALUES ('6', '2', '3', '農曆年初一');
+INSERT INTO `yu_holidayname` VALUES ('7', '3', '1', 'The third day of Lunar New Year');
+INSERT INTO `yu_holidayname` VALUES ('8', '3', '2', '农历年初三');
+INSERT INTO `yu_holidayname` VALUES ('9', '3', '3', '農曆年初三');
+INSERT INTO `yu_holidayname` VALUES ('10', '4', '1', 'The fourth day of Lunar New Year');
+INSERT INTO `yu_holidayname` VALUES ('11', '4', '2', '农历年初四');
+INSERT INTO `yu_holidayname` VALUES ('12', '4', '3', '農曆年初四');
+INSERT INTO `yu_holidayname` VALUES ('13', '5', '1', 'Ching Ming Festival');
+INSERT INTO `yu_holidayname` VALUES ('14', '5', '2', '清明节');
+INSERT INTO `yu_holidayname` VALUES ('15', '5', '3', '清明節');
+INSERT INTO `yu_holidayname` VALUES ('16', '6', '1', 'Good Friday');
+INSERT INTO `yu_holidayname` VALUES ('17', '6', '2', '耶稣受难节');
+INSERT INTO `yu_holidayname` VALUES ('18', '6', '3', '耶穌受難節');
+INSERT INTO `yu_holidayname` VALUES ('19', '7', '1', 'The day following Good Friday');
+INSERT INTO `yu_holidayname` VALUES ('20', '7', '2', '耶稣受难节翌日');
+INSERT INTO `yu_holidayname` VALUES ('21', '7', '3', '耶穌受難節翌日');
+INSERT INTO `yu_holidayname` VALUES ('22', '8', '1', 'Easter Monday');
+INSERT INTO `yu_holidayname` VALUES ('23', '8', '2', '复活节星期一');
+INSERT INTO `yu_holidayname` VALUES ('24', '8', '3', '復活節星期一');
+INSERT INTO `yu_holidayname` VALUES ('25', '9', '1', 'Labour Day');
+INSERT INTO `yu_holidayname` VALUES ('26', '9', '2', '劳动节');
+INSERT INTO `yu_holidayname` VALUES ('27', '9', '3', '勞動節');
+INSERT INTO `yu_holidayname` VALUES ('28', '10', '1', 'The Birthday of the Buddha');
+INSERT INTO `yu_holidayname` VALUES ('29', '10', '2', '佛诞');
+INSERT INTO `yu_holidayname` VALUES ('30', '10', '3', '佛誕');
+INSERT INTO `yu_holidayname` VALUES ('31', '11', '1', 'Tuen Ng Festival');
+INSERT INTO `yu_holidayname` VALUES ('32', '11', '2', '端午节');
+INSERT INTO `yu_holidayname` VALUES ('33', '11', '3', '端午節');
+INSERT INTO `yu_holidayname` VALUES ('34', '12', '1', 'Hong Kong Special Administrative Region Establishm');
+INSERT INTO `yu_holidayname` VALUES ('35', '12', '2', '香港特别行政区成立纪念日');
+INSERT INTO `yu_holidayname` VALUES ('36', '12', '3', '香港特別行政區成立紀念日');
+INSERT INTO `yu_holidayname` VALUES ('37', '13', '1', 'The day following National Day');
+INSERT INTO `yu_holidayname` VALUES ('38', '13', '2', '国庆日翌日');
+INSERT INTO `yu_holidayname` VALUES ('39', '13', '3', '國慶日翌日');
+INSERT INTO `yu_holidayname` VALUES ('40', '14', '1', 'The day following the Chinese Mid-Autumn Festival');
+INSERT INTO `yu_holidayname` VALUES ('41', '14', '2', '中秋节翌日');
+INSERT INTO `yu_holidayname` VALUES ('42', '14', '3', '中秋節翌日');
+INSERT INTO `yu_holidayname` VALUES ('43', '15', '1', 'Chung Yeung Festival');
+INSERT INTO `yu_holidayname` VALUES ('44', '15', '2', '重阳节');
+INSERT INTO `yu_holidayname` VALUES ('45', '15', '3', '重陽節');
+INSERT INTO `yu_holidayname` VALUES ('46', '16', '1', 'Christmas Day');
+INSERT INTO `yu_holidayname` VALUES ('47', '16', '2', '圣诞节');
+INSERT INTO `yu_holidayname` VALUES ('48', '16', '3', '聖誕節');
+INSERT INTO `yu_holidayname` VALUES ('49', '17', '1', 'The first weekday after Christmas Day');
+INSERT INTO `yu_holidayname` VALUES ('50', '17', '2', '圣诞节后第一个周日');
+INSERT INTO `yu_holidayname` VALUES ('51', '17', '3', '聖誕節後第一個周日');
+INSERT INTO `yu_holidayname` VALUES ('52', '18', '1', 'The first day of January');
+INSERT INTO `yu_holidayname` VALUES ('53', '18', '2', '一月一日');
+INSERT INTO `yu_holidayname` VALUES ('54', '18', '3', '一月一日');
+INSERT INTO `yu_holidayname` VALUES ('55', '19', '1', 'Lunar New Year’s Day');
+INSERT INTO `yu_holidayname` VALUES ('56', '19', '2', '农历年初一');
+INSERT INTO `yu_holidayname` VALUES ('57', '19', '3', '農曆年初一');
+INSERT INTO `yu_holidayname` VALUES ('58', '20', '1', 'The second day of Lunar New Year');
+INSERT INTO `yu_holidayname` VALUES ('59', '20', '2', '农历年初二');
+INSERT INTO `yu_holidayname` VALUES ('60', '20', '3', '農曆年初二');
+INSERT INTO `yu_holidayname` VALUES ('61', '21', '1', 'The fourth day of Lunar New Year');
+INSERT INTO `yu_holidayname` VALUES ('62', '21', '2', '农历年初四');
+INSERT INTO `yu_holidayname` VALUES ('63', '21', '3', '農曆年初四');
+INSERT INTO `yu_holidayname` VALUES ('64', '22', '1', 'Good Friday');
+INSERT INTO `yu_holidayname` VALUES ('65', '22', '2', '耶稣受难节');
+INSERT INTO `yu_holidayname` VALUES ('66', '22', '3', '耶穌受難節');
+INSERT INTO `yu_holidayname` VALUES ('67', '23', '1', 'The day following Good Friday');
+INSERT INTO `yu_holidayname` VALUES ('68', '23', '2', '耶稣受难节翌日');
+INSERT INTO `yu_holidayname` VALUES ('69', '23', '3', '耶穌受難節翌日');
+INSERT INTO `yu_holidayname` VALUES ('70', '24', '1', 'Easter Monday');
+INSERT INTO `yu_holidayname` VALUES ('71', '24', '2', '复活节星期一');
+INSERT INTO `yu_holidayname` VALUES ('72', '24', '3', '復活節星期一');
+INSERT INTO `yu_holidayname` VALUES ('73', '25', '1', 'Ching Ming Festival');
+INSERT INTO `yu_holidayname` VALUES ('74', '25', '2', '清明节');
+INSERT INTO `yu_holidayname` VALUES ('75', '25', '3', '清明節');
+INSERT INTO `yu_holidayname` VALUES ('76', '26', '1', 'Labour Day');
+INSERT INTO `yu_holidayname` VALUES ('77', '26', '2', '劳动节');
+INSERT INTO `yu_holidayname` VALUES ('78', '26', '3', '勞動節');
+INSERT INTO `yu_holidayname` VALUES ('79', '27', '1', 'The Birthday of the Buddha');
+INSERT INTO `yu_holidayname` VALUES ('80', '27', '2', '佛诞');
+INSERT INTO `yu_holidayname` VALUES ('81', '27', '3', '佛誕');
+INSERT INTO `yu_holidayname` VALUES ('82', '28', '1', 'Tuen Ng Festival');
+INSERT INTO `yu_holidayname` VALUES ('83', '28', '2', '端午节');
+INSERT INTO `yu_holidayname` VALUES ('84', '28', '3', '端午節');
+INSERT INTO `yu_holidayname` VALUES ('85', '29', '1', 'The day following Hong Kong Special Administrative');
+INSERT INTO `yu_holidayname` VALUES ('86', '29', '2', '香港特别行政区成立纪念日翌日');
+INSERT INTO `yu_holidayname` VALUES ('87', '29', '3', '香港特別行政區成立紀念日翌日');
+INSERT INTO `yu_holidayname` VALUES ('88', '30', '1', 'The day following the Chinese Mid-Autumn Festival');
+INSERT INTO `yu_holidayname` VALUES ('89', '30', '2', '中秋节翌日');
+INSERT INTO `yu_holidayname` VALUES ('90', '30', '3', '中秋節翌日');
+INSERT INTO `yu_holidayname` VALUES ('91', '31', '1', 'National Day');
+INSERT INTO `yu_holidayname` VALUES ('92', '31', '2', '国庆日');
+INSERT INTO `yu_holidayname` VALUES ('93', '31', '3', '國慶日');
+INSERT INTO `yu_holidayname` VALUES ('94', '32', '1', 'Chung Yeung Festival');
+INSERT INTO `yu_holidayname` VALUES ('95', '32', '2', '重阳节');
+INSERT INTO `yu_holidayname` VALUES ('96', '32', '3', '重陽節');
+INSERT INTO `yu_holidayname` VALUES ('97', '33', '1', 'Christmas Day');
+INSERT INTO `yu_holidayname` VALUES ('98', '33', '2', '圣诞节');
+INSERT INTO `yu_holidayname` VALUES ('99', '33', '3', '聖誕節');
+INSERT INTO `yu_holidayname` VALUES ('100', '34', '1', 'The first weekday after Christmas Day');
+INSERT INTO `yu_holidayname` VALUES ('101', '34', '2', '圣诞节后第一个周日');
+INSERT INTO `yu_holidayname` VALUES ('102', '34', '3', '聖誕節後第一個周日');
+INSERT INTO `yu_holidayname` VALUES ('103', '35', '1', 'The first day of January');
+INSERT INTO `yu_holidayname` VALUES ('104', '35', '2', '一月一日');
+INSERT INTO `yu_holidayname` VALUES ('105', '35', '3', '一月一日');
+INSERT INTO `yu_holidayname` VALUES ('106', '36', '1', 'Lunar New Year’s Day');
+INSERT INTO `yu_holidayname` VALUES ('107', '36', '2', '农历年初一');
+INSERT INTO `yu_holidayname` VALUES ('108', '36', '3', '農曆年初一');
+INSERT INTO `yu_holidayname` VALUES ('109', '37', '1', 'The second day of Lunar New Year');
+INSERT INTO `yu_holidayname` VALUES ('110', '37', '2', '农历年初二');
+INSERT INTO `yu_holidayname` VALUES ('111', '37', '3', '農曆年初二');
+INSERT INTO `yu_holidayname` VALUES ('112', '38', '1', 'The third day of Lunar New Year');
+INSERT INTO `yu_holidayname` VALUES ('113', '38', '2', '农历年初三');
+INSERT INTO `yu_holidayname` VALUES ('114', '38', '3', '農曆年初三');
+INSERT INTO `yu_holidayname` VALUES ('115', '39', '1', 'Ching Ming Festival');
+INSERT INTO `yu_holidayname` VALUES ('116', '39', '2', '清明节');
+INSERT INTO `yu_holidayname` VALUES ('117', '39', '3', '清明節');
+INSERT INTO `yu_holidayname` VALUES ('118', '40', '1', 'Good Friday');
+INSERT INTO `yu_holidayname` VALUES ('119', '40', '2', '耶稣受难节');
+INSERT INTO `yu_holidayname` VALUES ('120', '40', '3', '耶穌受難節');
+INSERT INTO `yu_holidayname` VALUES ('121', '41', '1', 'The day following Good Friday');
+INSERT INTO `yu_holidayname` VALUES ('122', '41', '2', '耶稣受难节翌日');
+INSERT INTO `yu_holidayname` VALUES ('123', '41', '3', '耶穌受難節翌日');
+INSERT INTO `yu_holidayname` VALUES ('124', '42', '1', 'Easter Monday');
+INSERT INTO `yu_holidayname` VALUES ('125', '42', '2', '复活节星期一');
+INSERT INTO `yu_holidayname` VALUES ('126', '42', '3', '復活節星期一');
+INSERT INTO `yu_holidayname` VALUES ('127', '43', '1', 'Labour Day');
+INSERT INTO `yu_holidayname` VALUES ('128', '43', '2', '劳动节');
+INSERT INTO `yu_holidayname` VALUES ('129', '43', '3', '勞動節');
+INSERT INTO `yu_holidayname` VALUES ('130', '44', '1', 'The day following the Birthday of the Buddha');
+INSERT INTO `yu_holidayname` VALUES ('131', '44', '2', '佛诞翌日');
+INSERT INTO `yu_holidayname` VALUES ('132', '44', '3', '佛誕翌日');
+INSERT INTO `yu_holidayname` VALUES ('133', '45', '1', 'Tuen Ng Festival');
+INSERT INTO `yu_holidayname` VALUES ('134', '45', '2', '端午节');
+INSERT INTO `yu_holidayname` VALUES ('135', '45', '3', '端午節');
+INSERT INTO `yu_holidayname` VALUES ('136', '46', '1', 'Hong Kong Special Administrative Region Establishm');
+INSERT INTO `yu_holidayname` VALUES ('137', '46', '2', '香港特别行政区成立纪念日');
+INSERT INTO `yu_holidayname` VALUES ('138', '46', '3', '香港特別行政區成立紀念日');
+INSERT INTO `yu_holidayname` VALUES ('139', '47', '1', 'The day following the Chinese Mid-Autumn Festival');
+INSERT INTO `yu_holidayname` VALUES ('140', '47', '2', '中秋节翌日');
+INSERT INTO `yu_holidayname` VALUES ('141', '47', '3', '中秋節翌日');
+INSERT INTO `yu_holidayname` VALUES ('142', '48', '1', 'National Day');
+INSERT INTO `yu_holidayname` VALUES ('143', '48', '2', '国庆日');
+INSERT INTO `yu_holidayname` VALUES ('144', '48', '3', '國慶日');
+INSERT INTO `yu_holidayname` VALUES ('145', '49', '1', 'Chung Yeung Festival');
+INSERT INTO `yu_holidayname` VALUES ('146', '49', '2', '重阳节');
+INSERT INTO `yu_holidayname` VALUES ('147', '49', '3', '重陽節');
+INSERT INTO `yu_holidayname` VALUES ('148', '50', '1', 'Christmas Day');
+INSERT INTO `yu_holidayname` VALUES ('149', '50', '2', '圣诞节');
+INSERT INTO `yu_holidayname` VALUES ('150', '50', '3', '聖誕節');
+INSERT INTO `yu_holidayname` VALUES ('151', '51', '1', 'The first weekday after Christmas Day');
+INSERT INTO `yu_holidayname` VALUES ('152', '51', '2', '圣诞节后第一个周日');
+INSERT INTO `yu_holidayname` VALUES ('153', '51', '3', '聖誕節後第一個周日');
+
+-- ----------------------------
 -- Table structure for yu_home
 -- ----------------------------
 DROP TABLE IF EXISTS `yu_home`;
@@ -324,7 +561,7 @@ CREATE TABLE `yu_logs` (
   `log_desc` varchar(255) DEFAULT NULL COMMENT '描述',
   `creattime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '操作时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COMMENT='操作日志表';
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8mb4 COMMENT='操作日志表';
 
 -- ----------------------------
 -- Records of yu_logs
@@ -353,6 +590,18 @@ INSERT INTO `yu_logs` VALUES ('21', '0', '1', '192.168.0.124', 'Log in to CMS', 
 INSERT INTO `yu_logs` VALUES ('22', '0', '1', '192.168.0.146', 'Log in to CMS', 'Administrator ID:1', '2018-08-16 11:50:23');
 INSERT INTO `yu_logs` VALUES ('23', '2', '1', '192.168.0.146', 'Modify contact us', 'Modify contact us', '2018-08-16 18:13:58');
 INSERT INTO `yu_logs` VALUES ('24', '1', '1', '192.168.0.146', 'Add help', 'ID:3', '2018-08-16 18:36:24');
+INSERT INTO `yu_logs` VALUES ('25', '0', '1', '127.0.0.1', 'Log in to CMS', 'Administrator ID:1', '2018-08-20 14:59:38');
+INSERT INTO `yu_logs` VALUES ('26', '1', '1', '127.0.0.1', 'Add administrator', 'ID:3', '2018-08-20 15:15:27');
+INSERT INTO `yu_logs` VALUES ('27', '2', '1', '127.0.0.1', 'Modify administrator', 'ID:3', '2018-08-20 15:20:59');
+INSERT INTO `yu_logs` VALUES ('28', '2', '1', '127.0.0.1', 'Modify administrator', 'ID:3', '2018-08-20 15:21:03');
+INSERT INTO `yu_logs` VALUES ('29', '1', '1', '127.0.0.1', 'Add coupon', 'ID:1', '2018-08-20 15:52:03');
+INSERT INTO `yu_logs` VALUES ('30', '1', '1', '127.0.0.1', 'Add coupon', 'ID:2', '2018-08-20 16:14:07');
+INSERT INTO `yu_logs` VALUES ('31', '1', '1', '127.0.0.1', 'Modify coupon', 'ID:1', '2018-08-20 16:20:11');
+INSERT INTO `yu_logs` VALUES ('32', '1', '1', '127.0.0.1', 'Add schedule_type', 'ID:1', '2018-08-20 16:58:24');
+INSERT INTO `yu_logs` VALUES ('33', '1', '1', '127.0.0.1', 'Modify schedule_type', 'ID:1', '2018-08-20 17:02:21');
+INSERT INTO `yu_logs` VALUES ('34', '1', '1', '127.0.0.1', 'Modify schedule_type', 'ID:1', '2018-08-20 17:05:07');
+INSERT INTO `yu_logs` VALUES ('35', '1', '1', '127.0.0.1', 'Add schedule_type', 'ID:2', '2018-08-20 17:05:25');
+INSERT INTO `yu_logs` VALUES ('36', '0', '1', '127.0.0.1', 'Log in to CMS', 'Administrator ID:1', '2018-08-21 09:24:04');
 
 -- ----------------------------
 -- Table structure for yu_map
@@ -454,7 +703,7 @@ CREATE TABLE `yu_news` (
   `modifytime` datetime DEFAULT NULL COMMENT '修改时间',
   `modifytip` varchar(100) DEFAULT NULL COMMENT '修改ip',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COMMENT='最新消息列表';
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COMMENT='最新消息列表';
 
 -- ----------------------------
 -- Records of yu_news
@@ -585,11 +834,35 @@ INSERT INTO `yu_opinion` VALUES ('4', '0', '3546@qq.com', null, 'test', '1', '',
 DROP TABLE IF EXISTS `yu_schedule`;
 CREATE TABLE `yu_schedule` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增编号',
-  `type_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '日程类型编号',
+  `date` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '日程日期',
   `start_time` int(5) unsigned NOT NULL DEFAULT '0' COMMENT '开始时间 时分',
   `end_time` int(5) unsigned NOT NULL DEFAULT '0' COMMENT '结束时间',
   `language` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '语言类型 语言表编号',
   `max_visitor` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '最大访问人数',
+  `max_child` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '最大访问儿童数量',
+  `sort` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '排序',
+  `create_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `update_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '更新时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='日程表';
+
+-- ----------------------------
+-- Records of yu_schedule
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for yu_schedule_config
+-- ----------------------------
+DROP TABLE IF EXISTS `yu_schedule_config`;
+CREATE TABLE `yu_schedule_config` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增编号',
+  `type_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '日程类型编号',
+  `language` tinyint(1) unsigned NOT NULL DEFAULT '1' COMMENT '语言类型',
+  `week` text NOT NULL COMMENT '星期 1-7 最大为7 json 数组',
+  `start_time` int(5) unsigned NOT NULL DEFAULT '0' COMMENT '开始时间 时分',
+  `end_time` int(5) unsigned NOT NULL DEFAULT '0' COMMENT '结束时间',
+  `max_visitor` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '最大访问人数',
+  `max_child` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '最大访问儿童数量',
   `sort` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '排序',
   `create_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
   `update_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '更新时间',
@@ -597,7 +870,7 @@ CREATE TABLE `yu_schedule` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='日程设置表';
 
 -- ----------------------------
--- Records of yu_schedule
+-- Records of yu_schedule_config
 -- ----------------------------
 
 -- ----------------------------
@@ -610,10 +883,32 @@ CREATE TABLE `yu_schedule_type` (
   `create_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
   `update_time` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COMMENT='日程类型设置表';
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COMMENT='日程类型设置表';
 
 -- ----------------------------
 -- Records of yu_schedule_type
+-- ----------------------------
+INSERT INTO `yu_schedule_type` VALUES ('1', '周二－周五', '1534755504', '1534755907');
+INSERT INTO `yu_schedule_type` VALUES ('2', '周六 公共假期', '1534755925', '1534755925');
+
+-- ----------------------------
+-- Table structure for yu_user_advance
+-- ----------------------------
+DROP TABLE IF EXISTS `yu_user_advance`;
+CREATE TABLE `yu_user_advance` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增编号',
+  `user_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '用户表编号 用于账户激活后预定订单归属',
+  `order_no` char(20) NOT NULL DEFAULT '' COMMENT '订单号',
+  `email` char(50) NOT NULL DEFAULT '' COMMENT '邮箱',
+  `visitor_count` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '成人数量 如果单人订票 默认为成人订票',
+  `child_count` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '儿童订票',
+  `create_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `update_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '更新时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用户预定订单表';
+
+-- ----------------------------
+-- Records of yu_user_advance
 -- ----------------------------
 
 -- ----------------------------
@@ -622,16 +917,18 @@ CREATE TABLE `yu_schedule_type` (
 DROP TABLE IF EXISTS `yu_user_coupon`;
 CREATE TABLE `yu_user_coupon` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增编号',
-  `user_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '用户编号',
+  `user_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '用户表编号 用于账户激活后折扣券归属',
   `coupon_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '折扣券编号',
   `order_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '订单的编号',
+  `status` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '状态 0未使用 1已使用 2已过期',
   `create_time` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '创建时间',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用户折扣使用记录表';
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用户折扣使用记录表';
 
 -- ----------------------------
 -- Records of yu_user_coupon
 -- ----------------------------
+INSERT INTO `yu_user_coupon` VALUES ('1', '1', '1', '0', '0', '0');
 
 -- ----------------------------
 -- Table structure for yu_web_config
