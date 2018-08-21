@@ -24,6 +24,19 @@ $(function() {
         $('.animsition').animsition({
           inDuration: 500,
         });
+        
+        var valid = false;
+        var config;
+
+        getToken().then( res => { 
+          valid = true; config = res; 
+          console.log('config', config)
+          api.me.me({lang: language, auth: config.token}).then( res => {
+            console.log( res )
+          })
+        })
+
+        
       }
     }
   })

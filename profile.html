@@ -23,7 +23,12 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
-   
+    <style>
+      .section-profile .game-profile .scorePanel .type-list li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
 </head>
 
 <body id="profile">
@@ -36,13 +41,11 @@
                    <ul class="list-inline mainMenu clearfix">
                         <li class="lang-opt hidden-xs"><div class="dropdown">
                           <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                            <span class="current_lang"></span>
+                            <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
                           </div> 
 
-                          <ul class="dropdown-menu" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>簡</li>
-                          </ul>
+                          <ul class="dropdown-menu select-language" aria-labelledby="dLabel"></ul>
                         </div>
                         </li>
                         <li class="logo-core text-center"> <a href="index.html" class="logo"><img src="images/common/logo.svg" class="img-fluid"></a></li>
@@ -104,7 +107,7 @@
        </div>
     </header>
     
-  <div class="section-profile">
+  <div class="section-profile" id="vue_app">
     <div class="session-myprofile">
         <div class="pos-grid">
         <div class="container">
@@ -143,15 +146,15 @@
                 Virtual habitat<i class="icon fa fa-angle-down" aria-hidden="true"></i>
               </button>
               <ul class="dropdown-menu widget-option" aria-labelledby="dLabel">
-                <li class="active" data-value="Virtual habitat"><a href="profile.html">消失的物種</a></li>
+                <li class="active" data-value="Virtual habitat"><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               
-                <li data-value="Pokemon go game"><a href="profile_game2.html" >動物拯救隊</a></li>
+                <li data-value="Pokemon go game"><a href="profile_game2.html" >{{lang.member_landing.coll2}}</a></li>
                 
-                <li data-value="有機耕種技術農夫"><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+                <li data-value="有機耕種技術農夫"><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
                
-                <li data-value="錦囊集"><a href="profile_game4.html">錦囊集</a></li>
+                <li data-value="錦囊集"><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
                 
-                <li data-value="購物車"><a href="profile_game5.html">低碳百貨</a></li> 
+                <li data-value="購物車"><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li> 
               </ul>
             </div>
           </div>
@@ -171,17 +174,32 @@
               友正司經送響太資表用處，市官公對好動和坐統問清表害不交一會、之世待想養為是每去一所職公！根庭作色日如方大想步在流重下物合演好所家個輪的研的又改資和動讀院先生。
               <div class="showlist">
                 <ul class="type-list">
-                  <li><div class="cssLabel tag1">海洋</div></li>
-                  <li><div class="cssLabel tag2">紅樹林</div></li>
-                  <li><div class="cssLabel tag3">森林</div></li>
+                  <li v-for="(type, index) in Habitats_types">
+                    <div :class="['cssLabel', type.tag]" >{{type.label}}</div>
+                  </li>
+                  <!-- <li><div class="cssLabel tag2">紅樹林</div></li>
+                  <li><div class="cssLabel tag3">森林</div></li> -->
                 </ul>
               </div>
             </div>
           </div>
           <div class="game-session">
             <div class="row">
+                <div class="col-xs-6 col-sm-3 grid-item" v-for="(item, index) in Habitats">
+                  <a data-fancybox="gallery" href="images/profile/IG_1b.png">
+                    <div class="img-wrapper"> 
+                      <div class="unlock block">已拯救</div>
+                      <img src="images/profile/game-icon01.png" class="img-fluid">
+                    </div>
+                    <div class="text-wrapper">
+                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'CHT'">{{item.chinese_name}}</div>
+                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'CHS'">{{item.chinese_name}}</div>
+                      <div :class="['btn', 'theme7', item.tag]" v-if="language == 'ENG'">{{item.english_name}}</div>
+                    </div>
+                    </a>
+                </div>
             
-              <div class="col-xs-6 col-sm-3 grid-item">
+              <!-- <div class="col-xs-6 col-sm-3 grid-item">
                 <a data-fancybox="gallery" href="images/profile/IG_1b.png">
                  <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
                  <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
@@ -199,175 +217,8 @@
                  <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
                  <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
                  </a>
-              </div>
+              </div> -->
               
-              
-              <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag2">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
-                 </a>
-              </div>
-              
-              
-              <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag2">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
-                 </a>
-              </div>
-              
-              
-              <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag2">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
-                 </a>
-              </div>
-              
-              
-              <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag2">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
-                 </a>
-              </div>
-              
-              
-              <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag2">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
-                 </a>
-              </div>
-              
-              
-              <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag2">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
-                 </a>
-              </div>
-              
-              
-              <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag2">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
-                 </a>
-              </div>
-              
-              
-              <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock block">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag1">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag2">北極熊</div></div>
-                 </a>
-              </div>
-               <div class="col-xs-6 col-sm-3 grid-item">
-                <a data-fancybox="gallery" href="images/profile/IG_1b.png">
-                
-                 <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game-icon01.png" class="img-fluid"></div>
-                 <div class="text-wrapper"><div class="btn theme7 tag3">北極熊</div></div>
-                 </a>
-              </div>
               
               
             </div>
@@ -436,6 +287,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.bootcss.com/lodash.js/4.17.10/lodash.js"></script>
+    <script src="js/lib/vue.min.js"></script>
+    <script src="js/language.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

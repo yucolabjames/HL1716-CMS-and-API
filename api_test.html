@@ -26,7 +26,7 @@
    
 </head>
 
-<body id="profile">
+<body id="exhibition">
    
     <div class="animsition">
         <header>
@@ -64,7 +64,7 @@
                     <div class="collapse navbar-collapse" id="login-menu">
                       <ul class="nav-menu">
 						<!-- 2 -->
-                        <li class="active">
+                        <li class="">
                             <a href="about.html" >生物資源與農業</a>
                         </li>
 						<!-- 3 -->
@@ -72,7 +72,7 @@
                             <a href="hall.html" >展覽館</a>
                         </li>
 						<!-- 4 -->
-                        <li class="">
+                        <li class="active">
                             <a href="faq.html" >問問專家</a>
                         </li>
 						<!-- 5 -->
@@ -80,7 +80,7 @@
                             <a href="news.html" >最新消息</a>
                         </li>
 						<!-- 6 -->
-                        <li class="active">
+                        <li class="">
                             <a href="memberLogin.html" >會員專區</a>
                         </li>
 						<!-- 7 -->
@@ -104,100 +104,104 @@
        </div>
     </header>
     
-
-  <div class="section-profile">
-    <div class="session-myprofile">
-        <div class="pos-grid">
-        <div class="container">
-          <div class="title">Hello, Sam Chan</div>
-          <div class="info">
-            Score:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span> 最後更新日期: 3/11/2017 15:00
-             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br class="hidden-xs">Aenean commodo ligula eget dolor.</p>
-          </div>
-          <ul class="btn-wrapper">
-            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>我的足跡</a></li>
-            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>我的帳戶</a></li>
-          </ul>
-         </div>
-        </div>   
-         <img src="images/profile/profileBgT.jpg" class="img-full hidden-xs">
-          <img src="images/profile/profileBgTm.jpg" class="img-full visible-xs">
-    </div>
-    <div class="section-profileCon" id="vue_app">
+  <section class="sessionFaq text-center">
       <div class="container">
-        <div class="top-nav text-center">
-          <ul class="widget-submenu hidden-xs clearfix">
-              <li><a href="profile.html">消失的物種</a></li>
-              <li><span>|</span></li>
-              <li class="active"><a href="profile_game2.html">動物拯救隊</a></li>
-              <li><span>|</span></li>
-              <li><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
-              <li><span>|</span></li>
-              <li><a href="profile_game4.html">錦囊集</a></li>
-              <li><span>|</span></li>
-              <li><a href="profile_game5.html">低碳百貨</a></li>     
-          </ul>
+        <h1 class="sessionTitle"><span class="icon"><img src="images/common/icon-faq.svg"></span>問問專家</h1>
+ 
+        <ul class="widget-tab clearfix" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">All</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">超載的地球</a></li>
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">2050面臨</a></li>
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"> 我們的生活模式</a></li>
+        </ul>
+        <div class="pos-search"><input class="widget-search" placeholder="使用關鍵字"><button type="button" class="searchBtn"><i class="fa fa-search"></i></button></div>
+      </div>
 
-          <div class="visible-xs">
-            <div class="widget-dd dropdown">
-              <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                動物拯救隊<i class="icon fa fa-angle-down" aria-hidden="true"></i>
-              </button>
-              <ul class="dropdown-menu widget-option" aria-labelledby="dLabel">
-                <li data-value="Virtual habitat"><a href="profile.html">消失的物種</a></li>
-              
-                <li class="active" data-value="Pokemon go game"><a href="profile_game2.html" >動物拯救隊</a></li>
-                
-                <li data-value="有機耕種技術農夫"><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
-               
-                <li data-value="錦囊集"><a href="profile_game4.html">錦囊集</a></li>
-                
-                <li data-value="購物車"><a href="profile_game5.html">低碳百貨</a></li> 
-              </ul>
-            </div>
+  </section>
+  <section class="faqList">
+    <div class="container">
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          <div class="hidden-xs col-sm-4 character">
+            <img src="images/faq/character.png" class="img-full">
           </div>
-        </div>
-        <div class="game-profile section1">
-          <div class="scorePanel clearfix">
-            <div class="col-xs-12 col-sm-4 score">
-              <div class="bar">
-                  <div class="widget-counter">
-                    已拯救<span class="font-large">4/9</span>
-                  </div> 
-                  <canvas id="donut" style="width:100%;" height="250"></canvas>
+          <div class="col-xs-12 col-sm-8 faqRow">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="faqGrid">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span class="icon"><img src="images/faq/icon-q.png" class="img-fluid"></span>這要幹嘛的？
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="pbody">
+                    <span class="icon"><img src="images/faq/icon-a.png" class="img-fluid"></span>
+                    <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                  </div>
                 </div>
               </div>
-            <div class="col-xs-12 col-sm-8 paragraph">
-               <h1><span class="icon"><img src="images/profile/game-icon3.svg"></span>動物拯救隊</h1>
-              友正司經送響太資表用處，市官公對好動和坐統問清表害不交一會、之世待想養為是每去一所職公！根庭作色日如方大想步在流重下物合演好所家個輪的研的又改資和動讀院先生。
-              
-            </div>
-          </div>
-          <div class="game-session">
-            <div class="row">
-                <div class="col-xs-6 col-sm-3 grid-item" v-for="item in Habitats">
-                    <a data-fancybox="gallery" href="images/profile/info_boar.png">
-                    <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game2_test.png" class="img-fluid"></div>
-                    <div class="text-wrapper"><div class="btn theme7">{{item.chinese_name}}</div></div>
+              <div class="faqGrid">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                      <span class="icon"><img src="images/faq/icon-q.png" class="img-fluid"></span>這要幹嘛的？
                     </a>
+                  </h4>
                 </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="pbody">
+                    <span class="icon"><img src="images/faq/icon-a.png" class="img-fluid"></span>
+                    <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                  </div>
+                </div>
+              </div>
 
-                <!-- <div class="col-xs-6 col-sm-3 grid-item">
-                    <a data-fancybox="gallery" href="images/profile/info_boar.png">
-                    <div class="img-wrapper"> <div class="unlock">已拯救</div><img src="images/profile/game2_test.png" class="img-fluid"></div>
-                    <div class="text-wrapper"><div class="btn theme7">北極熊</div></div>
+               <div class="faqGrid">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                      <span class="icon"><img src="images/faq/icon-q.png" class="img-fluid"></span>這要幹嘛的？
                     </a>
-                </div> -->
-                
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="pbody">
+                    <span class="icon"><img src="images/faq/icon-a.png" class="img-fluid"></span>
+                    <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                  </div>
+                </div>
+              </div>
+              <div class="faqGrid">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                      <span class="icon"><img src="images/faq/icon-q.png" class="img-fluid"></span>這要幹嘛的？
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="pbody">
+                    <span class="icon"><img src="images/faq/icon-a.png" class="img-fluid"></span>
+                    <span class="msg">之今息運，的鄉社自時死不理現老它笑也：記元有響間謝本約的視的相在城特。導果生人友老汽，東消思像能受神？</span>
+                  </div>
+                </div>
+              </div>
 
-                
+
+
+
             </div>
           </div>
         </div>
+        <div role="tabpanel" class="tab-pane" id="profile">...</div>
+        <div role="tabpanel" class="tab-pane" id="messages">...</div>
+        <div role="tabpanel" class="tab-pane" id="settings">...</div>
       </div>
     </div>
-  </div>
 
+  </section>
 
 
 
@@ -257,11 +261,8 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
-    <script src="js/lib/vue.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/language.js"></script>
-    <script src="js/jsProfile2.js"></script>
 </body>
 </html>
-
+ 
 
