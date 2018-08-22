@@ -92,21 +92,21 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
     // window.api_host = 'http://192.168.0.146/yucolab.cq.com'
     // window.uploaded = 'http://192.168.0.146/yucolab.cq.com/public/'
 
-    window.api_host = 'http://47.75.35.19/'
+    window.api_host = 'http://cqyuanyu:Cq12345@47.75.35.19'
     window.uploaded = 'http://47.75.35.19/public/'
 
     window.api_origin = 'https://www.hl1716.yucolab.com/buhk_sgallery/api'
     var data = {
-        "platform": "ios",
+        "platform": "pc",
         "device_id": "ABCD1234EFGH5678",
         "version": "1.0.0"
       }
     // $.post(window.api_origin + '/init', JSON.stringify(data), res => {
     //     console.log(res)
     //   }, 'json')
+
     var config;
 
-    
     function getToken(){
         return new Promise((resolve, reject) => {
             if(sessionStorage.getItem('user_token') == null){
@@ -132,6 +132,119 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
     }
 
     var api = {
+        // 低碳百货，全新造型
+        fittingmirror: {
+            user_score(header){
+                return new Promise((resolve, reject) => {
+                    $.ajax({
+                        url: window.api_origin + '/fittingmirror/user_score',
+                        method: 'GET',
+                        headers: {
+                            'Accept-Language': header.lang || 'zh',
+                            'Content-Type': "application/json",
+                            'Authorization': header.auth
+                        },
+                        dataType:'json',
+                        success(res){
+                           resolve(res)
+                        },
+                        error(xhr,error){
+                            reject(xhr,error)
+                        }
+                    })
+                })
+            }
+        },
+
+        // 低碳百货，新鲜食品与日常用品
+        shopping_game: {
+            user_bought_list(header){
+                return new Promise((resolve, reject) => {
+                    $.ajax({
+                        url: window.api_origin + '/shoppinggame/user_bought_list',
+                        method: 'GET',
+                        headers: {
+                            'Accept-Language': header.lang || 'zh',
+                            'Content-Type': "application/json",
+                            'Authorization': header.auth
+                        },
+                        dataType:'json',
+                        success(res){
+                           resolve(res)
+                        },
+                        error(xhr,error){
+                            reject(xhr,error)
+                        }
+                    })
+                })
+            }
+        },
+        virtual: {
+            user_animals(header){
+                return new Promise((resolve, reject) => {
+                    $.ajax({
+                        url: window.api_origin + '/habitat/user_animals',
+                        method: 'GET',
+                        headers: {
+                            'Accept-Language': header.lang || 'zh',
+                            'Content-Type': "application/json",
+                            'Authorization': header.auth
+                        },
+                        dataType:'json',
+                        success(res){
+                           resolve(res)
+                        },
+                        error(xhr,error){
+                            reject(xhr,error)
+                        }
+                    })
+                })
+            }
+        },
+        collecting: {
+            user_animals(header){
+                return new Promise((resolve, reject) => {
+                    $.ajax({
+                        url: window.api_origin + '/rescue/user_animals',
+                        method: 'GET',
+                        headers: {
+                            'Accept-Language': header.lang || 'zh',
+                            'Content-Type': "application/json",
+                            'Authorization': header.auth
+                        },
+                        dataType:'json',
+                        success(res){
+                           resolve(res)
+                        },
+                        error(xhr,error){
+                            reject(xhr,error)
+                        }
+                    })
+                })
+            }
+        },
+        me: {
+            me(header, body){
+                return new Promise( (resolve, reject) => {
+                    $.ajax({
+                        url: window.api_origin + '/me',
+                        method: 'GET',
+                        headers: {
+                            'Accept-Language': header.lang || 'zh',
+                            'Content-Type': "application/json",
+                            'Authorization': header.auth
+                        },
+                        dataType:'json',
+                        success(res){
+                           resolve(res)
+                        },
+                        error(error){
+                            reject(error)
+                        }
+                    })
+                })
+            }
+        },
         auth: {
             login(header, body){
                 return new Promise( (resolve, reject) => {
@@ -174,7 +287,8 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
                         }
                     })
                 })
-            }
+            },
+            
         }
     }
     
