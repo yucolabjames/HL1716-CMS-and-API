@@ -20,9 +20,9 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
 function api_arr($code,$msg="",$arr=array()){
     header("Content-type: text/html; charset=utf-8");
     header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
-    header("Access-Control-Allow-origin : *");
-    header("Access-Control-Allow-Headers : X-Requested-With");
-    header("Access-Control-Allow-Methods : POST,GET");
+    header("Access-Control-Allow-origin: *");
+    header("Access-Control-Allow-Headers: X-Requested-With");
+    header("Access-Control-Allow-Methods: POST,GET");
     $result=array();
     $result['error_code']=$code;
     $result['msg']=$msg;
