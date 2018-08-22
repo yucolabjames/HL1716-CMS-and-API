@@ -80,6 +80,12 @@ $(function() {
                     
                 })
 
+                $(".widget-submenu  a").each((index, item) => {
+                    var href = $(item).prop('href')
+                    href = href + `?lan=${language}`
+                    $(item).prop('href', href)
+                })
+
             },
             // 获取消失的物种
             getVirtualHabitat(){

@@ -50,7 +50,8 @@ $(function() {
           Habitats: [],
           Habitats_types: [],
           foods: [],
-          products: []
+          products: [],
+          fittingmirror:{}
       },
       mounted(){
         this.init();
@@ -80,49 +81,57 @@ $(function() {
                     })
                 })
 
+                $(".widget-submenu  a").each((index, item) => {
+                    var href = $(item).prop('href')
+                    href = href + `?lan=${language}`
+                    $(item).prop('href', href)
+                })
+
           },
           getFittingmirror(){
             api.fittingmirror.user_score({lang: this.language, auth: this.config.token}).then( res => {
-                console.log(res)
+                this.fittingmirror = res;
             })
           },
           // 获取新鲜食品与日常用品
           getVirtualHabitat(){
             api.shopping_game.user_bought_list({lang: this.language, auth: this.config.token}).then( res => {
-                console.log(res)
                 // filters
                 this.foods = res.filter(item => item.category == 'food')
-                console.log('foods', this.foods)
                 
                 this.products = res.filter(item => item.category == 'product')
-                console.log('products', this.products)
+
 
                 this.Habitats = res;
-                this.$nextTick(() => {
-                  $(".section-profileCon").backstretch({
-                    alignY: 0,
-                    url: 'images/profile/profileBg_star.jpg',
-                  });
-                })
+                setTimeout(() => {
+                    $(".section-profileCon").backstretch({
+                        alignY: 0,
+                        url: 'images/profile/profileBg_star.jpg',
+                    });
+                    $('.slider-shop').slick({
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                        dots:false,
+                        responsive: [
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                    slidesToShow: 4,
+                                    slidesToScroll: 1,
+                                }
+                            },
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 1
+                                }
+                            }
+                        ]
+                  
+                    });
+                }, 100)
 
-                this.Habitats_types = _.uniq(res.map( item => item.habitat_chinese_name ))
-                this.Habitats_types = this.Habitats_types.map( (item, index) => {
-                    return {
-                        label: item,
-                        tag : 'tag'+(++index)
-                    }
-                })
-                
-                this.Habitats_types.forEach( item => {
-                    this.Habitats.forEach(val => {
-                        if(item.label == val.habitat_chinese_name){
-                            val.tag = item.tag
-                        }
-                    })
-                })
-                
-                
-                
             }).catch( (xhr, err) => {
                 if(xhr.status == 401){
                     location.href = 'memberLogin.html?lang='+language

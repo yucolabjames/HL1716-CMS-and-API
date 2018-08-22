@@ -114,7 +114,7 @@
         <div class="container">
           <div class="title">{{lang.member_landing.hello}}, {{user.username}}</div>
           <div class="info">
-            {{lang.member_landing.score}}:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span>{{lang.member_landing.last_update}}: 3/11/2017 15:00
+            {{lang.member_landing.score}}:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span>{{lang.member_landing.last_update}}: {{user.created_at}}
              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br class="hidden-xs">Aenean commodo ligula eget dolor.</p>
           </div>
           <ul class="btn-wrapper">
@@ -165,7 +165,7 @@
             <div class="col-xs-12 col-sm-4 score">
               <div class="bar">
                   <div class="widget-counter">
-                    <span class="font-large">4/27</span>
+                    <span class="font-large">{{Habitats.length}}/27</span>
                     {{lang.member_landing.tab1.chart_text}}
                   </div> 
                   <canvas id="donut" style="width:100%;" height="250"></canvas>

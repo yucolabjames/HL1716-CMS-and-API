@@ -76,14 +76,28 @@ $(function() {
                   
               })
 
+            $(".widget-submenu  a").each((index, item) => {
+                var href = $(item).prop('href')
+                href = href + `?lan=${language}`
+                $(item).prop('href', href)
+            })
+
           },
           // 获取消失的物种
           getVirtualHabitat(){
-            this.$nextTick(() => {
-              this.renderCharts();
-            })
+ 
               api.collecting.user_animals({lang: language, auth: this.config.token}).then( res => {
-                  console.log(res)
+                    setTimeout(() => {
+                        $(".section-profileCon").backstretch({
+                            alignY: 0,
+                            url: 'images/profile/profileBg_star.jpg',
+                            //alignX: 0,
+                            //url:"images/profile/profileBg.jpg".
+                        });
+                
+                        this.renderCharts();
+                        $(".widget-option li.active a").parents(".dropdown").find('dLabel').val($(this).data('value'));
+                    }, 100)
                   this.Habitats = res;
                   this.Habitats_types = _.uniq(res.map( item => item.habitat_chinese_name ))
                   this.Habitats_types = this.Habitats_types.map( (item, index) => {
@@ -101,7 +115,7 @@ $(function() {
                       })
                   })
                   
-                  loadResize()
+                  
                   
               }).catch( (xhr, err) => {
                   if(xhr.status == 401){
@@ -123,7 +137,7 @@ $(function() {
                   label: "ocean"
                 },
                 {
-                  value: 50,
+                  value: 100,
                   color: "#90bece",
                   highlight: "#90bece",
                   label: "Wetland"

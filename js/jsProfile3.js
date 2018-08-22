@@ -64,7 +64,11 @@ $(function() {
               var valid = false;
               var config;
 
-              
+              $(".widget-submenu  a").each((index, item) => {
+                var href = $(item).prop('href')
+                href = href + `?lan=${language}`
+                $(item).prop('href', href)
+            })
 
           },
           
