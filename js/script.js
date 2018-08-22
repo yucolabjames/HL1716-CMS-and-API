@@ -93,7 +93,7 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
     // window.uploaded = 'http://192.168.0.146/yucolab.cq.com/public/'
 
     window.api_host = 'http://cqyuanyu:Cq12345@47.75.35.19'
-    window.uploaded = 'http://cqyuanyu:Cq12345@47.75.35.19/public/'
+    window.uploaded = 'http://47.75.35.19/public/'
 
     window.api_origin = 'https://www.hl1716.yucolab.com/buhk_sgallery/api'
     var data = {
@@ -132,6 +132,31 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
     }
 
     var api = {
+        // 低碳百货，全新造型
+        fittingmirror: {
+            user_score(header){
+                return new Promise((resolve, reject) => {
+                    $.ajax({
+                        url: window.api_origin + '/fittingmirror/user_score',
+                        method: 'GET',
+                        headers: {
+                            'Accept-Language': header.lang || 'zh',
+                            'Content-Type': "application/json",
+                            'Authorization': header.auth
+                        },
+                        dataType:'json',
+                        success(res){
+                           resolve(res)
+                        },
+                        error(xhr,error){
+                            reject(xhr,error)
+                        }
+                    })
+                })
+            }
+        },
+
+        // 低碳百货，新鲜食品与日常用品
         shopping_game: {
             user_bought_list(header){
                 return new Promise((resolve, reject) => {

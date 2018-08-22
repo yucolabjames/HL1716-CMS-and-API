@@ -48,7 +48,9 @@ $(function() {
           language,
           user: {},
           Habitats: [],
-          Habitats_types: []
+          Habitats_types: [],
+          foods: [],
+          products: []
       },
       mounted(){
         this.init();
@@ -72,16 +74,29 @@ $(function() {
                     valid = true; config = res; 
                     this.config = config;
                     this.getVirtualHabitat();
+                    this.getFittingmirror();
                     api.me.me({lang: language, auth: config.token}).then( res => {
                         console.log( res )
                     })
                 })
 
           },
-          // 获取消失的物种
+          getFittingmirror(){
+            api.fittingmirror.user_score({lang: this.language, auth: this.config.token}).then( res => {
+                console.log(res)
+            })
+          },
+          // 获取新鲜食品与日常用品
           getVirtualHabitat(){
             api.shopping_game.user_bought_list({lang: this.language, auth: this.config.token}).then( res => {
                 console.log(res)
+                // filters
+                this.foods = res.filter(item => item.category == 'food')
+                console.log('foods', this.foods)
+                
+                this.products = res.filter(item => item.category == 'product')
+                console.log('products', this.products)
+
                 this.Habitats = res;
                 this.$nextTick(() => {
                   $(".section-profileCon").backstretch({
@@ -89,6 +104,7 @@ $(function() {
                     url: 'images/profile/profileBg_star.jpg',
                   });
                 })
+
                 this.Habitats_types = _.uniq(res.map( item => item.habitat_chinese_name ))
                 this.Habitats_types = this.Habitats_types.map( (item, index) => {
                     return {
