@@ -118,7 +118,7 @@ $(function(){
         },
 
         footer_copyright: {
-          copyright: 'BU©版權所有2018 。',
+          copyright: '©2018 生物資源及農業研究所可持續資源館。版權所有，不得轉載。',
           about_me: '關注我們',
           links:[
             {
@@ -223,7 +223,7 @@ $(function(){
         },
 
         footer: {
-          copyright: '版权y',
+          copyright: '©2018 Institute of Bioresource and Agriculture Sustainability Gallery. All rights reserved.',
           mianze: '免责声明y',
           private: '私隐政策声明y',
           guide: '网页指南y',
@@ -463,7 +463,7 @@ $(function(){
           my_account: '我的账户'
         },
         footer_copyright: {
-          copyright: 'BU©版权所有2018 。',
+          copyright: '©2018 生物资源及农业研究所可持续资源馆。版权所有，不得转载。',
           about_me: '关注我们',
           links: [
             {
