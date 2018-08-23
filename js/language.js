@@ -13,7 +13,7 @@ $(function(){
 
   ;(() => {
     $.post(api_host+'/api/Language/index', res => {
-  
+      
       if(res.error_code == 0){
         var languageHTML = ``
         var lang = ''
@@ -163,7 +163,33 @@ $(function(){
           reset_placeholder: '登入電郵'
         },
         member_landing: {
-          title: '歡迎登入您的太空任務檔案。'
+          title: '歡迎登入您的太空任務檔案。',
+          task_count: '任務次數',
+          collection: '累積收集',
+          last_update_date: '最後更新日期',
+          coll1: '消失的物種',
+          coll2: '動物拯救隊',
+          coll3: '有機耕種技術農夫影片集',
+          coll4: '錦囊集',
+          coll5: '低碳百貨',
+          tab1: {
+            chart_text: '種生物已解鎖'
+          },
+          tab5: {
+            title: '低碳百貨',
+            desc: `走進高端的購物中心，接受充滿挑戰的可持續消費訓練，認識現代消費模式，
+            透過VR體驗重新審視日常生活習慣，了解背後的生態代價，學會做個精明環保的消費者。`,
+            subtitle: '最近一次購物結算成績',
+            sub_desc: '最不持續發展的地球消費',
+            food: '新鮮食品',
+            product: '日常用品',
+            model: '全新造型'
+          },
+          hello: '您好',
+          score: '分数',
+          last_update: '最後更新日期',
+          my_footprint: '我的足跡',
+          my_account: '我的帳戶'
         },
       },
 
@@ -257,7 +283,33 @@ $(function(){
           reset_placeholder: 'email'
         },
         member_landing: {
-          title: '歡迎登入您的太空任務檔案。ENG'
+          title: '歡迎登入您的太空任務檔案。ENG',
+          task_count: '任務次數ENG',
+          collection: '累積收集ENG',
+          last_update_date: '最後更新日期ENG',
+          coll1: '消失的物種ENG',
+          coll2: '動物拯救隊ENG',
+          coll3: '有機耕種技術農夫影片集ENG',
+          coll4: '錦囊集ENG',
+          coll5: '低碳百貨ENG',
+          tab1: {
+            chart_text: 'bio unlocked'
+          },
+          tab5: {
+            title: '低碳百貨ENG',
+            desc: `走進高端的購物中心，接受充滿挑戰的可持續消費訓練，認識現代消費模式，
+            透過VR體驗重新審視日常生活習慣，了解背後的生態代價，學會做個精明環保的消費者。ENG`,
+            subtitle: '最近一次購物結算成績ENG',
+            sub_desc: '最不持續發展的地球消費ENG',
+            food: '新鮮食品ENG',
+            product: '日常用品ENG',
+            model: '全新造型EG'
+          },
+          hello: 'hello',
+          score: 'score',
+          last_update: 'last update',
+          my_footprint: '我的足跡ENG',
+          my_account: '我的帳戶ENG'
         },
 
         footer_copyright: {
@@ -383,7 +435,32 @@ $(function(){
           reset_placeholder: '登入电邮'
         },
         member_landing: {
-          title: '欢迎登录您的太空任务档案'
+          title: '欢迎登入你的太空任务档案',
+          task_count: '任务次数',
+          collection: '累积收集',
+          last_update_date: '最后更新日期',
+          coll1: '消失的物种',
+          coll2: '动物拯救队',
+          coll3: '有机耕种农夫影片集',
+          coll4: '锦囊集',
+          coll5: '低碳百货',
+          tab1: {
+            chart_text: '种生物已解锁'
+          },
+          tab5: {
+            title: '低碳百货',
+            desc: `走进高端的购物中心，接受充满挑战的可持续消费训练，认识现代消费模式，通过VR体验重新审视日常生活习惯，了解背后的生态习惯，学会做个精明环保的消费者`,
+            subtitle: '最后一次购物结算成绩',
+            sub_desc: '最不持续发展的地球消费',
+            food: '新鮮食品',
+            product: '日常用品',
+            model: '全新造型'
+          },
+          hello: '您好',
+          score: '分数',
+          last_update: '最后更新日期',
+          my_footprint: '我的足迹',
+          my_account: '我的账户'
         },
         footer_copyright: {
           copyright: 'BU©版权所有2018 。',

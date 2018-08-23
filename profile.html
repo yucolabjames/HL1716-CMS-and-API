@@ -21,9 +21,15 @@
     <!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/static.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
-   
+    <style>
+      .section-profile .game-profile .scorePanel .type-list li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
 </head>
 
 <body id="profile">
@@ -36,13 +42,11 @@
                    <ul class="list-inline mainMenu clearfix">
                         <li class="lang-opt hidden-xs"><div class="dropdown">
                           <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                            <span class="current_lang"></span>
+                            <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
                           </div> 
 
-                          <ul class="dropdown-menu" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>簡</li>
-                          </ul>
+                          <ul class="dropdown-menu select-language" aria-labelledby="dLabel"></ul>
                         </div>
                         </li>
                         <li class="logo-core text-center"> <a href="index.html" class="logo"><img src="images/common/logo.svg" class="img-fluid"></a></li>
@@ -104,18 +108,18 @@
        </div>
     </header>
     
-  <div class="section-profile">
+  <div class="section-profile" id="vue_app">
     <div class="session-myprofile">
         <div class="pos-grid">
         <div class="container">
-          <div class="title">Hello, Sam Chan</div>
+          <div class="title">{{lang.member_landing.hello}}, {{user.username}}</div>
           <div class="info">
-            Score:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span>最後更新日期: 3/11/2017 15:00
+            {{lang.member_landing.score}}:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span>{{lang.member_landing.last_update}}: {{user.created_at}}
              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br class="hidden-xs">Aenean commodo ligula eget dolor.</p>
           </div>
           <ul class="btn-wrapper">
-            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>我的足跡</a></li>
-            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>我的帳戶</a></li>
+            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>{{lang.member_landing.my_footprint}}</a></li>
+            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>{{lang.member_landing.my_account}}</a></li>
           </ul>
          </div>
         </div>   
@@ -126,15 +130,15 @@
       <div class="container">
         <div class="top-nav text-center">
           <ul class="widget-submenu hidden-xs clearfix">
-              <li class="active"><a href="profile.html">消失的物種</a></li>
+              <li class="active"><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game2.html">動物拯救隊</a></li>
+              <li><a href="profile_game2.html">{{lang.member_landing.coll2}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+              <li><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game4.html">錦囊集</a></li>
+              <li><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game5.html">低碳百貨</a></li>     
+              <li><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li>     
           </ul>
 
           <div class="visible-xs">
@@ -143,15 +147,15 @@
                 Virtual habitat<i class="icon fa fa-angle-down" aria-hidden="true"></i>
               </button>
               <ul class="dropdown-menu widget-option" aria-labelledby="dLabel">
-                <li class="active" data-value="Virtual habitat"><a href="profile.html">消失的物種</a></li>
+                <li class="active" data-value="Virtual habitat"><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               
-                <li data-value="Pokemon go game"><a href="profile_game2.html" >動物拯救隊</a></li>
+                <li data-value="Pokemon go game"><a href="profile_game2.html" >{{lang.member_landing.coll2}}</a></li>
                 
-                <li data-value="有機耕種技術農夫"><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+                <li data-value="有機耕種技術農夫"><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
                
-                <li data-value="錦囊集"><a href="profile_game4.html">錦囊集</a></li>
+                <li data-value="錦囊集"><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
                 
-                <li data-value="購物車"><a href="profile_game5.html">低碳百貨</a></li> 
+                <li data-value="購物車"><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li> 
               </ul>
             </div>
           </div>
@@ -161,25 +165,41 @@
             <div class="col-xs-12 col-sm-4 score">
               <div class="bar">
                   <div class="widget-counter">
-                    <span class="font-large">4/27</span>種生物已解鎖
+                    <span class="font-large">{{Habitats.length}}/27</span>
+                    {{lang.member_landing.tab1.chart_text}}
                   </div> 
                   <canvas id="donut" style="width:100%;" height="250"></canvas>
                 </div>
               </div>
             <div class="col-xs-12 col-sm-8 paragraph">
-              <h1><span class="icon"><img src="images/profile/game-icon1.svg"></span>消失的物種</h1>
+              <h1><span class="icon"><img src="images/profile/game-icon1.svg"></span>{{lang.member_landing.coll1}}</h1>
               友正司經送響太資表用處，市官公對好動和坐統問清表害不交一會、之世待想養為是每去一所職公！根庭作色日如方大想步在流重下物合演好所家個輪的研的又改資和動讀院先生。
               <div class="showlist">
                 <ul class="type-list">
-                  <li><div class="cssLabel tag1">濕地</div></li>
-                  <li><div class="cssLabel tag2">海洋</div></li>
-                  <li><div class="cssLabel tag3">灌木叢和林地</div></li>
+                  <li v-for="(type, index) in Habitats_types">
+                    <div :class="['cssLabel', type.tag]" >{{type.label}}</div>
+                  </li>
+                  <!-- <li><div class="cssLabel tag2">紅樹林</div></li>
+                  <li><div class="cssLabel tag3">森林</div></li> -->
                 </ul>
               </div>
             </div>
           </div>
           <div class="game-session">
             <div class="row">
+                <!-- <div class="col-xs-6 col-sm-3 grid-item" v-for="(item, index) in Habitats">
+                    <a data-fancybox="gallery" href="images/profile/IG_1b.png">
+                      <div class="img-wrapper"> 
+                        <div class="unlock block">已拯救</div>
+                        <img src="images/profile/game-icon01.png" class="img-fluid">
+                      </div>
+                      <div class="text-wrapper">
+                        <div :class="['btn', 'theme7', item.tag]" v-if="language == 'CN'">{{item.chinese_name}}</div>
+                        <div :class="['btn', 'theme7', item.tag]" v-if="language == 'ZH'">{{item.chinese_name}}</div>
+                        <div :class="['btn', 'theme7', item.tag]" v-if="language == 'EN'">{{item.english_name}}</div>
+                      </div>
+                      </a>
+                  </div> -->
             <!-- circle bg ##5C9BB4 -->
               <div class="col-xs-6 col-sm-3 grid-item">
                 <a data-fancybox="gallery" href="images/profile/habitat/zh_IG_M1.png">
@@ -366,43 +386,43 @@
 
 
 
-     <footer>
-        <div class="container">
-            <div class="clearfix">
-                 <div class="visible-xs widget-social">
-                    關注我們<br>
-                    <ul>
-                        <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                        <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 widget-link">
-                    <ul>
-                        <li><a href="">版權</a></li> 
-                        <li><a href="">免責聲明</a></li> 
-                        <li><a href="">私隱政策聲明</a></li> 
-                        <li><a href="">網頁指南</a></li>
-                    </ul>
-                </div>
-                 <div class="hidden-xs col-sm-4 widget-social">
-                    關注我們<br>
-                    <ul>
-                        <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                        <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 widget-contact">
-                   <ul>
-                        <li>地址: 九龍塘浸會大學道</li>
-                        <li>開放時間 : 星期一至日上午10時至下午7時</li>
-                        <li>聯絡電話 : 852-35008335</li>
-                        <li>電郵地址 : info@bu.com</li>
-                    </ul>
-                </div>
-            </div>
+    <footer>
+      <div class="container">
+          <div class="clearfix">
+              <div class="visible-xs widget-social">
+                  <span class="lang_about_me"></span><br>
+                  <ul>
+                      <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
+                      <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 widget-link lang_about_link">
+                  <ul>
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li>
+                  </ul>
+              </div>
+              <div class="hidden-xs col-sm-4 widget-social">
+                  <span class="lang_about_me"></span><br>
+                  <ul>
+                      <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
+                      <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 widget-contact">
+                <ul>
+                      <li><span class="lang_footer_addr_label"></span> : <span class="lang_footer_addr_value"></span></li>
+                      <li><span class="lang_footer_opentime_label"></span> : <span class="lang_footer_opentime_value"></span></li>
+                      <li><span class="lang_footer_phone_label"></span> : <span class="lang_footer_phone_value"></span></li>
+                      <li><span class="lang_footer_email_label"></span> : <span class="lang_footer_email_value"></span></li>
+                  </ul>
+              </div>
+          </div>
 
-            <div class="copyright text-center">BU©版權所有2018 。</div>
-        </div>
+          <div class="copyright text-center lang_footer_copyright"></div>
+      </div>
     </footer>
     </div>
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -422,58 +442,14 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.bootcss.com/lodash.js/4.17.10/lodash.js"></script>
+    <script src="js/lib/vue.min.js"></script>
+    <script src="js/language.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/jsProfile.js"></script>
 </body>
 </html>
- <script src="js/jsProfile.js"></script>
-<script>
-  var donutEl = document.getElementById("donut").getContext("2d");
-      var donut = new Chart(donutEl).Doughnut(
-        // Datas
-        [
-          {
-            value: 6,
-            color:"#0277c6",
-            highlight: "#0277c6",
-            label: "ocean"
-          },
-          {
-            value: 5,
-            color: "#00ba8e",
-            highlight: "#00ba8e",
-            label: "Wetland"
-          },
-          {
-            value: 4,
-            color: "#db8e31",
-            highlight: "#db8e31",
-            label: "Woodland"
-          },
-          {
-            value: 12,
-            color: "#FFFFFF",
-            highlight: "#FFFFFF",
-            label: "unlock"
-          }
-        ],
-        // Options
-        {
-          segmentShowStroke : false,
-          percentageInnerCutout : 90,
-          animationSteps : 27,
-          animationEasing : "easeOutBounce",
-          animateRotate : true,
-          animateScale : false,
-          responsive: true,
-          maintainAspectRatio: true,
-          showScale: true,
-          animateScale: true
-        });
 
-     // $(".dropdown li").find('.dLabel').val($(this).data('value'));
-     
-         
-</script>
 
 
 

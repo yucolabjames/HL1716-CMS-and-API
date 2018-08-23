@@ -20,6 +20,7 @@
     <!-- script src="//use.typekit.net/xjn7mvl.js"></script-->
     <!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
     <link href="css/animate.css" rel="stylesheet">
+    <link href="css/static.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
@@ -36,12 +37,11 @@
                    <ul class="list-inline mainMenu clearfix">
                         <li class="lang-opt hidden-xs"><div class="dropdown">
                           <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                            <span class="current_lang"></span>
+                            <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
                           </div> 
 
-                          <ul class="dropdown-menu" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>簡</li>
+                          <ul class="dropdown-menu select-language" aria-labelledby="dLabel">
                           </ul>
                         </div>
                         </li>
@@ -63,35 +63,41 @@
                  <nav class="navbar-menu">
                     <div class="collapse navbar-collapse" id="login-menu">
                       <ul class="nav-menu">
-						<!-- 2 -->
-                        <li class="active">
-                            <a href="about.html" >生物資源與農業</a>
-                        </li>
-						<!-- 3 -->
                         <li class="">
-                            <a href="hall.html" >展覽館</a>
-                        </li>
-						<!-- 4 -->
-                        <li class="">
-                            <a href="faq.html" >問問專家</a>
-                        </li>
-						<!-- 5 -->
-                        <li class="">
-                            <a href="news.html" >最新消息</a>
-                        </li>
-						<!-- 6 -->
-                        <li class="active">
-                            <a href="memberLogin.html" >會員專區</a>
-                        </li>
-						<!-- 7 -->
-                        <li class="">
-                            <a href="contact.html" >聯絡我們</a>
-                        </li>
-                        <li class="booking"><a class="btn theme6" href="booking.html" ><span class="icon"><img src="images/common/icon-calendar2.svg" class="svg img-fluid"></span> 預約</a></li>
-                         <ul class="lang-btn clearfix" aria-labelledby="dLabel">
-                            <li><img src="images/common/icon-lang.svg"></li>
+                            <a href="about.html" class="nav1"></a>
+                          </li>
+                          <!-- 3 -->
+                          <li class="">
+                            <a href="hall.html" class="nav2"></a>
+                          </li>
+                          <!-- 4 -->
+                          <li class="">
+                            <a href="faq.html" class="nav3"></a>
+                          </li>
+                          <!-- 5 -->
+                          <li class="">
+                            <a href="news.html" class="nav4"></a>
+                          </li>
+                          <!-- 6 -->
+                          <li class="active">
+                            <a href="memberLogin.html" class="nav5"></a>
+                          </li>
+                          <!-- 7 -->
+                          <li>
+                            <a href="contact.html" class="nav6"></a>
+                          </li>
+                          <li class="booking">
+                              <a class="btn theme6" href="booking.html">
+                                <span class="icon">
+                                  <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+                                </span>
+                                <span class="nav7"></span>
+                              </a>
+                            </li>
+                         <ul class="lang-btn clearfix select-language" aria-labelledby="dLabel">
+                            <!-- <li><img src="images/common/icon-lang.svg"></li>
                             <li>繁</li>
-                            <li>簡</li>
+                            <li>簡</li> -->
                           </ul>
                       </ul>
                     </div>
@@ -104,18 +110,18 @@
        </div>
     </header>
     
-  <div class="section-profile">
+  <div class="section-profile" id="vue_app">
     <div class="session-myprofile">
         <div class="pos-grid">
         <div class="container">
-          <div class="title">Hello, Sam Chan</div>
+          <div class="title">{{lang.member_landing.hello}}, {{user.username}}</div>
           <div class="info">
-            Score:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span> 最後更新日期: 3/11/2017 15:00
+              {{lang.member_landing.score}}:33333 | <span class="icon"><img src="images/common/icon-clock.svg"></span> {{lang.member_landing.last_update}}: {{user.created_at}}
              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>Aenean commodo ligula eget dolor.</p>
           </div>
           <ul class="btn-wrapper">
-            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>我的足跡</a></li>
-            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>我的帳戶</a></li>
+            <li><a href="memberLanding.html" class="btn theme1"><span class="icon"><img src="images/common/icon-foot.svg" class="img-fluid"></span>{{lang.member_landing.my_footprint}}</a></li>
+            <li><a href="" class="btn link"><span class="icon"><img src="images/common/icon-profile.svg" class="img-fluid"></span>{{lang.member_landing.my_account}}</a></li>
           </ul>
          </div>
         </div>   
@@ -126,32 +132,32 @@
       <div class="container">
         <div class="top-nav text-center">
            <ul class="widget-submenu hidden-xs clearfix">
-              <li><a href="profile.html">消失的物種</a></li>
+              <li><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game2.html">動物拯救隊</a></li>
+              <li><a href="profile_game2.html">{{lang.member_landing.coll2}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+              <li><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
               <li><span>|</span></li>
-              <li><a href="profile_game4.html">錦囊集</a></li>
+              <li><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
               <li><span>|</span></li>
-              <li class="active"><a href="profile_game5.html">低碳百貨</a></li>     
+              <li class="active"><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li>     
           </ul>
 
           <div class="visible-xs">
             <div class="widget-dd dropdown">
               <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                有機耕種技術農夫影片集<i class="icon fa fa-angle-down" aria-hidden="true"></i>
+                  {{lang.member_landing.coll5}}<i class="icon fa fa-angle-down" aria-hidden="true"></i>
               </button>
               <ul class="dropdown-menu widget-option" aria-labelledby="dLabel">
-                <li data-value="消失的物種"><a href="profile.html">消失的物種</a></li>
+                <li data-value="消失的物種"><a href="profile.html">{{lang.member_landing.coll1}}</a></li>
               
-                <li  data-value="動物拯救隊"><a href="profile_game2.html" >動物拯救隊</a></li>
+                <li  data-value="動物拯救隊"><a href="profile_game2.html" >{{lang.member_landing.coll2}}</a></li>
                 
-                <li data-value="有機耕種技術農夫影片集"><a href="profile_game3.html">有機耕種技術農夫影片集</a></li>
+                <li data-value="有機耕種技術農夫影片集"><a href="profile_game3.html">{{lang.member_landing.coll3}}</a></li>
                
-                <li data-value="錦囊集"><a href="profile_game4.html">錦囊集</a></li>
+                <li data-value="錦囊集"><a href="profile_game4.html">{{lang.member_landing.coll4}}</a></li>
                 
-                <li class="active" data-value="低碳百貨"><a href="profile_game5.html">低碳百貨</a></li> 
+                <li class="active" data-value="低碳百貨"><a href="profile_game5.html">{{lang.member_landing.coll5}}</a></li> 
               </ul>
             </div>
           </div>
@@ -159,79 +165,95 @@
         <div class="game-profile section5">
 
           <div class="game-descpt clearfix">
-             <h1><span class="icon"><img src="images/profile/game-icon5.svg"></span>低碳百貨</h1>
-            <p> 走進高端的購物中心，接受充滿挑戰的可持續消費訓練，認識現代消費模式，<br class="hidden-xs">透過VR體驗重新審視日常生活習慣，了解背後的生態代價，學會做個精明環保的消費者。</p>
+            <h1><span class="icon"><img src="images/profile/game-icon5.svg"></span>{{lang.member_landing.tab5.title}}</h1>
+            <p>{{lang.member_landing.tab5.desc}}</p>
           </div>
           <div class="game-session">
             <div class="text-center margin-b-20">
-              <h4>最近一次購物結算成績</h4>
-              <div class="result"><span class="icon"><img src="images/profile/game-score.svg"></span>最不持續發展的地球消費</div>
+              <h4>{{lang.member_landing.tab5.subtitle}}</h4>
+              <div class="result">
+                <span class="icon"><img src="images/profile/game-score.svg"></span>
+                {{lang.member_landing.tab5.sub_desc}}</div>
             </div>
            <div class="section-slide">
             <div class="pageTit text-center">
-              <h4 class="panelTitle2"><span class="icon"><img src="images/profile/icon.svg"></span>日常用品</h4>
+              <h4 class="panelTitle2"><span class="icon"><img src="images/profile/icon.svg"></span>{{lang.member_landing.tab5.food}}</h4>
             </div>
              <div class="slider slider-shop">
-               <?php
-                  for ($i=0;$i<8;$i++)
-                  {
-                ?>
-                <div class="item">
-                  <div class="wrapper">
-                    <img src="images/profile/fruite.png" class="img-fluid">
-                    <div class="text-wrapper">Sample</div>
-                  </div>
-    
+              <div class="item" v-for="(item, index) in foods">
+                <div class="wrapper">
+                  <img :src=`images/profile/shopping/item${item.id}.png` class="img-fluid">
+                  <div class="text-wrapper" v-if="language == 'ZH'">{{item.chinese_name}}</div>
+                  <div class="text-wrapper" v-if="language == 'EN'">{{item.english_name}}</div>
+                  <div class="text-wrapper" v-if="language == 'CN'">{{item.chinese_name}}</div>
                 </div>
-                <?php
-                }
-                ?>
+              </div>
+			
             </div>
            </div>
 
            <div class="section-slide">
             <div class="pageTit text-center">
-              <h4 class="panelTitle2"><span class="icon"><img src="images/profile/icon.svg"></span>日常用品</h4>
+              <h4 class="panelTitle2"><span class="icon"><img src="images/profile/icon.svg"></span>{{lang.member_landing.tab5.product}}</h4>
             </div>
             <div class="spaceM"><img src="images/profile/character.png" class="img-responsive"></div>
              <div class="slider slider-shop">
 
-               <?php
-                  for ($i=0;$i<8;$i++)
-                  {
-                ?>
-                <div class="item">
+
+				<!-- repeat start -->
+                <div class="item" v-for="(item, index) in products">
                   <div class="wrapper">
-                    <img src="images/profile/fruite.png" class="img-fluid">
-                    <div class="text-wrapper">Sample</div>
+                    <img :src=`images/profile/shopping/item${item.id}.png` class="img-fluid">
+                    <div class="text-wrapper" v-if="language == 'ZH'">{{item.chinese_name}}</div>
+                    <div class="text-wrapper" v-if="language == 'EN'">{{item.english_name}}</div>
+                    <div class="text-wrapper" v-if="language == 'CN'">{{item.chinese_name}}</div>
                   </div>
-    
                 </div>
-                <?php
-                }
-                ?>
+				<!-- repeat end -->
+				
+                </div>
+
             </div>
-           </div>
 
            <div class="section-slide">
             <div class="pageTit text-center">
-              <h4 class="panelTitle2"><span class="icon"><img src="images/profile/icon.svg"></span>日常用品</h4>
+              <h4 class="panelTitle2"><span class="icon"><img src="images/profile/icon.svg"></span>{{lang.member_landing.tab5.model}}</h4>
             </div>
              <div class="slider slider-shop">
-               <?php
-                  for ($i=0;$i<8;$i++)
-                  {
-                ?>
+			 
+				<!-- repeat start -->
                 <div class="item">
                   <div class="wrapper">
-                    <img src="images/profile/fruite.png" class="img-fluid">
+                    <img :src=`images/profile/shopping/item_C${fittingmirror.topwear_id}.png` aaa class="img-fluid">
                     <div class="text-wrapper">Sample</div>
                   </div>
-    
                 </div>
-                <?php
-                }
-                ?>
+				<!-- repeat end -->
+				<!-- repeat start -->
+                <div class="item">
+                  <div class="wrapper">
+                    <img :src=`images/profile/shopping/item_C${fittingmirror.bottomwear_id}.png` class="img-fluid">
+                    <div class="text-wrapper">Sample</div>
+                  </div>
+                </div>
+				<!-- repeat end -->
+				<!-- repeat start -->
+                <div class="item">
+                  <div class="wrapper">
+                    <img :src=`images/profile/shopping/item_C${fittingmirror.shoes_id}.png` class="img-fluid">
+                    <div class="text-wrapper">Sample</div>
+                  </div>
+                </div>
+				<!-- repeat end -->
+				<!-- repeat start -->
+                <div class="item">
+                  <div class="wrapper">
+                    <img :src=`images/profile/shopping/item_C${fittingmirror.bag_id}.png` class="img-fluid">
+                    <div class="text-wrapper">Sample</div>
+                  </div>
+                </div>
+				<!-- repeat end -->
+				
             </div>
            </div>
                
@@ -244,44 +266,44 @@
 
 
 
-     <footer>
-        <div class="container">
-            <div class="clearfix">
-                 <div class="visible-xs widget-social">
-                    關注我們<br>
-                    <ul>
-                        <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                        <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 widget-link">
-                    <ul>
-                        <li><a href="">版權</a></li> 
-                        <li><a href="">免責聲明</a></li> 
-                        <li><a href="">私隱政策聲明</a></li> 
-                        <li><a href="">網頁指南</a></li>
-                    </ul>
-                </div>
-                 <div class="hidden-xs col-sm-4 widget-social">
-                    關注我們<br>
-                    <ul>
-                        <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                        <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 widget-contact">
-                   <ul>
-                        <li>地址: 九龍塘浸會大學道</li>
-                        <li>開放時間 : 星期一至日上午10時至下午7時</li>
-                        <li>聯絡電話 : 852-35008335</li>
-                        <li>電郵地址 : info@bu.com</li>
-                    </ul>
-                </div>
-            </div>
+  <footer>
+      <div class="container">
+          <div class="clearfix">
+              <div class="visible-xs widget-social">
+                      <span class="lang_about_me"></span><br>
+                  <ul>
+                      <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
+                      <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 widget-link lang_about_link">
+                  <ul>
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li> 
+                      <li><a href=""></a></li>
+                  </ul>
+              </div>
+              <div class="hidden-xs col-sm-4 widget-social">
+                  <span class="lang_about_me"></span><br>
+                  <ul>
+                      <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
+                      <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
+                  </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 widget-contact">
+              <ul>
+                      <li><span class="lang_footer_addr_label"></span> : <span class="lang_footer_addr_value"></span></li>
+                      <li><span class="lang_footer_opentime_label"></span> : <span class="lang_footer_opentime_value"></span></li>
+                      <li><span class="lang_footer_phone_label"></span> : <span class="lang_footer_phone_value"></span></li>
+                      <li><span class="lang_footer_email_label"></span> : <span class="lang_footer_email_value"></span></li>
+                  </ul>
+              </div>
+          </div>
 
-            <div class="copyright text-center">BU©版權所有2018 。</div>
-        </div>
-    </footer>
+          <div class="copyright text-center lang_footer_copyright"></div>
+      </div>
+  </footer>
     </div>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
@@ -300,35 +322,12 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
+    <script src="js/lib/vue.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/jsProfile5.js"></script>
 </body>
 </html>
- <script src="js/jsProfile.js"></script>
 
-  <script>
-
-  $('.slider-shop').slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      dots:false,
-       responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    }
-    ]
-    
-  });
- </script>
 
 

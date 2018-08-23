@@ -105,7 +105,7 @@ class Eqaa extends Common
 
     #提交专家问答
     public function add(){
-        if(IS_POST){
+        if($this->request->isPost()){
             //验证不为空字段
             //验证姓名不为空
             if(empty($_POST['name'])){

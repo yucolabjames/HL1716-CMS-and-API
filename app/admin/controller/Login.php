@@ -10,8 +10,10 @@ class Login extends Common
 
         #判断参数是否存在
         if ($username && $password) {
+            $where['username'] = $username;
+            $where['enable'] = 1;
             #验证登录信息
-            $user=db('administrator')->where('username',$username)->find();
+            $user=db('administrator')->where($where)->find();
             if($user){
                 #验证密码是否正确
                 if($user['password'] == md5(md5($password))){

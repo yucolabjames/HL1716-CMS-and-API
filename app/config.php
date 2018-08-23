@@ -251,5 +251,14 @@ return [
         'from' =>  'send_mail_tt@163.com',
         'from_name' =>  'Bu Virtual Habitat',
 
+    ],
+    
+    //香港公众假期更新地址配置
+    'holiday' =>  [
+        'en' =>  'http://www.1823.gov.hk/common/ical/en.ics',
+        'sc'  =>  'http://www.1823.gov.hk/common/ical/sc.ics',
+        'tc'  =>  'http://www.1823.gov.hk/common/ical/tc.ics',
+        
+        
     ]
 ];
