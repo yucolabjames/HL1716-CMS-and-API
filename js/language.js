@@ -122,16 +122,16 @@ $(function(){
           about_me: '關注我們',
           links:[
             {
-              text: '版權',
+              text: '一般參觀守則',
             },
             {
-              text: '免責聲明',
+              text: '參觀申請須知',
             },
             {
-              text: '私隱政策聲明'
+              text: '收集個人資料及私隱政策聲明'
             },
             {
-              text: '網頁指南'
+              text: '免責聲明'
             }],
           addr: {
             label: '地址',
@@ -313,20 +313,20 @@ $(function(){
         },
 
         footer_copyright: {
-          copyright: 'BU© copyright 2018 。',
+          copyright: '©2018 Institute of Bioresource and Agriculture Sustainability Gallery. All rights reserved.',
           about_me: 'watch',
           links:[
             {
-              text: '版權ENG',
+              text: 'General Guidelines of Visit',
             },
             {
-              text: '免責聲明ENG',
+              text: 'Guidelines for Visit Booking',
             },
             {
-              text: '私隱政策聲明ENG'
+              text: 'Privacy Policy'
             },
             {
-              text: '網頁指南ENG'
+              text: 'Disclaimer'
             }
           ],
           addr: {
@@ -467,16 +467,16 @@ $(function(){
           about_me: '关注我们',
           links: [
             {
-              text: '版权',
+              text: '一般参观守则',
             },
             {
-              text: '免责声明',
+              text: '参观申请须知',
             },
             {
-              text: '私隐政策声明'
+              text: '收集个人资料及私隐政策声明'
             },
             {
-              text: '网页指南'
+              text: '免责声明'
             }
           ],
           addr: {
