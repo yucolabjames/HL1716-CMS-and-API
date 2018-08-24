@@ -3735,3 +3735,49 @@ Waterbear animation on index page
         transform: translatey(0px);
     }
 }
+
+
+/*
+ 
+ Form booking styling
+
+*/
+.booking-form-wrapper{
+	
+}
+.booking-form-wrapper .booking-form{
+	float: none;
+	margin: 0 auto;
+}
+.booking-form-wrapper .booking-form .clearfix{
+	margin-top: 15px;
+}
+.booking-form-wrapper .booking-form label{
+	float: left;
+	margin-right: 20px;
+	font-size: 16px;
+    color: #666;
+    letter-spacing: 0.5px;
+    font-family: 'Comfortaa', helvetica, arial, sans-serif , "source-han-sans-traditional", "Microsoft JhengHei", "Microsoft Yahei", "Hiragino Sans GB";
+    font-weight: 200;
+	vertical-align: baseline;
+}
+
+.booking-form-wrapper .booking-form label:last-child{
+	margin-right: 0;
+}
+.booking-form-wrapper .booking-form label input[type="radio"]{
+	display: inline-block;
+    vertical-align: baseline;
+	width: auto;
+	margin: auto;
+	height: auto;
+	margin-right: 4px;
+}
+.booking-form-wrapper .booking-form label input[type="checkbox"]{
+	display: inline-block;
+    vertical-align: baseline;
+	width: auto;
+	margin: auto;
+	height: auto;
+}

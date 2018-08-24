@@ -108,9 +108,9 @@
   <div class="container">
     <ul class="breadcrumb">
       <li><a href="#"><span class="number">1</span>預約類別</a></li>
-      <li class="active"><span class="number">2</span>選擇日期及時段</li>
-      <li><span class="number">3</span>個人資料確認</li>
-      <li><span class="number">4</span>預約</li>
+      <li><span class="number">2</span>選擇日期及時段</li>
+      <li class="active"><span class="number">3</span>個人資料確認</li>
+      <li><span class="number">4</span>付款</li>
     </ul>
    </div>
 </div>
@@ -120,43 +120,43 @@
         <h1 class="sessionTitle">預約參觀</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. <br>Aenean commodo ligula eget dolor.</p>
       </div>
-      <div class="widget-form panel-booking widget-calendar">
+      <div class="widget-form panel-booking widget-calendar booking-form-wrapper">
           <div class="wrapper">
-            <div class="headline text-center"><h2 class="subHead">選擇日期及時段</h2></div>
-            <div class="innerFrame">
-              <p>我們接受個人申請者在到訪日期前3-30天內的預約。</p>
-           
-            <div class="clearfix">
+            <div class="headline text-center"><h2 class="subHead">個人資料確認</h2></div>
+			<div class="innerFrame">
+				<div class="booking-form col-xs-12 col-sm-7">
+					<!-- START - GROUP BOOKING ONLY -->
+					<div class="clearfix">團體名稱<br /><input class="form-control" placeholder="請輸入您的團體名稱"></div>
+					<!-- END - GROUP BOOKING ONLY -->
+					<div class="clearfix">
+						<label>稱謂</label>
+						<label><input class="form-control" type="radio" name="title" value="先生"> 先生</label>
+						<label><input class="form-control" type="radio" name="title" value="女士"> 女士</label>
+						<label><input class="form-control" type="radio" name="title" value="小姐"> 小姐</label>
+					</div>
+					<div class="clearfix">名<br /><input class="form-control" placeholder="請輸入您的名"></div>
+					<div class="clearfix">姓<br /><input class="form-control" placeholder="請輸入您的姓"></div>
+					<div class="clearfix">聯絡電話<br /><input class="form-control" placeholder="請輸入您的聯絡電話"></div>
+					<div class="clearfix">電郵地址<br /><input class="form-control" placeholder="請輸入您的電郵地址"></div>
+					
+					<!-- START - GROUP BOOKING ONLY -->
+					<div class="clearfix"><label>使用此電郵地址接收所有參加 者的帳戶啟動碼 者的帳戶啟動碼 ?
+						<input class="form-control" type="checkbox"></label>
+					</div>
+					<!-- END - GROUP BOOKING ONLY -->
+				</div>
              
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-7">
-                             <h4>選擇日期:</h4>
-                            <div id="datetimepicker12"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-5 form-select">
-                          <h4>選擇時段:</h4>
-                          <div class="date">2017 年 1 0 月 1 9 日 星 期 四</div>
-                          <select class="jsSelection" placeholder="選擇時段">                            
-                            <option value="option1">1:00pm- 2:00pm 廣東話</option>                             
-                            <option value="option1">2:00pm- 3:00pm 廣東話</option>
-                          </select>
-                        </div>
-                    </div>
-                </div>
-              
-            </div>
-             
-            <div class="pos-btn">
-              <div class="btn-wrapper text-center">
-                <a href="search_reservation.html" class="btn theme3">
-                  <span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>
-                  <div class="btn-wrapper">下一步</div>
-                  <div class="circle"></div>
-                </a>
-              </div>
-            </div>
-          </div>
+				<div class="pos-btn">
+				  <div class="btn-wrapper text-center">
+					<a href="search_reservation.html" class="btn theme3">
+					  <span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>
+					  <div class="btn-wrapper">下一步</div>
+					  <div class="circle"></div>
+					</a>
+				  </div>
+				</div>
+			
+			</div>
         </div>
           <div class="pos-item spaceM"><div class="ani-float"><img src="images/reservation/spaceM.png" class="img-fluid"></div></div>
           <div class="space-box"></div>
@@ -225,32 +225,6 @@
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
     <script src="js/script.js"></script>
 </body>
-</html><script src="js/jsRegistration.js"></script>
+</html>
 
 
-
- <script>
-
-        $(function () {
-
-
-            $('#datetimepicker12').datetimepicker({
-                inline: true,
-                format: 'DD/MM/YYYY',
-                minDate: moment().millisecond(0).second(0).minute(0).hour(0),
-                clear : false ,
-           
-                //sideBySide: true
-            });
-
-            $(".jsSelection").select2({
-              minimumResultsForSearch: -1,
-              placeholder: "選擇時段",
-              allowClear: false,
-          });
-        });
-
-       
-
-       
-    </script>
