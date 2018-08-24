@@ -3675,3 +3675,63 @@ footer .copyright {
     background-repeat: no-repeat;
 }
 
+
+/*
+Waterbear animation on index page
+*/
+
+#animator-water-bear{
+	position: absolute;
+	top: 320px;
+	left: 320px;
+	width: 200px;
+	transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955), transform 0s;
+}
+#animator-water-bear.zone1{
+	width: 220px;
+	transform: scaleX(-1);
+	top: 165px;
+	left: 200px;
+}
+#animator-water-bear.zone2{
+    top: -120px;
+    left: -50px;
+	width: 240px;
+}
+#animator-water-bear.zone3{
+    top: -20px;
+    left: 350px;
+}
+#animator-water-bear.zone4{
+    top: 150px;
+    left: 380px;
+    width: 220px;
+	transform: scaleX(-1);
+}
+#animator-water-bear.workshop{
+	top: 330px;
+    left: 110px;
+    width: 120px;
+}
+#animator-water-bear.reception{
+    top: 300px;
+    left: -20px;
+    width: 140px;
+	transform: scaleX(-1);
+}
+#animator-water-bear img{
+	animation: float-mini 3.5s ease-out infinite;
+	width: 100%;
+}
+
+@keyframes float-mini {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-10px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
