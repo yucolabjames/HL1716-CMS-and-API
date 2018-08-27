@@ -3809,3 +3809,7 @@ Discount code hide section
 .widget-form.panel-booking .discount-section .icounter{
 	height: auto !important;
 }
+
+.error{
+	color: #FF002B;
+}
