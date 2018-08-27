@@ -2317,7 +2317,10 @@ footer .copyright {
     text-align: center;
     width: 80px;
 }
+.widget-form .input-number.discount {
 
+	width: 100px;
+}
 .widget-form .icounter {
     text-align: left;
 }
@@ -3780,4 +3783,29 @@ Waterbear animation on index page
 	width: auto;
 	margin: auto;
 	height: auto;
+}
+
+/*
+Discount code hide section
+*/
+.widget-form.panel-booking .discount-section,
+.widget-form.panel-booking .discount-question .cancel{
+	display: none;
+}
+.widget-form.panel-booking .discount-question .cancel.show,
+.widget-form.panel-booking .discount-section.show{
+	display: block;
+}
+.widget-form.panel-booking .discount-section .input-number.discount{
+	background-color: #F1F9FB;
+}
+.widget-form.panel-booking .discount-question .question,
+.widget-form.panel-booking .discount-question .cancel{
+	cursor: pointer;
+}
+.widget-form.panel-booking .discount-question .question.hide{
+	display: none;
+}
+.widget-form.panel-booking .discount-section .icounter{
+	height: auto !important;
 }
