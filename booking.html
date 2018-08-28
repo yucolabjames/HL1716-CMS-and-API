@@ -142,31 +142,55 @@
   </div>
  
 </section>
- <section class="widget-floorplan">
+  <section class="widget-floorplan">
       <h2 class="sessionTitle text-center">展覽館平面圖</h2>
-      <div class="container floormap">
-        <div class="hoverArea zone1"></div>
-        <div class="hoverArea zone2"></div>
-        <div class="hoverArea zone3"></div>
-        <div class="hoverArea zone4"></div>
-        <div class="floor-display zone1">
-          <img src="images/floorplan/caseFloor.png" class="img-fluid">
-          <div class="t-wrapper">Zone 1 XXXXX</div>
+      <div class="container floormap ">
+       <div class="cover hidden-xs">
+          <div class="hoverArea zone1"></div>
+          <div class="hoverArea zone2"></div>
+          <div class="hoverArea zone3"></div>
+          <div class="hoverArea zone4"></div>
+          <div class="hoverArea reception"></div>
+          <div class="hoverArea workshop"></div>
+          <div class="floor-display zone1">
+            <img src="images/floorplan/caseFloor.png" class="img-fluid">
+            <div class="t-wrapper">Zone 1 </div>
+          </div>
+          <div class="floor-display zone2">
+            <img src="images/floorplan/caseFloor.png" class="img-fluid">
+            <div class="t-wrapper">Zone 2 XXXXX</div>
+          </div>
+          <div class="floor-display zone3">
+            <img src="images/floorplan/caseFloor.png" class="img-fluid">
+            <div class="t-wrapper">Zone 3 XXXXX</div>
+          </div>
+          <div class="floor-display zone4">
+            <img src="images/floorplan/caseFloor.png" class="img-fluid">
+            <div class="t-wrapper">Zone 4 XXXXX</div>
+          </div>
+          <div class="floor-display reception">
+            <img src="images/floorplan/caseFloor.png" class="img-fluid">
+            <div class="t-wrapper">Zone 4 XXXXX</div>
+          </div>
+          <div class="floor-display workshop">
+            <img src="images/floorplan/caseFloor.png" class="img-fluid">
+            <div class="t-wrapper">Zone 4 XXXXX</div>
+          </div>
         </div>
-        <div class="floor-display zone2">
-          <img src="images/floorplan/caseFloor.png" class="img-fluid">
-          <div class="t-wrapper">Zone 2 XXXXX</div>
-        </div>
-        <div class="floor-display zone3">
-          <img src="images/floorplan/caseFloor.png" class="img-fluid">
-          <div class="t-wrapper">Zone 3 XXXXX</div>
-        </div>
-        <div class="floor-display zone4">
-          <img src="images/floorplan/caseFloor.png" class="img-fluid">
-          <div class="t-wrapper">Zone 4 XXXXX</div>
+		<div id="animator-water-bear">
+			<img src="images/floorplan/graphicWaterBear2.png">
+		</div>
+        <div class="mobile-cover visible-xs">
+          <div class="hoverArea zone1"><a data-fancybox href="#layer1"></a></div>
+          <div class="hoverArea zone2"><a data-fancybox href="#layer2"></a></div>
+          <div class="hoverArea zone3"><a data-fancybox href="#layer3"></a></div>
+          <div class="hoverArea zone4"><a data-fancybox href="#layer4"></a></div>
         </div>
         <div class="floorplan-core text-center"><img src="images/floorplan/floorplan_layout.png" class="img-fluid"></div>
       </div>
+      <!--<dv class="pos-item">
+        <img src="images/floorplan/panel03.png" class="img-fluid">
+      </dv>-->
   </section>
 
 <section class="session-gallery">
@@ -244,6 +268,7 @@
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDGigtc9N6YFQloA94hFQdHkw46g6ZfkPQ&sensor=false"></script>
  <script src="js/jsContact.js"></script>
  <script src="js/jsFloorplan.js"></script>
+ <script src="js/waterbear-index-animate.js"></script>
  <script type="text/javascript">
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
