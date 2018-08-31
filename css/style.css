@@ -3814,3 +3814,87 @@ Discount code hide section
 .error{
 	color: #FF002B;
 }
+
+.widget-comment{
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+	width: 100%;
+	float: left;
+}
+
+.widget-comment h1{
+	color: #067ba3;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.widget-comment .comment{
+	clear: left;
+    text-align: left;
+	margin-bottom: 20px;
+	float: left;
+	width: 100%;
+}
+
+
+.widget-comment .container{
+    max-width: 750px;
+    margin: 0 auto;
+	padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.widget-comment .comment .comment-default{
+	color: #067ba3;
+	width: 100%;
+	float: left;
+	clear: left;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+    font-family: 'Comfortaa', helvetica, arial, sans-serif , "source-han-sans-traditional", "Microsoft JhengHei", "Microsoft Yahei", "Hiragino Sans GB";
+    font-weight: bold;
+	text-align: center;
+}
+.widget-comment .comment .comment-user{
+	color: #067ba3;
+	width: 100%;
+	float: left;
+	clear: left;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+    font-family: 'Comfortaa', helvetica, arial, sans-serif , "source-han-sans-traditional", "Microsoft JhengHei", "Microsoft Yahei", "Hiragino Sans GB";
+    font-weight: bold;
+}
+.widget-comment .comment .comment-time{
+	font-family: "gotham";
+    font-size: 12px;
+    text-transform: uppercase;
+	width: 100%;
+	float: left;
+	clear: left;
+}
+
+.widget-comment .comment .comment-content{
+	width: 100%;
+	float: left;
+	clear: left;
+	margin-top: 10px;
+}
+.widget-comment .comment textarea{
+	border: 1px solid #eee;
+	width: 100%;
+	min-height: 100px;
+	padding: 5px;
+	margin: 10px 0;
+}
+
+.widget-comment .comment .comment-rule{
+     font-size: 16px;
+}
+.widget-comment .comment .btn{
+	padding: 5px 40px;
+}
+.widget-comment .comment .comment-caption{
+    font-size: 12px;
+}
