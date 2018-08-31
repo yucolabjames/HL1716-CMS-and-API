@@ -99,6 +99,7 @@ input, textarea {
   right: -280px;
   top: 30px;
   z-index: 3;
+  width: 270px;
   color: white;
   display: none;
 }
