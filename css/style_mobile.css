@@ -1563,4 +1563,9 @@ button:hover, button:active {
   }
 }
 
+@media (max-width: 690px) {
+	#map-label{
+		display: none;
+	}
+}
 /*# sourceMappingURL=style_mobile.css.map */

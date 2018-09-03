@@ -3740,7 +3740,73 @@ Waterbear animation on index page
     }
 }
 
+/*
+Zone map labelling
+*/
+#map-label{
+	position: absolute;
+	/*pointer-events: none;*/
+	width: 100%;
+	height: 100%;
+}
 
+#map-label .zone-label{
+	position: absolute;
+	font-size: 14px;
+    font-family: 'Comfortaa', helvetica, arial, sans-serif, "Microsoft JhengHei", "Microsoft Yahei", "Hiragino Sans GB";
+	color: rgb(174, 221, 248);
+	text-shadow: 0px 0px 10px rgba(205, 252, 255, 0.36); 
+    text-align: center;
+}
+
+#map-label .zone-label.eng{
+	display: none;
+}
+#map-label .zone-label.cht{
+	font-size: 18px;
+}
+#map-label #label-zone-1{
+	top: 300px;
+	left: 120px;
+}
+#map-label #label-zone-2{
+    top: 122px;
+    left: 46px;
+}
+#map-label #label-zone-3{
+    top: 95px;
+    left: 265px;
+}
+#map-label #label-zone-4{
+    top: 235px;
+    left: 474px;
+}
+
+#map-label #label-zone-1.cht{
+	top: 300px;
+	left: 160px;
+}
+#map-label #label-zone-2.cht{
+    top: 122px;
+    left: 80px;
+}
+#map-label #label-zone-3.cht{
+    top: 95px;
+    left: 305px;
+}
+#map-label #label-zone-4.cht{
+    top: 235px;
+    left: 473px;
+}
+
+#map-label #label-zone-reception.cht{
+	top: 435px;
+    left: 52px;
+}
+#map-label #label-zone-workshop.cht{
+    top: 414px;
+    left: 181px;
+}
 /*
  
  Form booking styling
