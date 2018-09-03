@@ -108,9 +108,9 @@
   <div class="container">
     <ul class="breadcrumb">
       <li><a href="reservation.html"><span class="number">1</span>預約類別</a></li>
-      <li class="active"><span class="number">2</span>選擇日期及時段</li>
+      <li><a href="reservation_calendar.html"><span class="number">2</span>選擇日期及時段</a></li>
       <li><a href="reservation_form.html"><span class="number">3</span>個人資料確認</a></li>
-      <li><a href="reservation_confirmation.html"><span class="number">4</span>付款</a></li>
+      <li><span class="number">4</span>付款</li>
     </ul>
    </div>
 </div>
@@ -120,54 +120,20 @@
         <h1 class="sessionTitle">預約參觀</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. <br>Aenean commodo ligula eget dolor.</p>
       </div>
-      <div class="widget-form panel-booking widget-calendar">
+      <div class="widget-form panel-booking widget-calendar booking-form-wrapper">
           <div class="wrapper">
-            <div class="headline text-center"><h2 class="subHead">選擇日期及時段</h2></div>
-            <div class="innerFrame">
-              <p>我們接受個人申請者在到訪日期前3-30天內的預約。</p>
-           
-            <div class="clearfix">
-             
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-7">
-                             <h4>選擇日期:</h4>
-                            <div id="datetimepicker12"></div>
-                        </div>
-                        <div class="col-xs-12 col-sm-5 form-select">
-                          <h4>選擇時段:</h4>
-                          <div class="date">2017 年 1 0 月 1 9 日 星 期 四</div>
-                          <select class="jsSelection" placeholder="選擇時段">                            
-                            <option value="option1">1:00pm- 2:00pm 廣東話</option>                             
-                            <option value="option1">2:00pm- 3:00pm 廣東話</option>
-                          </select>
-                        </div>
-                    </div>
-                </div>
-              
-            </div>
-             
-            <div class="pos-btn">
-              <div class="btn-wrapper text-center">
-                <a href="reservation_form.html" class="btn theme3">
-                  <span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>
-                  <div class="btn-wrapper">下一步</div>
-                  <div class="circle"></div>
-                </a>
-              </div>
-            </div>
-			<!-- Cancel booking process button Start -->
-            <div class="pos-btn cancel-btn">
-              <div class="btn-wrapper text-center">
-                <a href="reservation_cancel.html" class="btn theme3">
-                  <span class="icon"><img src="images/common/icon-cross.svg" clsas="img-fluid"></span>
-                  <div class="btn-wrapper">取消<br>預約</div>
-                  <div class="circle"></div>
-                </a>
-              </div>
-            </div>
-			<!-- Cancel booking process button End -->
-          </div>
+            <div class="headline text-center"><h2 class="subHead">取消預約</h2></div>
+			<div class="innerFrame">
+				<div class="booking-form col-xs-12 col-sm-7">
+					<p><b>交易停止...</b></p>
+					<p>您的預約已被取消，無需付款任何費用。</p>
+					<hr>
+					
+					<p><a href="index.html">> 返回首頁</a></p>
+					<p><a href="reservation.html">> 重新預約</a></p>
+				</div>
+			
+			</div>
         </div>
           <div class="pos-item spaceM"><div class="ani-float"><img src="images/reservation/spaceM.png" class="img-fluid"></div></div>
           <div class="space-box"></div>
@@ -236,32 +202,6 @@
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
     <script src="js/script.js"></script>
 </body>
-</html><script src="js/jsRegistration.js"></script>
+</html>
 
 
-
- <script>
-
-        $(function () {
-
-
-            $('#datetimepicker12').datetimepicker({
-                inline: true,
-                format: 'DD/MM/YYYY',
-                minDate: moment().millisecond(0).second(0).minute(0).hour(0),
-                clear : false ,
-           
-                //sideBySide: true
-            });
-
-            $(".jsSelection").select2({
-              minimumResultsForSearch: -1,
-              placeholder: "選擇時段",
-              allowClear: false,
-          });
-        });
-
-       
-
-       
-    </script>

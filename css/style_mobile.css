@@ -144,6 +144,8 @@ input, textarea {
 .widget-calendar .btn.theme3 .btn-wrapper {
   padding-top: 30px;
 }
+
+
 .widget-calendar .select2-container--default .select2-selection--single {
   background: #199ab1;
   border: none;
@@ -1373,6 +1375,21 @@ button:hover, button:active {
     right: -5px;
     top: -10px;
   }
+
+
+	.widget-form .pos-btn.cancel-btn {
+		left: -15px;
+		top: -30px;
+		bottom: auto;
+		right: auto;
+	}
+	.widget-form .pos-btn.cancel-btn .btn-wrapper{
+	}
+	.widget-form .pos-btn.cancel-btn .icon{
+	}
+	.widget-form .pos-btn.cancel-btn .icon img{
+	}
+
 
   #contact .session-form .spaceM {
     display: none;

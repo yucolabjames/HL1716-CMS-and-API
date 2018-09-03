@@ -3898,3 +3898,22 @@ Discount code hide section
 .widget-comment .comment .comment-caption{
     font-size: 12px;
 }
+
+
+.widget-form .pos-btn.cancel-btn {
+    position: absolute;
+    left: -30px;
+    top: auto;
+    bottom: 0;
+    right: auto;
+}
+.widget-form .pos-btn.cancel-btn .btn-wrapper{
+	padding-top: 20px !important;
+    padding-left: 10px !important;
+}
+.widget-form .pos-btn.cancel-btn .icon{
+	left: 3px;
+}
+.widget-form .pos-btn.cancel-btn .icon img{
+	width: 17px;
+}
