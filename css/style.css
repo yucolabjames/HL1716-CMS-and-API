@@ -3822,6 +3822,7 @@ Zone map labelling
 .booking-form-wrapper .booking-form .clearfix{
 	margin-top: 15px;
 }
+.booking-form label,
 .booking-form-wrapper .booking-form label{
 	float: left;
 	margin-right: 20px;
@@ -3833,9 +3834,11 @@ Zone map labelling
 	vertical-align: baseline;
 }
 
+.booking-form label:last-child,
 .booking-form-wrapper .booking-form label:last-child{
 	margin-right: 0;
 }
+.booking-form label input[type="radio"],
 .booking-form-wrapper .booking-form label input[type="radio"]{
 	display: inline-block;
     vertical-align: baseline;

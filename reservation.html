@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -136,7 +136,7 @@
                 <div class="item active">
                   <div class="descpt">
                     <div class="cap">團體</div>
-                    <p>最多25人</p>
+                    <p>最多40人</p>
                   </div>
                   <div class="shape"></div>
                 </div>
@@ -150,18 +150,46 @@
               <div class="selection-headcount">
                 <div class="form-field clearfix">
                   <div class="col-xs-8 icounter numbers-row">
-                    成人: <input type="text" class="input-number" name="adult-counter" id="adult-counter" value="0">
+                    成人人數: <input type="text" class="input-number" name="adult-counter" id="adult-counter" value="0">
                   </div>
                   <div class="col-xs-4 amount text-right">$100HKD (每人)
                   </div>
                 </div>
                 <div class="form-field clearfix">
                   <div class="col-xs-8 icounter numbers-row">
-                   小童: <input type="text" class="input-number" name="adult-counter" id="adult-counter" value="0">
+                   學生人數: <input type="text" class="input-number" name="adult-counter" id="adult-counter" value="0">
                   </div>
                   <div class="col-xs-4 amount text-right">$100HKD (每人)
                   </div>
                 </div>
+				
+                <hr>
+                <div class="booking-form form-field clearfix">
+                  <div class="col-xs-8 icounter">
+                    <label>年級:</label>
+					<label>
+						<input class="form-control" type="radio" name="grade" value="p1"> P1
+					</label>
+					<label>
+						<input class="form-control" type="radio" name="grade" value="p2"> P2
+					</label>
+					<label>
+						<input class="form-control" type="radio" name="grade" value="p3"> P3
+					</label>
+                  </div>
+                </div>
+                <div class="booking-form form-field clearfix">
+                  <div class="col-xs-8 icounter">
+                    <label>參觀展品內容會顯示</label>
+					<label>
+						<input class="form-control" type="radio" name="lang" value="中文"> 中文
+					</label>
+					<label>
+						<input class="form-control" type="radio" name="lang" value="英文"> 英文
+					</label>
+                  </div>
+                </div>
+				
                 <hr>
                 <div class="form-field clearfix discount-question">
                   <div class="col-xs-12 col-sm-12">
@@ -176,6 +204,8 @@
                   <div class="col-xs-6 col-sm-4 amount text-right">折扣: <span class="font-black">-$30.00</span> <span class="font-small">HKD</span>
                   </div>
                 </div>
+				
+				
                 <hr>
                 <div class="form-field clearfix">
                   <div class="col-xs-4 col-sm-8 icounter">
@@ -188,7 +218,7 @@
               <div class="text-left tnc"><a href="" class="link">> 更改預約政策</a></div>
             </form>
             <div class="btn-wrapper text-center">
-              <a href="" class="theme4 btn"><span class="icon"><img src="images/common/icon-calendar.svg" class="img-fluid"></span>網上預約</a>
+              <a href="reservation_calendar.html" class="theme4 btn"><span class="icon"><img src="images/common/icon-calendar.svg" class="img-fluid"></span>網上預約</a>
             </div>
           </div>
           <div class="pos-item spaceM"><div class="ani-float"><img src="images/reservation/spaceM.png" class="img-fluid"></div></div>
