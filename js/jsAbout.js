@@ -14,12 +14,7 @@ $(function () {
 
     });
 
-    $(".section-case1 .text-wrapper").each(function () {
-        $(this).hide();
-        if ($(this).attr('id') == 'content1') {
-            $(this).show();
-        }
-    });
+    
 
 
     $('.circle-ripple').on("click", function (e) {
@@ -37,22 +32,36 @@ $(function () {
     });
 
 
-    var language = getQueryString('lan') || 'CHT';
-    var lan_id = getQueryString('lan_id') || 3;
+    // var language = getQueryString('lan') || 'CHT';
+    // var lan_id = getQueryString('lan_id') || 3;
 
-    function getBiology(){
+    var lang = getLocalStorage('hk_language');
+    var language, lan_id;
+    if(lang){
+        language = lang.lan;
+        lan_id = lang.lan_id;
+    } else {
+        language = 'CHT';
+        lan_id = 3;
+    }
+
+    getBiology(lan_id);
+
+    function getBiology(lan_id){
+        
         $.post(api_host+'/api/Braa/index',{
             language: lan_id
         }, res => {
             if(res.error_code == 0){
                 var ext = res.res.ext_climate
                 var bio = res.res.biologicals
+                $('.Landslide').text(ext.Landslide)
+                $('.Earthquake').text(ext.Earthquake)
+                $('.temperature').text(ext.temperature)
+                $('.Extreme_Temperature').text(ext.Extreme_Temperature)
+                $('.Volcanic_Activity').text(ext.Volcanic_Activity)
+                $('.flood_text').text(ext.flood)
                 
-                $('.Landslide').text(ext.Landslide[0])
-                $('.Earthquake').text(ext.Earthquake[0])
-                $('.temperature').text(ext.temperature[0])
-                $('.Extreme_Temperature').text(ext.Extreme_Temperature[0])
-                $('.Volcanic_Activity').text(ext.Volcanic_Activity[0])
                 $('.lang_temperature').html(ext.temperature+'<span class="small-font">°C</span>')
                 $('.lang_Storm').html(ext.storm)
                 $('.lang_Drought').html(ext.drougt)
@@ -106,7 +115,7 @@ $(function () {
 
                 // 生活模式环境
                 var cflr = res.res.cflr;
-                $('.session-content.set3').css('background-image', `url(${uploaded}${cflr.background})`)
+                $('.session-content.set3').css('background-image', `url(${uploaded}${cflr.backgrounds[0]})`)
                 $('.clothes_count').text(cflr.content1.num[0])
                 $('.clothes_count_before').text(cflr.content1.num[1])
                 $('.clothes_count_after').text(cflr.content1.num[2])
@@ -130,24 +139,71 @@ $(function () {
                 $('.zhu_screen').prop('src', `${uploaded}${cflr.content3.images}`)
                 $('.woju_txt1').html(cflr.content4.tips[0])
                 $('.woju_txt2').html(cflr.content4.tips[1])
-                
-                
+
                 $('.lang_qihou').text(cflr.content4.summary)
                 $('.qihou_screen').prop('src', `${uploaded}${cflr.content4.images}`)
                 $('.lang_txt1').html(cflr.content4.tips[0])
                 $('.lang_txt2').html(cflr.content4.tips[1])
                 $('.lang_zhu_tip').html( cflr.content4.tips[2])
                 
-                $(".tablist_envoir").on('click', 'li', e => {
-                    var current = $(e.target).parent().index() + 1;
-
-                    
+                $(".tablist_envoir").on('click', 'a', function(e) {
+                    var current = $(e.target).parent().index();                 
+                    console.log(cflr.backgrounds)
+                    $('.session-content.set3').css('background-image', `url(${uploaded}${cflr.backgrounds[current]}?version=${current})`)
                 })
+
+                var images = cflr.backgrounds;
+                for(var i = 0; i < images.length; i++){
+                    var img = document.createElement('img');
+                    img.style.display = 'none';
+                    img.src = uploaded +images[i]
+                    document.body.appendChild(img)
+                }
+
+                // 粮食危机
+                var cri = res.res.produce_crisis;
+                console.log(cri)
+                var cri_html = ''
+                for(var i = 0; i < cri.length; i++){
+                    // cri_html += `<div class="text-wrapper" id="content${i}">
+                    //                 <div class="clearfix">
+                    //                     <div class="margin-b-20">
+                    //                         <span class="icon">
+                    //                             <img src="images/about/icon_wave2.svg">
+                    //                         </span>
+                    //                         <span class="lang_yanmo"></span>
+                    //                     </div>
+                    //                     <span class="pull-left number">${cri[i].percent}
+                    //                         <span class="percent">%</span>
+                    //                     </span>
+                    //                     <span class="pull-left descpt">${cri[i].summary}</span>
+                    //                 </div>
+                    //             </div>`
+                    cri_html += `<div class="text-wrapper" id="content${i+1}">
+                                    <div class="clearfix">
+
+                                        <span class="descpt">
+                                            ${cri[i].summary}
+                                            <span class="number">${cri[i].percent}
+                                                <span class="percent">%</span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>`
+                }
+                console.log(cri_html)
+                $(".casemap ").append(cri_html)
+                $(".section-case1 .text-wrapper").each(function () {
+                    $(this).hide(); 
+                    if ($(this).attr('id') == 'content1') {
+                        $(this).show();
+                    }
+                });
             }
         }, 'json')
     }
 
-    getBiology();
+    
 
 
 });

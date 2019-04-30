@@ -5,38 +5,35 @@ $(function() {
   });
 
   
-
-  // 获取语言种类
-  ;(() => {
-    $.post(api_host+'/api/Language/index', res => {
-
-      if(res.error_code == 0){
-        var languageHTML = ``
-        res.res.forEach( item => {
-          languageHTML += `<li data-language="${item.language}" data-language-id="${item.id}">${item.name}</li>`
-        })
-        $('.select-language').html(languageHTML)
-      }
-    })
-  })();
-  
-  var language = getQueryString('lan') || 'CHT';
-  var lan_id = getQueryString('lan_id') || 3;
+  var lang = getLocalStorage('hk_language');
+  var language, lan_id;
+  if(lang){
+      language = lang.lan;
+      lan_id = lang.lan_id;
+  } else {
+      language = 'CHT';
+      lan_id = 3;
+  }
   // 获取网页数据
   ;(() => {
     
-    $.post(api_host+'/api/contact/index', { language:lan_id }, res => {
+    $.post(api_host+'/api/contact/index', { language: lan_id }, res => {
       if(res.error_code == 0){
-        console.log(res.res)
         $('.concat_phone').text(res.res.tel)
         $('.concat_email').html(`<a class="link" href="mailto:${res.res.email}">${res.res.email}</a>`)
+        console.log(res)
+        $(".concat_banner").css('background-image', 'url('+uploaded+''+res.res.header+')')
+        $('.concat_addr').text(res.res.address)
+        $('.concat_office').text(res.res.office_hours)
 
-        $(".concat_banner").css('background-image', 'url('+uploaded+'/'+res.res.header+')')
-        $('.concat_addr').text(res.res.data[0].address)
-        $('.concat_office').text(res.res.data[0].office_hours)
+        $('.concat_banner h1').text(res.res.header_title)
+        $('.concat_banner p').text(res.res.header_content)
 
-        $('.concat_banner h1').text(res.res.data[0].header_title)
-        $('.concat_banner p').text(res.res.data[0].header_content)
+        $(".address_load").text('位置 ：' + res.res.address)
+        $(".header_title").text(res.res.header_title)
+        $(".open_time").text(res.res.office_hours)
+        $(".tel").html(`<a href="tel://${res.res.tel}"><i class="fa fa-envelope" aria-hidden="true"></i> ${res.res.tel}</a>`)
+        $(".email").html(`<a href="tel://${res.res.email}"><i class="fa fa-envelope" aria-hidden="true"></i> ${res.res.email}</a>`)
       }
     }, 'json')
   })();

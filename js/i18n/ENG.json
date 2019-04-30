@@ -1,0 +1,232 @@
+{
+  "cancelText": "取消",
+  "concat_phone": "聯絡電話:",
+  "concat_email": "電子郵箱:",
+  "office_addr": "辦公地址:",
+  "office_time": "辦公時間:",
+  "concat": {
+    "title": "聯絡我們",
+    "sub_title": "化主詩物趣足沒車心臺我大苦理體實",
+    "sessionTitle": "意見及查詢表格",
+    "name": "姓名*",
+    "email": "電郵*",
+    "phone": "電話*",
+    "reason": "意見或詢問*",
+    "reset": "> 重置",
+    "submit": "> 遞交",
+    "labelTel": "聯絡電話:",
+    "labelEmail":"電子郵箱:",
+    "labelOfficeAddress": "辦公地址:",
+    "labelOfficeTime": "辦公時間:"
+  },
+  "navigations": {
+    "biology": "生物資源與農業",
+    "hall": "展覽館",
+    "zhuanjia": "問問專家",
+    "news": "最新消息",
+    "member": "會員專區",
+    "concat": "聯絡我們",
+    "booking": "預約"
+  },
+  "footer": {
+    "copyright": "版權",
+    "mianze": "免責聲明",
+    "private": "私隱政策聲明",
+    "guide": "網頁指南",
+    "addr": "地址",
+    "time": "開放時間",
+    "phone": "聯絡電話",
+    "email": "電郵地址",
+    "bu": "BU©版權所有2018 。"
+  },
+  "faq": {
+    "question": "問問專家",
+    "useKw": "使用關鍵字",
+    "description": "化主詩物趣足沒車心臺我大苦理體實!<br class=\"hidden-xs\">初目比管北為高影有道質。能研務些子現情爭學度意幾本改的的火花:裡定同心象二會會連見史影下的分於自想當還母頭。",
+    "selectTheme": "選擇相關內容主題:",
+    "reset": "> 重置",
+    "submit": "> 遞交",
+    "placeholder": {
+      "name": "姓名*",
+      "email": "電郵*",
+      "tel": "電話*",
+      "question": "意見或詢問*"
+    }
+  },
+  "news": {
+    "title": "最新消息繁体",
+    "subTitle": "最新消息繁体2",
+    "navs": {
+      "selecttype": "选择类型繁",
+      "all": "全部繁",
+      "workshop": "工作间繁",
+      "media": "媒体繁",
+      "press": "进程繁"
+    }
+  },
+  "news_detail": {
+    "title": "最新消息繁体"
+  },
+  "about": {
+    "title": "超載的地球",
+    "crisis": "2050 面臨毀滅性糧食危機",
+    "shenchan": "生産危機",
+    "liangshi": "本港糧食供應",
+    "nongye": "有機農業",
+    "navs1": "極端氣候變",
+    "navs2": "生物數目銳減",
+    "touch": "你感受到熱浪嗎？"
+  },
+  "index": {
+    "langIndexContinued": "可持續資源舘",
+    "biologyTitle": "生物資源也有耗盡的一天?",
+    "HallGraph": "展覽館平面圖",
+    "earth": "齊來拯救地球<br>可持續生活 x 有機農業",
+    "earthContinu": "如果想知道緩和危機的方法, <br>請預約展開多元化體驗",
+    "nowBooking": "立即預約"
+  },
+  "footer_copyright": {
+    "copyright": "©2018 生物資源及農業研究所可持續資源館。版權所有，不得轉載。",
+    "about_me": "關注我們",
+    "links": [
+      {
+        "text": "一般參觀守則"
+      },
+      {
+        "text": "參觀申請須知"
+      },
+      {
+        "text": "收集個人資料及私隱政策聲明"
+      },
+      {
+        "text": "免責聲明"
+      }
+    ],
+    "addr": {
+      "label": "地址",
+      "value": "九龍塘浸會大學道"
+    },
+    "opentime": {
+      "label": "開放時間",
+      "value": "星期一至日上午10時至下午7時"
+    },
+    "phone": {
+      "label": "聯絡電話",
+      "value": "852-35008335"
+    },
+    "email": {
+      "label": "電郵地址",
+      "value": "info@bu.com"
+    }
+  },
+  "member": {
+    "title": "會員專區",
+    "name_placeholder": "登入賬號",
+    "password_placeholder": "登入密碼",
+    "infomation": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis .",
+    "get_profile": "如何獲得登入資料？",
+    "for_password": "忘記密碼?",
+    "login_text": "立即<br>登入",
+    "reset_password": "重設密碼",
+    "reset_placeholder": "登入電郵",
+    "loginProfile": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+  },
+  "member_landing": {
+    "title": "歡迎登入您的太空任務檔案。",
+    "task_count": "任務次數",
+    "collection": "累積收集",
+    "last_update_date": "最後更新日期",
+    "coll1": "消失的物種",
+    "coll2": "動物拯救隊",
+    "coll3": "有機耕種技術農夫影片集",
+    "coll4": "錦囊集",
+    "coll5": "低碳百貨",
+    "tab1": {
+      "chart_text": "種生物已解鎖"
+    },
+    "tab5": {
+      "title": "低碳百貨",
+      "desc": "走進高端的購物中心，接受充滿挑戰的可持續消費訓練，認識現代消費模式，透過VR體驗重新審視日常生活習慣，了解背後的生態代價，學會做個精明環保的消費者。",
+      "subtitle": "最近一次購物結算成績",
+      "sub_desc": "最不持續發展的地球消費",
+      "food": "新鮮食品",
+      "product": "日常用品",
+      "model": "全新造型"
+    },
+    "hello": "您好",
+    "score": "分数",
+    "last_update": "最後更新日期",
+    "my_footprint": "我的足跡",
+    "my_account": "我的帳戶"
+  },
+  "booking": {
+    "title": "預約參觀",
+    "submit":"遞交",
+    "description": "",
+    "type": "預 約 類 別",
+    "group": "團體",
+    "modify": "更改<br>預約",
+    "single": "個人",
+    "maxVisitor": "最多40人",
+    "count": "總數",
+    "adultCount": "成人人數: ",
+    "studentCount": "学生人數: ",
+    "utilPrice": "100HKD (每人)",
+    "grade": "年級:",
+    "visitLang": "參觀展品內容會顯示",
+    "useDiscount": "> 使用折扣代碼",
+    "adultUtil": "位成人",
+    "studentUtil": "位学生",
+    "changeBookingRole": "更改預約政策",
+    "update_booking": "更改<br>預約",
+    "cancelBooking": "取消<br>預約",
+    "bookingBtnText": "網上預約",
+    "select_datetime": "選擇日期及時段",
+    "select_datetime_desc": "我們接受個人申請者在到訪日期前3-30天內的預約。",
+    "select_date": "選擇日期:",
+    "select_time": "選擇時段:",
+    "next": "下一步",
+    "step1": "預約類別",
+    "step2": "選擇日期及時段",
+    "step3": "個人資料確認",
+    "step4": "付款",
+
+    "profileConfirm":"資料確認",
+    "groupName":"團體名稱",
+    "groupNamePlaceholder": "請輸入您的團體名稱",
+    "groupType": "團體類別",
+    "lastName": "名",
+    "lastNamePlaceholder": "請輸入您的名",
+    "firstName": "姓",
+    "firstNamePlaceholder": "請輸入您的姓",
+    "concatTel": "聯絡電話",
+    "concatTelPlaceholder": "請輸入您的聯絡電話",
+    "email": "登記電郵:",
+    "emailPlaceholder": "請輸入您的電郵地址",
+    "emailReceive": "使用此電郵地址接收所有參加 者的帳戶啟動碼 者的帳戶啟動碼 ?"
+  },
+  "booking_process": {
+    "title": "預約參觀",
+    "submit": "遞交",
+    "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+    "email_receive": "使用此電郵地址接收所有參加者的帳戶啟動碼?",
+    "group_info_confirm": "团体資料確認",
+    "single_info_confirm": "個人資料確認",
+    "step_1": "預約類別",
+    "step_2": "選擇日期及時段",
+    "step_3": "個人資料確認",
+    "step_4": "付款",
+    "group_name": "團體名稱",
+    "group_name_placeholder": "請輸入您的團體名稱",
+    "first_name_placeholder": "請輸入您的名",
+    "last_name_placeholder": "請輸入您的姓",
+    "label_phone": "聯絡電話",
+    "label_phone_placeholder": "請輸入您的聯絡電話",
+    "label_email": "登記電郵",
+    "label_email_placeholder": "請輸入您的電郵地址",
+    "next": "下一步",
+    "appellation": "稱謂",
+    "first_name": "名",
+    "last_name": "姓"
+  }
+}

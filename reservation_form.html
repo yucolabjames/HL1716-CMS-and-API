@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <Title>Bu Virtual Habitat</Title>
@@ -11,9 +12,9 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="js/vendor/animsition-master/dist/css/animsition.min.css">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />    
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="js/vendor/slick-1.8.0/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/vendor/slick-1.8.0/slick/slick-theme.css" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="js/vendor/select2-develop/dist/css/select2.min.css">
     <link rel="stylesheet" href="js/vendor/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.css">
@@ -23,234 +24,362 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
-   
+
 </head>
 
 <body id="index">
-   
+
     <div class="animsition">
         <header>
-       
+
             <div class="container clearfix">
                 <div class="top-nav">
-                   <ul class="list-inline mainMenu clearfix">
-                        <li class="lang-opt hidden-xs"><div class="dropdown">
-                          <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                           ENG<span class="icon-r"><img src="images/common/icon-lang.svg"></span>
-                          </div> 
-
-                          <ul class="dropdown-menu" aria-labelledby="dLabel">
-                            <li>繁</li>
-                            <li>簡</li>
-                          </ul>
-                        </div>
+                    <ul class="list-inline mainMenu clearfix">
+                        <li class="lang-opt hidden-xs">
+                            <div class="dropdown">
+                                <div data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="current_lang"></span>
+                                    <span class="icon-r"><img src="images/common/icon-lang.svg"></span>
+                                </div>
+                
+                                <ul class="dropdown-menu select-language" aria-labelledby="dLabel"></ul>
+                            </div>
                         </li>
-                        <li class="logo-core text-center"> <a href="index.html" class="logo"><img src="images/common/logo.svg" class="img-fluid"></a></li>
+                        <li class="logo-core text-center"> <a href="index.html" class="logo"><img src="images/common/logo.svg"
+                                    class="img-fluid"></a></li>
                         <li class="text-right widget-social hidden-xs">
                             <a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a>
                             <a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a>
                         </li>
-                   </ul>
-                   
-                   
+                    </ul>
+
+
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#login-menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
                 <hr>
-                 <nav class="navbar-menu">
+                <nav class="navbar-menu">
                     <div class="collapse navbar-collapse" id="login-menu">
-                      <ul class="nav-menu">
-						<!-- 2 -->
-                        <li class="">
-                            <a href="about.html" >生物資源與農業</a>
-                        </li>
-						<!-- 3 -->
-                        <li class="">
-                            <a href="hall.html" >展覽館</a>
-                        </li>
-						<!-- 4 -->
-                        <li class="">
-                            <a href="faq.html" >問問專家</a>
-                        </li>
-						<!-- 5 -->
-                        <li class="">
-                            <a href="news.html" >最新消息</a>
-                        </li>
-						<!-- 6 -->
-                        <li class="">
-                            <a href="memberLogin.html" >會員專區</a>
-                        </li>
-						<!-- 7 -->
-                        <li class="">
-                            <a href="contact.html" >聯絡我們</a>
-                        </li>
-                        <li class="booking"><a class="btn theme6" href="booking.html" ><span class="icon"><img src="images/common/icon-calendar2.svg" class="svg img-fluid"></span> 預約</a></li>
-                         <ul class="lang-btn clearfix" aria-labelledby="dLabel">
-                            <li><img src="images/common/icon-lang.svg"></li>
-                            <li>繁</li>
-                            <li>簡</li>
-                          </ul>
-                      </ul>
+                        <ul class="nav-menu">
+                                <!-- 2 -->
+                            <li class="">
+                                <a href="about.html" class="nav1" data-i18n-text="navigations.biology"></a>
+                            </li>
+                            <!-- 3 -->
+                            <li class="">
+                                <a href="hall.html" class="nav2" data-i18n-text="navigations.hall"></a>
+                            </li>
+                            <!-- 4 -->
+                            <li class="">
+                                <a href="faq.html" class="nav3" data-i18n-text="navigations.zhuanjia"></a>
+                            </li>
+                            <!-- 5 -->
+                            <li class="">
+                                <a href="news.html" class="nav4" data-i18n-text="navigations.news"></a>
+                            </li>
+                            <!-- 6 -->
+                            <li class="">
+                                <a href="memberLogin.html" class="nav5" data-i18n-text="navigations.member"></a>
+                            </li>
+                            <!-- 7 -->
+                            <li class="">
+                                <a href="contact.html" class="nav6" data-i18n-text="navigations.concat"></a>
+                            </li>
+                            <li class="booking">
+                                <a class="btn theme6" href="booking.html">
+                                <span class="icon">
+                                    <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+                                </span> 
+                                <span data-i18n-text="navigations.booking"></span>
+                                </a>
+                            </li>
+                            <ul class="lang-btn clearfix select-language" aria-labelledby="dLabel">
+                                
+                            </ul>
+                        </ul>
                     </div>
-
-                   
-                   
                     <!-- /.navbar-collapse -->
-            
+
                 </nav>
-       </div>
-    </header>
-    
-<div class="widget-breadcrumb">
-  <div class="container">
-    <ul class="breadcrumb">
-      <li><a href="reservation.html"><span class="number">1</span>預約類別</a></li>
-      <li><a href="reservation_calendar.html"><span class="number">2</span>選擇日期及時段</a></li>
-      <li class="active"><span class="number">3</span>個人資料確認</li>
-      <li><a href="reservation_confirmation.html"><span class="number">4</span>付款</a></li>
-    </ul>
-   </div>
-</div>
-  <section class="section-registration">
-    <div class="container">
-      <div class="paragraph">
-        <h1 class="sessionTitle">預約參觀</h1>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. <br>Aenean commodo ligula eget dolor.</p>
-      </div>
-      <div class="widget-form panel-booking widget-calendar booking-form-wrapper">
-          <div class="wrapper">
-            <div class="headline text-center"><h2 class="subHead">資料確認</h2></div>
-			<div class="innerFrame">
-				<div class="booking-form col-xs-12 col-sm-7">
-					<!-- START - GROUP BOOKING ONLY -->
-					<div class="clearfix">團體名稱<br /><input class="form-control" placeholder="請輸入您的團體名稱"></div>
-					
-					<div class="clearfix">
-						<label>團體類別</label>
-						<label><input class="form-control" type="radio" name="group-type" value="慈善團體"> 慈善團體</label>
-						<label><input class="form-control" type="radio" name="group-type" value="社福機構"> 社福機構</label>
-						<label><input class="form-control" type="radio" name="group-type" value="註冊社團"> 註冊社團</label>
-						<label><input class="form-control" type="radio" name="group-type" value="註冊公司"> 註冊公司</label>
-						<label><input class="form-control" type="radio" name="group-type" value="學校及大專院校"> 學校及大專院校</label>
-						<label><input class="form-control" type="radio" name="group-type" value="政府決策局 / 部門及公營機構"> 政府決策局 / 部門及公營機構</label>
-						<label><input class="form-control" type="radio" name="group-type" value="其他團體"> 其他團體</label>
-					</div>
-					
-					<!-- END - GROUP BOOKING ONLY -->
-					<!--
-					<div class="clearfix">
-						<label>稱謂</label>
-						<label><input class="form-control" type="radio" name="title" value="先生"> 先生</label>
-						<label><input class="form-control" type="radio" name="title" value="女士"> 女士</label>
-						<label><input class="form-control" type="radio" name="title" value="小姐"> 小姐</label>
-					</div>
-					-->
-					<div class="clearfix">名<br /><input class="form-control" placeholder="請輸入您的名"></div>
-					<div class="clearfix">姓<br /><input class="form-control" placeholder="請輸入您的姓"></div>
-					<div class="clearfix">聯絡電話<br /><input class="form-control" placeholder="請輸入您的聯絡電話"></div>
-					<div class="clearfix">登記電郵:<br /><input class="form-control" placeholder="請輸入您的電郵地址"></div>
-					
-					<!-- START - GROUP BOOKING ONLY -->
-					<div class="clearfix"><label>使用此電郵地址接收所有參加 者的帳戶啟動碼 者的帳戶啟動碼 ?
-						<input class="form-control" type="checkbox"></label>
-					</div>
-					<!-- END - GROUP BOOKING ONLY -->
-				</div>
-             
-				<div class="pos-btn">
-				  <div class="btn-wrapper text-center">
-					<a href="reservation_confirmation.html" class="btn theme3">
-					  <span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>
-					  <div class="btn-wrapper">下一步</div>
-					  <div class="circle"></div>
-					</a>
-				  </div>
-				</div>
-
-			<!-- Cancel booking process button Start -->
-            <div class="pos-btn cancel-btn">
-              <div class="btn-wrapper text-center">
-                <a href="reservation_cancel.html" class="btn theme3">
-                  <span class="icon"><img src="images/common/icon-cross.svg" clsas="img-fluid"></span>
-                  <div class="btn-wrapper">取消<br>預約</div>
-                  <div class="circle"></div>
-                </a>
-              </div>
             </div>
-			<!-- Cancel booking process button End -->
-			
-			</div>
-        </div>
-          <div class="pos-item spaceM"><div class="ani-float"><img src="images/reservation/spaceM.png" class="img-fluid"></div></div>
-          <div class="space-box"></div>
-          <div class="space-box2"></div>
-      </div>
-  </section>
+        </header>
 
-
-
-
-     <footer>
-        <div class="container">
-            <div class="clearfix">
-                 <div class="visible-xs widget-social">
-                    關注我們<br>
-                    <ul>
-                        <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                        <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 widget-link">
-                    <ul>
-                      <li><a href="legal_general_guidelines_visit.html"></a></li> 
-                      <li><a href="legal_guidelines_booking.html"></a></li> 
-                      <li><a href="legal_privacy_policy.html"></a></li> 
-                      <li><a href="legal_disclaimer.html"></a></li>
-                    </ul>
-                </div>
-                 <div class="hidden-xs col-sm-4 widget-social">
-                    關注我們<br>
-                    <ul>
-                        <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                        <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 widget-contact">
-                   <ul>
-                        <li>地址: 九龍塘浸會大學道</li>
-                        <li>開放時間 : 星期一至日上午10時至下午7時</li>
-                        <li>聯絡電話 : 852-35008335</li>
-                        <li>電郵地址 : info@bu.com</li>
-                    </ul>
-                </div>
+        <div class="widget-breadcrumb">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="reservation.html"><span class="number">1</span><span data-i18n-text="booking.step1"></span></a></li>
+                    <li><a href="reservation_calendar.html"><span class="number">2</span><span data-i18n-text="booking.step2"></span></a></li>
+                    <li class="active"><span class="number">3</span><span data-i18n-text="booking.step3"></span></li>
+                    <li><span class="number">4</span><span data-i18n-text="booking.step4"></span></li>
+                </ul>
             </div>
-
-          <div class="copyright text-center lang_footer_copyright"></div>
         </div>
-    </footer>
-    </div>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>           
-    <script src="js/vendor/waypoint/waypoints.min.js"></script>
-    <script src="js/vendor/select2-develop/dist/js/select2.min.js"></script>
-    <script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    <script src="js/vendor/animsition-master/dist/js/animsition.js"></script>
-    <script src="js/vendor/jquery-match-height-master/jquery.matchHeight.js"></script>
-    <script src="js/vendor/backstretch/jquery.backstretch.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
-    <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
-    <script src="js/script.js"></script>
+        <section class="section-registration">
+            <div class="container">
+                <div class="paragraph">
+                    <h1 class="sessionTitles" data-i18n-text="booking.title"></h1>
+                    <p data-i18n-text="booking.description"></p>
+                </div>
+                <div class="widget-form panel-booking widget-calendar booking-form-wrapper">
+                    <div class="wrapper">
+                        <div class="headline text-center">
+                            <h2 class="subHead" data-i18n-text="booking.profileConfirm"></h2>
+                        </div>
+                        <div class="innerFrame">
+                            <div class="booking-form col-xs-12 col-sm-7">
+                                <!-- START - GROUP BOOKING ONLY -->
+                                <div class="clearfix hidden" id="groupNameWrap">
+                                    <span data-i18n-text="booking.groupName"></span>
+                                    <br />
+                                    <input class="form-control" id="groupName" data-i18n-placeholder="booking.groupNamePlaceholder">
+                                </div>
+
+                                <div class="clearfix hidden" id="groupTypeWrap">
+                                    <label>
+                                        <span data-i18n-text="booking.groupType"></span>
+                                    </label>
+
+                                    <label>
+                                        <input class="form-control" type="radio" name="group-type" value="1" checked> 慈善團體
+                                    </label>
+                                    
+                                    <label>
+                                        <input class="form-control" type="radio" name="group-type" value="2"> 社福機構
+                                    </label>
+
+                                    <label>
+                                        <input class="form-control" type="radio" name="group-type" value="3"> 註冊社團
+                                    </label>
+                                    
+                                    <label>
+                                        <input class="form-control" type="radio" name="group-type" value="4"> 註冊公司
+                                    </label>
+                                    
+                                    <label>
+                                        <input class="form-control" type="radio" name="group-type" value="5"> 學校及大專院校
+                                    </label>
+                                    
+                                    <label>
+                                        <input class="form-control" type="radio" name="group-type" value="6"> 政府決策局/ 部門及公營機構
+                                    </label>
+
+                                    <label>
+                                        <input class="form-control" type="radio" name="group-type" value="7"> 其他團體
+                                    </label>
+                                </div>
+
+                                <div class="clearfix">
+                                    <label>
+                                        <span>称谓</span>
+                                    </label>
+                                    <label>
+                                        <input class="form-control" type="radio" name="appellation" value="1" checked> 
+                                        先生
+                                    </label>
+                                    <label>
+                                        <input class="form-control" type="radio" name="appellation" value="2"> 
+                                        女士
+                                    </label>
+                                    <label>
+                                        <input class="form-control" type="radio" name="appellation" value="3"> 
+                                        小姐
+                                    </label>
+                                </div>
+
+                                <div class="clearfix">
+                                    <span data-i18n-text="booking.lastName"></span>
+                                    <br /><input class="form-control" data-i18n-placeholder="booking.lastNamePlaceholder" id="firstName">
+                                </div>
+
+                                <div class="clearfix">
+                                    <span data-i18n-text="booking.firstName"></span>
+                                    <br /><input class="form-control" data-i18n-placeholder="booking.firstNamePlaceholder" id="lastName">
+                                </div>
+
+                                <div class="clearfix">
+                                    <span data-i18n-text="booking.concatTel"></span>
+                                    <br /><input class="form-control" data-i18n-placeholder="booking.concatTelPlaceholder" id="phone">
+                                </div>
+
+                                <div class="clearfix">
+                                    <span data-i18n-text="booking.email"></span>
+                                    <br />
+                                    <input class="form-control" data-i18n-placeholder="booking.emailPlaceholder" id="email">
+                                </div>
+
+                                <!-- START - GROUP BOOKING ONLY -->
+                                <div class="clearfix hidden" id="groupReceiveEmail">
+                                    <label>
+                                        <span data-i18n-text="booking.emailReceive"></span>
+                                        <input class="form-control" type="checkbox" id="isReceive" checked>
+                                    </label>
+                                </div>
+                                <!-- END - GROUP BOOKING ONLY -->
+                            </div>
+
+                            <div class="pos-btn">
+                                <div class="btn-wrapper text-center">
+                                    <a class="btn theme3 " id="Step3Confirm">
+                                        <span class="icon"><img src="images/common/icon-next.svg" clsas="img-fluid"></span>
+                                        <div class="btn-wrapper" data-i18n-text="booking.next"></div>
+                                        <div class="circle"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Cancel booking process button Start -->
+                            <div class="pos-btn cancel-btn">
+                                <div class="btn-wrapper text-center">
+                                    <a href="reservation_cancel.html" class="btn theme3 location_query">
+                                        <span class="icon"><img src="images/common/icon-cross.svg" clsas="img-fluid"></span>
+                                        <div class="btn-wrapper" data-i18n-text="booking.cancelBooking"></div>
+                                        <div class="circle"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Cancel booking process button End -->
+
+                        </div>
+                    </div>
+                    <div class="pos-item spaceM">
+                        <div class="ani-float"><img src="images/reservation/spaceM.png" class="img-fluid"></div>
+                    </div>
+                    <div class="space-box"></div>
+                    <div class="space-box2"></div>
+                </div>
+        </section>
+
+
+
+
+        <footer class="footer_wrap"></footer>
+        </div>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="js/vendor/waypoint/waypoints.min.js"></script>
+        <script src="js/vendor/select2-develop/dist/js/select2.min.js"></script>
+        <script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+        <script src="js/vendor/animsition-master/dist/js/animsition.js"></script>
+        <script src="js/vendor/jquery-match-height-master/jquery.matchHeight.js"></script>
+        <script src="js/vendor/backstretch/jquery.backstretch.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+        <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
+        <script src="js/language.js"></script>
+        <script src="js/script.js"></script>
+        <script>
+            $(function(){
+                var param = JSON.parse(sessionStorage.getItem('booking'));
+                if(!param){
+                    location.href = 'reservation.html'
+                }
+                
+                if(param.is_group == 1){
+                    $("#groupNameWrap, #groupTypeWrap, #groupReceiveEmail").removeClass('hidden')
+                }
+
+                $("#Step3Confirm").on('click', function(){
+
+                    var groupName = $('#groupName').val();
+                    if(groupName =='' && param.is_group == 1){
+                        alert('请填写團體名稱 ')
+                        $('#groupName').focus();
+                        return;
+                    } else {
+                        param.group_name = groupName
+                    }
+
+
+                    var groupType = $('input[name=group-type]:checked').val();
+                    if(!groupType && param.is_group == 1){
+                        alert('请选择團體類別')
+                        return;
+                    } else {
+                        param.group_type = groupType
+                    }
+
+
+                    var firstName = $("#firstName").val();
+                    if(firstName == ''){
+                        alert('请填写您的名')
+                        return
+                    } else {
+                        param.first_name = firstName
+                    }
+
+                    var lastName = $("#lastName").val();
+                    if(lastName == ''){
+                        alert('请填写您的姓')
+                        return
+                    } else {
+                        param.last_name = lastName;
+                    }
+
+
+                    var phone = $('input#phone').val();
+                    if(phone == ''){
+                        alert('请填写您的电话')
+                        return
+                    } else {
+                        param.phone = phone;
+                    }
+
+
+                    var email = $("input#email").val();
+                    if(email == ''){
+                        alert('请填写您的邮箱')
+                        return
+                    } else {
+                        param.email = email;
+                    }
+
+                    var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$");
+                    if(!reg.test(email)){
+                        alert('请输入合法的邮箱')
+                        return;
+                    }
+
+                    var is_receive = $('input#isReceive').prop('checked') ? 1 : 0;
+                    param.is_receive = is_receive
+                    
+                    param.title = $("input[name=appellation]:checked").val();
+                    param.total = (function(param){
+                        var adultTotoalPrice = parseInt(param.visitor_count) * 100;
+
+                        var childTotalPrice = 0
+                        if(param.child_count){
+                            var childTotalPrice = parseInt(param.child_count * 100)
+                        }
+                        
+                        return adultTotoalPrice + childTotalPrice
+                    })(param)
+                    console.log(param)
+                    param.pay = (function(param){
+                        if(param.pay !== ''){
+                            var pay = param.total - parseInt(param.pay);
+                            console.log(pay)
+                            return pay < 0 ? 0: pay;
+                        } else {
+                            return param.total
+                        }
+                    })(param)
+                    
+                        
+                    sessionStorage.setItem('booking', JSON.stringify(param))
+                    location.href = 'reservation_confirmation.html'
+                })
+            })
+            
+        </script>
 </body>
+
 </html>
-
-

@@ -5,15 +5,7 @@ $(function() {
   function initLayout(){
     $.backstretch("images/news/newsBg.jpg");
       
-     var $grid = $('.grid').imagesLoaded( function() {
-      $grid.isotope({
-        itemSelector: '.grid-item',
-        percentPosition: true,
-        masonry: {
-          columnWidth: '.grid-sizer'
-        }
-      });
-    });
+     
 
     $(".widget-related").backstretch("images/news/newsBg2.jpg");
     
@@ -28,8 +20,15 @@ $(function() {
     });
   }
 
-  var language = getQueryString('lan') || 'CHT';
-  var lan_id = getQueryString('lan_id') || 3;
+  var lang = getLocalStorage('hk_language');
+  var language, lan_id;
+  if(lang){
+      language = lang.lan;
+      lan_id = lang.lan_id;
+  } else {
+      language = 'CHT';
+      lan_id = 3;
+  }
   // 获取消息类型
   $.post(api_host + '/api/news/typelist', {
     language: lan_id
@@ -60,23 +59,52 @@ $(function() {
       language: lan_id
     }, res => {
       if(res.error_code == 0){
+        console.log(res)
         if(res.res.data.length == 0){
           $('.news_list').hide();
           return
         }
         $('.news_list').show();
-        $('.grid-item').each( (val, item) => {
-          $(item).find('img').prop('src', uploaded+''+res.res.data[val].cover)
-          $(item).find('.desp-title').text(res.res.data[val].description)
-          $(item).find('date').text(res.res.data[val].data[0].date)
-          $(item)
-            .find('a')
-            .attr('href', `newsDetail.html?lan_id=${lan_id}&lan=${language}&lang=${language}`)
-            .attr({
-              'data-id': res.res.data[val].id,
-              'data-title': res.res.data[val].data[0].title
-            })
+        // $('.grid-item').each( (val, item) => {
+        //   $(item).find('img').prop('src', uploaded+''+res.res.data[val].cover)
+        //   $(item).find('.desp-title').text(res.res.data[val].description)
+        //   $(item).find('date').text(res.res.data[val].data[0].date)
+        //   $(item).find('tag').text(res.res.data[val].data[0].type_name+'a')
+        //   $(item)
+        //     .find('a')
+        //     .attr('href', `newsDetail.html?id=${res.res.data[val].id}&title=${res.res.data[val].title}`)
+        //     .attr({
+        //       'data-id': res.res.data[val].id,
+        //       'data-title': res.res.data[val].title
+        //     })
+        // })
+        var html = '<div class="grid-sizer"></div>'
+        res.res.data.forEach( item => {
+          html += `<div class="grid-item theme2">
+                    <a href="newsDetail.html?id=${item.id}&title=${item.title}">
+                      <div class="grid-wrapper">
+                      <div class="pos-text">
+                        <div class="tag">${item.type_name}</div>
+                        <div class="desp-title">${item.description}</div>
+                        <div class="date">${new Date(item.date * 1000).toDateString()}</div>
+                      </div>
+                      <img src="${uploaded+item.cover}" class="img-full">
+                    </div>
+                    </a>
+                  </div>`
         })
+
+        $(".news_list").html(html)
+        var $grid = $('.grid').imagesLoaded( function() {
+          $grid.isotope({
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            masonry: {
+              columnWidth: '.grid-sizer'
+            }
+          });
+        });
+        $.backstretch("images/news/newsBg.jpg");
       }
 
       $(".grid-item a").on('click', function(e) {

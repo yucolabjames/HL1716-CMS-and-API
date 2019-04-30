@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:wb="http://open.weibo.com/wb">
 <head>
     <meta charset="utf-8">
     <Title>Bu Virtual Habitat</Title>
@@ -7,24 +7,37 @@
     <meta name="robots" content="index,follow">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.png">
-    <link href="//fonts.googleapis.com/css?family=Comfortaa:300,400,700|News+Cycle:400,700|Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|News+Cycle:400,700|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="js/vendor/animsition-master/dist/css/animsition.min.css">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />    
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="js/vendor/slick-1.8.0/slick/slick-theme.css"/>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="js/vendor/select2-develop/dist/css/select2.min.css">
     <link rel="stylesheet" href="js/vendor/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.css">
-    <!-- script src="//use.typekit.net/xjn7mvl.js"></script-->
+
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+    <link type="text/css" rel="stylesheet" href="plugins/font-awesome-4.7.0/css/font-awesome.css" />
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css" />
+
+    <!-- script src="https://use.typekit.net/xjn7mvl.js"></script-->
     <!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/static.css" rel="stylesheet">
     <link href="css/style_theme2.css" rel="stylesheet">
     <link href="css/style_mobile.css" rel="stylesheet">
-   
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+    <style>
+        .comment-wrap_add,
+        .commentNothingData{
+            display: none;
+        }
+    </style>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body id="newsDetail">
@@ -62,43 +75,44 @@
                  <nav class="navbar-menu">
                     <div class="collapse navbar-collapse" id="login-menu">
                         <ul class="nav-menu">
-                            <!-- 2 -->
+                                <!-- 2 -->
                             <li class="">
-                                <a href="about.html" class="nav1"></a>
+                                <a href="about.html" class="nav1" data-i18n-text="navigations.biology"></a>
                             </li>
                             <!-- 3 -->
                             <li class="">
-                                <a href="hall.html" class="nav2"></a>
+                                <a href="hall.html" class="nav2" data-i18n-text="navigations.hall"></a>
                             </li>
                             <!-- 4 -->
                             <li class="">
-                                <a href="faq.html" class="nav3"></a>
+                                <a href="faq.html" class="nav3" data-i18n-text="navigations.zhuanjia"></a>
                             </li>
                             <!-- 5 -->
                             <li class="active">
-                                <a href="news.html" class="nav4"></a>
+                                <a href="news.html" class="nav4" data-i18n-text="navigations.news"></a>
                             </li>
                             <!-- 6 -->
                             <li class="">
-                                <a href="memberLogin.html" class="nav5"></a>
+                                <a href="memberLogin.html" class="nav5" data-i18n-text="navigations.member"></a>
                             </li>
                             <!-- 7 -->
-                            <li >
-                                <a href="contact.html" class="nav6"></a>
+                            <li class="">
+                                <a href="contact.html" class="nav6" data-i18n-text="navigations.concat"></a>
                             </li>
-                            <li class="booking"><a class="btn theme6" href="booking.html" ><span class="icon"><img src="images/common/icon-calendar2.svg" class="svg img-fluid"></span> <span class="nav7"></span></a></li>
-                             <ul class="lang-btn clearfix" aria-labelledby="dLabel">
-                                <li><img src="images/common/icon-lang.svg"></li>
-                                <li>繁</li>
-                                <li>簡</li>
-                              </ul>
-                          </ul>
+                            <li class="booking">
+                                <a class="btn theme6" href="booking.html">
+                                <span class="icon">
+                                    <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+                                </span> 
+                                <span data-i18n-text="navigations.booking"></span>
+                                </a>
+                            </li>
+                            <ul class="lang-btn clearfix select-language" aria-labelledby="dLabel">
+                                
+                            </ul>
+                        </ul>
                     </div>
-
-                   
-                   
                     <!-- /.navbar-collapse -->
-            
                 </nav>
        </div>
     </header>
@@ -127,28 +141,30 @@
 
       <p>Mi-kaisha, 17, will lead the school student body with IGS 2018 Head Boy Lukian Adams. The audience of parents, students and staff erupted into cheers at the announcement of both student leaders.</p> -->
     </div>
-    <div class="widget-social">
+    <div class="widget-socials" >
       <h6>Share:</h6>
-      <ul>
-        <li><a href=""><i class="fa fa-weibo" aria-hidden="true"></i></a></li>
-        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-      </ul>
+     
+      <div  style="text-align:center">
+          <span id="share"></span>
+          <wb:share-button addition="simple" type="button"></wb:share-button>
+      </div>
+      
     </div>
 	
     <div class="widget-comment">
 		<h1>評論區</h1>
 		
 		<!-- Default when comments !-->
-		<div class="comment">
+		<div class="comment" id="commentNothingData">
 			<div class="container">
 				<div class="comment-default">No comments yet. Be the first one to say something!</div>
 			</div>
-		</div>
+        </div>
+        <div id="commentListWrap"></div>
 		<!-- Default when comments !-->
 		
 		<!-- Comment entry Start !-->
-		<div class="comment">
+		<!-- <div class="comment">
 			<div class="container">
 				<div class="comment-user">jwong</div>
 				<div class="comment-time">2017年12月7日 14:21</div>
@@ -156,10 +172,10 @@
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- Comment entry End !-->
 		<!-- Comment entry Start !-->
-		<div class="comment">
+		<!-- <div class="comment">
 			<div class="container">
 				<div class="comment-user">guardian28</div>
 				<div class="comment-time">2017年12月19日 09:12</div>
@@ -167,24 +183,24 @@
 					😋 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 				</div>
 			</div>
-		</div>		
+		</div> -->		
 		<!-- Comment entry End !-->
 		
 		<!-- comment form Start -->
-		<div class="comment">
+		<div class="comment comment-wrap_add" id="logged">
 			<div class="container">
 				<h1>參加評論區</h1>
 				<div class="comment-rule">Please remain civil and polite!</div>
 				<textarea name="comment-content"></textarea>
 				<div class="comment-caption">* comments will only be published after approval</div>
 				
-				<div class="btn theme4 margin-t-20">提交</div>
+				<div class="btn theme4 margin-t-20" id="commentContentSubmit">提交</div>
 			</div>
 		</div>
 		<!-- comment form End -->
 		
 		<!-- comment form IF NOT LOGGED IN  -->
-		<div class="comment">
+		<div class="comment comment-wrap_add" id="unlogin">
 			<div class="container">
 				<h1>參加評論區</h1>
 				<div class="comment-content text-center">You must be logged in, in order to post a comment</div>
@@ -194,7 +210,7 @@
 	</div>
     </div>
   </section>
-<section class="widget-related">
+<section class="widget-related" style="max-height: 350px;">
     <h6>RELATED POSTS</h6>
     <div class="container">
         <div class="relatedSlider">
@@ -204,72 +220,44 @@
                     <div class="text-wrapper">
                     <div class="title">Make sure you’re ready for GDPR</div>
                     <div class="date">FEB  9, 2018</div>
-                    </div> -->
-            </div>
+                    </div>
+            </div> -->
         </div>
     </div>
 </section>
 
 
-    <footer>
-            <div class="container">
-                <div class="clearfix">
-                    <div class="visible-xs widget-social">
-                            <span class="lang_about_me"></span><br>
-                        <ul>
-                            <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                            <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 widget-link lang_about_link">
-                        <ul>
-                      <li><a href="legal_general_guidelines_visit.html"></a></li> 
-                      <li><a href="legal_guidelines_booking.html"></a></li> 
-                      <li><a href="legal_privacy_policy.html"></a></li> 
-                      <li><a href="legal_disclaimer.html"></a></li>
-                        </ul>
-                    </div>
-                    <div class="hidden-xs col-sm-4 widget-social">
-                            <span class="lang_about_me"></span><br>
-                        <ul>
-                            <li><a href=""><img src="images/common/icon-facebook.svg" class="svg img-fluid"></a></li>
-                            <li><a href=""><img src="images/common/icon-instagram.svg" class="svg img-fluid"></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 widget-contact">
-                    <ul>
-                            <li><span class="lang_footer_addr_label"></span> : <span class="lang_footer_addr_value"></span></li>
-                            <li><span class="lang_footer_opentime_label"></span> : <span class="lang_footer_opentime_value"></span></li>
-                            <li><span class="lang_footer_phone_label"></span> : <span class="lang_footer_phone_value"></span></li>
-                            <li><span class="lang_footer_email_label"></span> : <span class="lang_footer_email_value"></span></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="copyright text-center lang_footer_copyright"></div>
-            </div>
-        </footer>
+    <footer class="footer_wrap"></footer>
+    
     </div>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>           
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>           
     <script src="js/vendor/waypoint/waypoints.min.js"></script>
     <script src="js/vendor/select2-develop/dist/js/select2.min.js"></script>
-    <script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <script src="js/vendor/animsition-master/dist/js/animsition.js"></script>
     <script src="js/vendor/jquery-match-height-master/jquery.matchHeight.js"></script>
     <script src="js/vendor/backstretch/jquery.backstretch.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
     <script src="js/vendor/masonry-docs/masonry.pkgd.min.js"></script>
     <script src="js/lib/underscore.js"></script>
     <script src="js/script.js"></script>
     <script src="js/language.js"></script>
+    <script>
+            $("#share").jsSocials({
+                showLabel: false,
+    			showCount: false,
+                shares: ["facebook", "googleplus"]
+              });
+              
+    </script>
     <script src="js/jsNewsDetail.js"></script>
 </body>
 </html>

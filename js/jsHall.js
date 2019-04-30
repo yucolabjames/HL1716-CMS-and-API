@@ -7,9 +7,17 @@ $(function () {
   
 
   // 获取数据
-  var language = getQueryString('lan') || 'CHT';
-  var lan_id = getQueryString('lan_id') || 3;
-  (() => {
+  var lang = getLocalStorage('hk_language');
+  var language, lan_id;
+  if(lang){
+      language = lang.lan;
+      lan_id = lang.lan_id;
+  } else {
+      language = 'CHT';
+      lan_id = 3;
+  }
+  ((lan_id) => {
+    
     const getApi = () => {
       $.post(api_host+'/api/Ehall/index', {
         language: lan_id
@@ -60,8 +68,8 @@ $(function () {
       }, 'json')
     }
 
-    getApi();
-  })();
+    getApi(lan_id);
+  })(lan_id);
 
 
 

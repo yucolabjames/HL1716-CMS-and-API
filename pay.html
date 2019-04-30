@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Paypal订单支付</title>
+</head>
+<body>
+<form action="https://issuatepay.hkbu.edu.hk/fisweb/cccs/jsp/issRedirectIssua05.jsp" method="POST"  name="form_starPay"> 
+    <input type='hidden' name='invoiceNum' value='20180828080706000039'>  
+    <input type='hidden' name='amount' value='150.00'> 
+    <input type='hidden' name='currcode' value='344'> 
+    <input type='hidden' name='language' value='en_us'> 
+    <input type='hidden' name='returnURL' value='https://www.parkingpay.net/hk/api/index/notify'> 
+    <input type='hidden' name='payerName' value='Chan Tai Man'> 
+    <input type='hidden' name='username' value='mtchan'> 
+    <input type='hidden' name='charset' value='big5'> 
+    <input type='hidden' name='addr1' value='addr1'> 
+    <input type='hidden' name='addr2' value='addr2'> 
+    <input type='hidden' name='addr3' value='addr3'> 
+    <input type='hidden' name='addr4' value='addr4'> 
+    <input type='hidden' name='addr5' value='addr5'> 
+    <input type='hidden' name='txnDetail' value='<str><count>1</count><item_record><item_code>1</item_code><item_desc>Application</item_desc><item_amt>150.00</item_amt></item_record></str>'> 
+    <input type='hidden' name='paymentSystem' value='B'> 
+    <input type="image" name="submit"    />
+</form>
+正在跳转Paypal支付，请稍等。。。
+<script>
+    function sub(){
+        document.form_starPay.submit();
+    }
+    onload(sub())
+</script>
+</body>
+</html>

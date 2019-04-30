@@ -2,10 +2,17 @@ $(function () {
 
   // 获取数据
   (() => {
-    var language = getQueryString('lan') || 'CHT';
-    var lan_id = getQueryString('lan_id') || 3
+    var lang = getLocalStorage('hk_language');
+    var language, lan_id;
+    if(lang){
+        language = lang.lan;
+        lan_id = lang.lan_id;
+    } else {
+        language = 'CHT';
+        lan_id = 3;
+    }
     
-    const getApi = () => {
+    const getApi = (lan_id) => {
 
       // get question list
       $.post(api_host+'/api/Eqaa/typelist', {
@@ -35,7 +42,7 @@ $(function () {
       // $.post(api_host + '/api/Eqaa/index',)
     }
 
-    getApi();
+    getApi(lan_id);
 
     $(".lang_faq_search").on('keydown', e => {
       if(e.keyCode == 13){
@@ -60,18 +67,18 @@ $(function () {
       }, res => {
         if(res.error_code == 0){
           var html = ``
-          res.res.data.forEach( item => {
+          res.res.data.forEach( (item,index) => {
             html += `<div class="faqGrid">
                         <div class="panel-heading" role="tab" id="headingOne">
                           <h4 class="panel-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne${index}" aria-expanded="true" aria-controls="collapseOne${index}">
                               <span class="icon">
                                 <img src="images/faq/icon-q.png" class="img-fluid">
                               </span>${item.ask}
                             </a>
                           </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div id="collapseOne${index}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                           <div class="pbody">
                             <span class="icon">
                               <img src="images/faq/icon-a.png" class="img-fluid">

@@ -21,7 +21,7 @@
 	<!-- script src="//use.typekit.net/xjn7mvl.js"></script-->
 	<!-- script>try{Typekit.load({ async: true });}catch(e){}</script-->
 	<link href="css/animate.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet"> 
 	<link href="css/static.css" rel="stylesheet">
 	<link href="css/style_theme2.css" rel="stylesheet">
 	<link href="css/style_mobile.css" rel="stylesheet">
@@ -79,48 +79,43 @@
 				<hr>
 				<nav class="navbar-menu">
 					<div class="collapse navbar-collapse" id="login-menu">
-						<ul class="nav-menu">
-							<!-- 2 -->
-							<li class="active">
-								<a href="about.html" class="nav1"></a>
-							</li>
-							<!-- 3 -->
-							<li class="">
-								<a href="hall.html" class="nav2"></a>
-							</li>
-							<!-- 4 -->
-							<li class="">
-								<a href="faq.html" class="nav3"></a>
-							</li>
-							<!-- 5 -->
-							<li class="">
-								<a href="news.html" class="nav4"></a>
-							</li>
-							<!-- 6 -->
-							<li class="">
-								<a href="memberLogin.html" class="nav5"></a>
-							</li>
-							<!-- 7 -->
-							<li>
-								<a href="contact.html" class="nav6"></a>
-							</li>
-							<li class="booking">
-								<a class="btn theme6" href="booking.html">
-									<span class="icon">
-										<img src="images/common/icon-calendar2.svg" class="svg img-fluid">
-									</span>
-									<span class="nav7"></span>
-								</a>
-							</li>
-							<ul class="lang-btn clearfix" aria-labelledby="dLabel">
-								<li>
-									<img src="images/common/icon-lang.svg">
-								</li>
-								<li>繁</li>
-								<li>簡</li>
-							</ul>
-
-						</ul>
+							<ul class="nav-menu">
+									<!-- 2 -->
+									<li class="active">
+										<a href="about.html" class="nav1" data-i18n-text="navigations.biology"></a>
+									</li>
+									<!-- 3 -->
+									<li class="">
+										<a href="hall.html" class="nav2" data-i18n-text="navigations.hall"></a>
+									</li>
+									<!-- 4 -->
+									<li class="">
+										<a href="faq.html" class="nav3" data-i18n-text="navigations.zhuanjia"></a>
+									</li>
+									<!-- 5 -->
+									<li class="">
+										<a href="news.html" class="nav4" data-i18n-text="navigations.news"></a>
+									</li>
+									<!-- 6 -->
+									<li class="">
+										<a href="memberLogin.html" class="nav5" data-i18n-text="navigations.member"></a>
+									</li>
+									<!-- 7 -->
+									<li class="">
+										<a href="contact.html" class="nav6" data-i18n-text="navigations.concat"></a>
+									</li>
+									<li class="booking">
+										<a class="btn theme6" href="booking.html">
+											<span class="icon">
+												<img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+											</span> 
+											<span data-i18n-text="navigations.booking"></span>
+										</a>
+								 </li>
+									<ul class="lang-btn clearfix select-language" aria-labelledby="dLabel">
+										
+									</ul>
+								</ul>
 					</div>
 
 
@@ -133,16 +128,16 @@
 
 		<section class="section-about">
 			<div class="session-content set1">
-				<h1 class="lang_about_title"></h1>
+				<h1 class="lang_about_title" data-i18n-text="about.title"></h1>
 				<div>
 
 					<!-- Nav tabs -->
 					<ul class="nav widget-tab" role="tablist">
 						<li role="presentation" class="active">
-							<a href="#section-weather" class="lang_about_navs1" aria-controls="section-weather" role="tab" data-toggle="tab"></a>
+							<a href="#section-weather" class="lang_about_navs1" data-i18n-text="about.navs1" aria-controls="section-weather" role="tab" data-toggle="tab"></a>
 						</li>
 						<li role="presentation">
-							<a href="#profile"  class="lang_about_navs2" aria-controls="profile" role="tab" data-toggle="tab"></a>
+							<a href="#profile"  class="lang_about_navs2" data-i18n-text="about.navs2" aria-controls="profile" role="tab" data-toggle="tab"></a>
 						</li>
 					</ul>
 
@@ -159,7 +154,7 @@
 												</span>
 												<div class="text text-left">
 													<div class="text-wrapper">
-														<span class="number">43</span>
+														<span class="number flood_text"></span>
 														<span class="small">%</span>
 														<br> Flood</div>
 												</div>
@@ -281,7 +276,7 @@
 										<div class="clearfix">
 											<div class="text-wrapper">
 												<div class="grid1 pull-left">
-													<span class="lang_old_year_1"></span>
+													<span class="lang_old_year_1" da></span>
 													<span class="font-large lang_old_year"></span>
 													<span class="lang_old_year_2"></span>
 												</div>
@@ -402,17 +397,17 @@
 				</div>
 			</div>
 			<div class="session-content set2">
-				<h2 class="lang_about_crisis"></h2>
+				<h2 class="lang_about_crisis" data-i18n-text="about.crisis"></h2>
 				<!-- Nav tabs -->
 				<ul class="nav widget-tab" role="tablist">
 					<li role="presentation" class="active">
-						<a class="lang_about_shengchan" href="#case1" aria-controls="case1" role="tab" data-toggle="tab"></a>
+						<a class="lang_about_shengchan" data-i18n-text="about.shenchan" href="#case1" aria-controls="case1" role="tab" data-toggle="tab"></a>
 					</li>
 					<li role="presentation">
-						<a class="lang_about_liangshi" href="#case2" aria-controls="case2" role="tab" data-toggle="tab"></a>
+						<a class="lang_about_liangshi" data-i18n-text="about.liangshi" href="#case2" aria-controls="case2" role="tab" data-toggle="tab"></a>
 					</li>
 					<li role="presentation">
-						<a class="lang_about_nongye" href="#case3" aria-controls="case2" role="tab" data-toggle="tab"></a>
+						<a class="lang_about_nongye" data-i18n-text="about.nongye" href="#case3" aria-controls="case2" role="tab" data-toggle="tab"></a>
 					</li>
 				</ul>
 
@@ -428,7 +423,9 @@
 									<div class="circle-ripple pos-4" data-related="content4"></div>
 									<img src="images/about/case_map.png" class="img-fluid">
 								</div>
-								<div class="text-wrapper" id="content1">
+								
+								<!-- <span class="content_bioio"></span> -->
+								<!--<div class="text-wrapper" id="content1">
 									<div class="clearfix">
 										<div class="margin-b-20">
 											<span class="icon">
@@ -443,6 +440,7 @@
 											<br class="visible-lg">摧毀肥沃農地</span>
 									</div>
 								</div>
+
 								<div class="text-wrapper" id="content2">
 									<div class="clearfix">
 
@@ -454,6 +452,7 @@
 										</span>
 									</div>
 								</div>
+
 								<div class="text-wrapper" id="content3">
 									<div class="clearfix">
 										<span class="descpt">常規農耕加速土壤養分流失,
@@ -464,12 +463,13 @@
 											<br class="visible-lg">的土壤嚴重退化</span>
 									</div>
 								</div>
+
 								<div class="text-wrapper" id="content4">
 									<div class="clearfix">
 										<span class="descpt">農藥禍害不可忽視,令負責傳播花粉的蜜蜂 10 年間減少約
 											<span class="number">4</span> 成</span>
 									</div>
-								</div>
+								</div> -->
 
 							</div>
 						</div>
@@ -598,7 +598,7 @@
 					<div role="tabpanel" class="tab-pane section-case1a active" id="case1a">
 						<div class="container">
 							<div class="caseBox">
-								<h6  class="lang_yifu_0"></h6>
+								<h6  class="lang_yifu_0">看似空虛的衣櫃</h6>
 								<div class="clearfix text-left">
 									<div class="col-xs-12 col-sm-6 grid-left ">
 										<p class="lang_yifu_1"></p>
@@ -606,12 +606,12 @@
 											<div class="col-xs-6 item clearfix">
 												<span class="shirt-item">
 													<span class="counter">
-														<span class="font-large clothes_count"></span>件</span>
+														<span class="font-large clothes_count">94</span>件</span>
 													<img src="images/about/icon-shirt01.png" class="img-fluid">
 												</span>
 												<span class="text-wrapper">
 													<span class="lang_yifu_2"></span>
-													<br class="hidden-xs"><span class="lang_yifu_3"></span></span>
+													<br class="hidden-xs"><span class="lang_yifu_3">15</span></span>
 											</div>
 											<div class="col-xs-6 item">
 												<span class="shirt-item">
@@ -632,7 +632,7 @@
 												</span><span class="lang_yifu_7"></span></span>
 												<span class="ssitem">
 													<span class="counter">
-														<span class="font-large clothes_count_after"></span>件</span>
+														<span class="font-large clothes_count_after">1400</span>件</span>
 													<img src="images/about/icon-shirt03.png" class="img-fluid">
 												</span><span class="lang_yifu_8"></span></div>
 										</div>
@@ -745,7 +745,7 @@
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<!-- <!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> --> -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>

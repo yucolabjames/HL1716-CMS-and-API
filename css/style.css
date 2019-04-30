@@ -19,7 +19,13 @@ textarea {
     box-sizing: border-box;
 }
 
-
+.ui-datepicker{
+    width: auto;
+}
+.ui-datepicker td span, .ui-datepicker td a{
+    padding: .8em .2em;
+    text-align: center;
+}
 
 /* -------------------------------------------------- Template Styles -------------------------------------------------- */
 
@@ -952,6 +958,8 @@ footer .copyright {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
+    height: 864px;
+    overflow: hidden;
 }
 
 .bx-wrapper .bx-pager-item {
@@ -1519,6 +1527,7 @@ footer .copyright {
     padding: 30px 0;
     text-align: center;
     line-height: 1.6;
+    cursor: pointer;
 }
 
 .section-profile .game-profile .video-selected p {
@@ -2265,6 +2274,7 @@ footer .copyright {
     text-align: center;
     padding: 70px 0;
     color: white;
+    cursor: pointer;
 }
 
 .widget-form .selection .item .shape {
@@ -2318,8 +2328,7 @@ footer .copyright {
     width: 80px;
 }
 .widget-form .input-number.discount {
-
-	width: 100px;
+	width: 220px;
 }
 .widget-form .icounter {
     text-align: left;
@@ -2335,6 +2344,7 @@ footer .copyright {
     width: 24px;
     cursor: pointer;
     font-family: arial;
+    user-select: none;
 }
 
 .widget-form .form-field {
@@ -2782,32 +2792,35 @@ footer .copyright {
     background: #067ba3;
 }
 
-.session-newsDetail .widget-social {
+.session-newsDetail .widget-socials {
     margin-top: 20px;
     border-top: 1px solid #eee;
     padding-top: 15px;
+    display: block !important
 }
 
-.session-newsDetail .widget-social h6 {
+
+
+.session-newsDetail .widget-socials h6 {
     font-family: "gotham";
     font-size: 13px;
     text-transform: uppercase;
     text-align: center;
 }
 
-.session-newsDetail .widget-social ul {
+.session-newsDetail .widget-socials ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
-.session-newsDetail .widget-social ul li {
+.session-newsDetail .widget-socials ul li {
     display: inline-block;
     margin: 0 5px;
 }
 
-.session-newsDetail .widget-social ul li a {
+.session-newsDetail .widget-socials ul li a {
     color: #666;
 }
 
@@ -3985,4 +3998,25 @@ Discount code hide section
 }
 .widget-form .pos-btn.cancel-btn .icon img{
 	width: 17px;
+}
+
+.select-language li,
+.cursor{
+  cursor: pointer;
+}
+.select-language li{
+  padding:0 10px;
+}
+.clickable,
+.clickable input[type='radio']{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.clickable{
+    cursor: pointer;
+}
+[v-cloak]{
+    display: none
 }

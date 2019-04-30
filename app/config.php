@@ -1,0 +1,291 @@
+<?php
+// +----------------------------------------------------------------------
+// | ThinkPHP [ WE CAN DO IT JUST THINK ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2006~2016 http://thinkphp.cn All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: liu21st <liu21st@gmail.com>
+// +----------------------------------------------------------------------
+
+return [
+    // +----------------------------------------------------------------------
+    // | 应用设置
+    // +----------------------------------------------------------------------
+
+    // 应用命名空间
+    'app_namespace'          => 'app',
+    // 应用调试模式
+    'app_debug'              => true,
+    // 应用Trace
+    'app_trace'              =>'',
+    // 应用模式状态
+    'app_status'             => '',
+    // 是否支持多模块
+    'app_multi_module'       => true,
+    // 入口自动绑定模块
+    'auto_bind_module'       => false,
+    // 注册的根命名空间
+    'root_namespace'         => [],
+    // 扩展函数文件
+    'extra_file_list'        => [THINK_PATH . 'helper' . EXT],
+    // 默认输出类型
+    'default_return_type'    => 'html',
+    // 默认AJAX 数据返回格式,可选json xml ...
+    'default_ajax_return'    => 'json',
+    // 默认JSONP格式返回的处理方法
+    'default_jsonp_handler'  => 'jsonpReturn',
+    // 默认JSONP处理方法
+    'var_jsonp_handler'      => 'callback',
+    // 默认时区
+    'default_timezone'       => 'PRC',
+    // 是否开启多语言
+    'lang_switch_on'         => true,
+    // 默认全局过滤方法 用逗号分隔多个
+    'default_filter'         => 'htmlspecialchars',
+    // 默认语言
+    'default_lang'           => 'en-us',
+    // 应用类库后缀
+    'class_suffix'           => false,
+    // 控制器类后缀
+    'controller_suffix'      => false,
+
+    // +----------------------------------------------------------------------
+    // | 模块设置
+    // +----------------------------------------------------------------------
+
+    // 默认模块名
+    'default_module'         => 'admin',
+    // 禁止访问模块
+    'deny_module_list'       => ['common'],
+    // 默认控制器名
+    'default_controller'     => 'Index',
+    // 默认操作名
+    'default_action'         => 'admin',
+    // 默认验证器
+    'default_validate'       => '',
+    // 默认的空控制器名
+    'empty_controller'       => 'Error',
+    // 操作方法后缀
+    'action_suffix'          => '',
+    // 自动搜索控制器
+    'controller_auto_search' => false,
+
+    // +----------------------------------------------------------------------
+    // | URL设置
+    // +----------------------------------------------------------------------
+
+    // PATHINFO变量名 用于兼容模式
+    'var_pathinfo'           => 's',
+    // 兼容PATH_INFO获取
+    'pathinfo_fetch'         => ['ORIG_PATH_INFO', 'REDIRECT_PATH_INFO', 'REDIRECT_URL'],
+    // pathinfo分隔符
+    'pathinfo_depr'          => '/',
+    // URL伪静态后缀
+    'url_html_suffix'        => 'html',
+    // URL普通方式参数 用于自动生成
+    'url_common_param'       => false,
+    // URL参数方式 0 按名称成对解析 1 按顺序解析
+    'url_param_type'         => 0,
+    // 是否开启路由
+    'url_route_on'           => true,
+    // 路由使用完整匹配
+    'route_complete_match'   => false,
+    // 路由配置文件（支持配置多个）
+    'route_config_file'      => ['route'],
+    // 是否强制使用路由
+    'url_route_must'         => false,
+    // 域名部署
+    'url_domain_deploy'      => false,
+    // 域名根，如thinkphp.cn
+    'url_domain_root'        => '',
+    // 是否自动转换URL中的控制器和操作名
+    'url_convert'            => true,
+    // 默认的访问控制器层
+    'url_controller_layer'   => 'controller',
+    // 表单请求类型伪装变量
+    'var_method'             => '_method',
+    // 表单ajax伪装变量
+    'var_ajax'               => '_ajax',
+    // 表单pjax伪装变量
+    'var_pjax'               => '_pjax',
+    // 是否开启请求缓存 true自动缓存 支持设置请求缓存规则
+    'request_cache'          => false,
+    // 请求缓存有效期
+    'request_cache_expire'   => null,
+    // 全局请求缓存排除规则
+    'request_cache_except'   => [],
+
+    // +----------------------------------------------------------------------
+    // | 模板设置
+    // +----------------------------------------------------------------------
+
+    'template'               => [
+        // 模板引擎类型 支持 php think 支持扩展
+        'type'         => 'Think',
+        // 模板路径
+        'view_path'    => '',
+        // 模板后缀
+        'view_suffix'  => 'html',
+        // 模板文件名分隔符
+        'view_depr'    => DS,
+        // 模板引擎普通标签开始标记
+        'tpl_begin'    => '{',
+        // 模板引擎普通标签结束标记
+        'tpl_end'      => '}',
+        // 标签库标签开始标记
+        'taglib_begin' => '{',
+        // 标签库标签结束标记
+        'taglib_end'   => '}',
+    ],
+
+    // 视图输出字符串内容替换
+    'view_replace_str'       => [],
+    // 默认跳转页面对应的模板文件
+    'dispatch_success_tmpl'  => THINK_PATH . 'tpl/dispatch_jump.tpl',
+    'dispatch_error_tmpl'    => THINK_PATH . 'tpl/dispatch_jump.tpl',
+
+    // +----------------------------------------------------------------------
+    // | 异常及错误设置
+    // +----------------------------------------------------------------------
+
+    // 异常页面的模板文件
+    'exception_tmpl'         => THINK_PATH . 'tpl' . DS . 'think_exception.tpl',
+
+    // 错误显示信息,非调试模式有效
+    'error_message'          => '页面错误！请稍后再试～',
+    // 显示错误信息
+    'show_error_msg'         => false,
+    // 异常处理handle类 留空使用 \think\exception\Handle
+    'exception_handle'       => '',
+
+    // +----------------------------------------------------------------------
+    // | 日志设置
+    // +----------------------------------------------------------------------
+
+    'log'                    => [
+        // 日志记录方式，内置 file socket 支持扩展
+        'type'  => 'File',
+        // 日志保存目录
+        'path'  => LOG_PATH,
+        // 日志记录级别
+        'level' => [],
+    ],
+
+    // +----------------------------------------------------------------------
+    // | Trace设置 开启 app_trace 后 有效
+    // +----------------------------------------------------------------------
+    'trace'                  => [
+        // 内置Html Console 支持扩展
+        'type' => 'Html',
+    ],
+
+    // +----------------------------------------------------------------------
+    // | 缓存设置
+    // +----------------------------------------------------------------------
+
+    'cache'                  => [
+        // 驱动方式
+        'type'   => 'File',
+        // 缓存保存目录
+        'path'   => CACHE_PATH,
+        // 缓存前缀
+        'prefix' => '',
+        // 缓存有效期 0表示永久缓存
+        'expire' => 0,
+    ],
+
+    // +----------------------------------------------------------------------
+    // | 会话设置
+    // +----------------------------------------------------------------------
+
+    'session'                => [
+        'id'             => '',
+        // SESSION_ID的提交变量,解决flash上传跨域
+        'var_session_id' => '',
+        // SESSION 前缀
+        'prefix'         => 'think',
+        // 驱动方式 支持redis memcache memcached
+        'type'           => '',
+        // 是否自动开启 SESSION
+        'auto_start'     => true,
+    ],
+
+    // +----------------------------------------------------------------------
+    // | Cookie设置
+    // +----------------------------------------------------------------------
+    'cookie'                 => [
+        // cookie 名称前缀
+        'prefix'    => '',
+        // cookie 保存时间
+        'expire'    => 0,
+        // cookie 保存路径
+        'path'      => '/',
+        // cookie 有效域名
+        'domain'    => '',
+        //  cookie 启用安全传输
+        'secure'    => false,
+        // httponly设置
+        'httponly'  => '',
+        // 是否使用 setcookie
+        'setcookie' => true,
+    ],
+
+    //分页配置
+    'list_rows' => 15,
+    //前端网页默认语言
+    'language' => 3,
+    //后端网页默认语言
+    'admin_language' => 1,
+
+    //邮件发送配置
+    'email' =>  [
+        'host'  =>  'smtp.163.com',
+        'port'  =>  465,
+        'smtp_auth' =>  true,
+        'smtp_secure'  =>   'ssl',
+        'charset'   =>  'UTF-8',
+        'encoding'  =>  'base64',
+        'user_name' =>  'send_mail_tt@163.com',
+        'pass_word' =>  'twweaamhnfskvuxe',
+        'subject' =>  'Bu Virtual Habitat',
+        'from' =>  'send_mail_tt@163.com',
+        'from_name' =>  'Bu Virtual Habitat',
+        'manager' => 'buhk.sgallery@gmail.com',
+
+    ],
+    
+    //香港公众假期更新地址配置
+    'holiday' =>  [
+        'en' =>  'http://www.1823.gov.hk/common/ical/en.ics',
+        'sc'  =>  'http://www.1823.gov.hk/common/ical/sc.ics',
+        'tc'  =>  'http://www.1823.gov.hk/common/ical/tc.ics',
+        
+        
+    ],
+
+    //paypal支付配置
+    'paypal' =>[
+        'cilent_id' => 'AfhI3qfNdZKGy0_Y_u3MW0kKC1hBhuJaOf4lBP2HrevMJRQoqRJIATEMnozriHkt6o_2Wd3cmznXJ7Vk',
+        'secret' => 'EG4Ai84WPbS-bRu5poFTrsEWAm4PWBXUq7CvASu88m1rHOc6lxOrhv4HOnIQXTxgO6PZ-V7kdgq0BwmW',
+        'business' => 'james.wong+test-facilitator@yucolab.com',//您的PayPal账户上的电子邮件地址
+        'gateway' => 'https://www.sandbox.paypal.com/cgi-bin/webscr',//paypal支付网关地址
+        'cmd' => '_xclick',//告诉Paypal
+        'currency_code' => 'HKD',//货币
+        'charset' => 'utf-8',
+        'no_shipping' => '1',//送货地址。如果设为 "1"，则不会要求您的客户提供送货地址。该变量为可选项；如果省略或设为 "0"，将提示您的客户输入送货地址
+        'no_note' => '1',//付款说明
+        'rm' => '2',
+        'return_domain'=>'https://www.parkingpay.net/hk/',//支付成功/取消地址域名
+        'return' => 'api/paypal/execute',//当用户成功付款后paypal会将用户自动引导到此地址,如果为空或不传递该参数，则不会跳转
+        'cancel_return' => 'api/paypal/cancel',//当跳转到paypal付款页面时，用户又突然不想买了。则会跳转到此地址
+        'url_domain' =>'http://bu.cqyuanyu.com/',
+        'success_url' => 'reservation_payment_status.html',//支付成功重定向跳转页面
+        'cancel_url' => 'reservation_confirmation_retry.html',//支付取消重定向跳转页面
+        'admin_success' => 'hk_admin/dist/index.html#/booking/detail',//后台支付成功重定向跳转页面
+        'admin_cancel' => 'hk_admin/dist/index.html#/booking/detail',//后台支付取消重定向跳转页面
+        'notify_url' => 'https://www.parkingpay.net/hk/api/paypal/notify'//支付回调
+
+    ]
+];

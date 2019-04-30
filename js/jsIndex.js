@@ -10,21 +10,33 @@ $(function() {
    
   });
   function getIndex(){
-    var language = getQueryString('lan') || 'CHT';
-    var lan_id = getQueryString('lan_id') || 3;
+    var lang = getLocalStorage('hk_language');
+    var language, lan_id;
+    if(lang){
+        language = lang.lan;
+        lan_id = lang.lan_id;
+    } else {
+        language = 'CHT';
+        lan_id = 3;
+    }
     $.get(api_host+'/api/Index/index?language='+lan_id, res => {
       handleData(res.res)
     }, 'json')
 
     function handleData(data){
-      console.log(data)
       // banner
       var bannerHtml = ''
       data.banner.forEach( item => {
         var html = $.parseHTML(item.text)
         bannerHtml += `<div class="slideItem">
-                          ${item.text}
-                          <img src="${uploaded +''+ item.img}" class="img-full hidden-xs">
+                          <div class="pos-text">
+                              <div class="container text-center">
+                                <h6>${item.text1}<br class="hidden-xs">${item.text2}</h6>
+                                <div class="caption hidden-xs">${item.text3}</div>
+                              </div>
+                          </div>
+                          <img src="${uploaded + item.img}" class="img-full hidden-xs">
+                          <img src="${uploaded + item.img}" class="img-full visible-xs">
                         </div>`
                           // <img src="images/home/banner1_mobile.jpg" class="img-full visible-xs">
 

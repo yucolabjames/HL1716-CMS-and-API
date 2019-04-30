@@ -40,40 +40,49 @@ $(function() {
       });
   }
 
-  var language = getQueryString('lan') || 'CHT';
-  new Vue({
-      el: '#vue_app',
-      data: {
-          lang: lang[language],
-          language,
-          user: {},
-          Habitats: [],
-          Habitats_types: []
-      },
-      mounted(){
-      this.init();
-      this.user = JSON.parse(sessionStorage.getItem('login'))
-      },
-      methods: {
+  var timer = setInterval(function(){
+    if(lang){
+      init(lang)
+    } 
+  }, 300);
 
-          init(){
-              $('.animsition').animsition({
-              inDuration: 500,
-              });
-              
-              var valid = false;
-              var config;
+  function init(langPack){
+    clearInterval(timer)
+    var lang = getLocalStorage('hk_language');
+    var language, lan_id;
+    if(lang){
+        language = lang.lan;
+        lan_id = lang.lan_id;
+    } else {
+        language = 'CHT';
+        lan_id = 3;
+    }
+  
+    new Vue({
+        el: '#vue_app',
+        data: {
+            lang:langPack,
+            language,
+            user: {},
+            Habitats: [],
+            Habitats_types: []
+        },
+        mounted(){
+        this.init();
+        this.user = JSON.parse(sessionStorage.getItem('login'))
+        },
+        methods: {
 
-              $(".widget-submenu  a").each((index, item) => {
-                var href = $(item).prop('href')
-                href = href + `?lan=${language}`
-                $(item).prop('href', href)
-            })
+            init(){
+                $('.animsition').animsition({
+                    inDuration: 500,
+                });
 
-          },
-          
-      }
-  })
+            },
+            
+        }
+    })
+    }
 });
 
 

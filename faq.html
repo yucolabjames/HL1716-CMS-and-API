@@ -73,47 +73,43 @@
         <hr>
         <nav class="navbar-menu">
           <div class="collapse navbar-collapse" id="login-menu">
-            <ul class="nav-menu">
-              <!-- 2 -->
-              <li class="">
-                <a href="about.html" class="nav1"></a>
-              </li>
-              <!-- 3 -->
-              <li class="">
-                <a href="hall.html" class="nav2"></a>
-              </li>
-              <!-- 4 -->
-              <li class="active">
-                <a href="faq.html" class="nav3"></a>
-              </li>
-              <!-- 5 -->
-              <li class="">
-                <a href="news.html" class="nav4"></a>
-              </li>
-              <!-- 6 -->
-              <li class="">
-                <a href="memberLogin.html" class="nav5"></a>
-              </li>
-              <!-- 7 -->
-              <li>
-                <a href="contact.html" class="nav6"></a>
-              </li>
-              <li class="booking">
-                <a class="btn theme6" href="booking.html">
-                  <span class="icon">
-                    <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
-                  </span>
-                  <span class="nav7"></span>
-                </a>
-              </li>
-              <ul class="lang-btn clearfix" aria-labelledby="dLabel">
-                <li>
-                  <img src="images/common/icon-lang.svg">
+              <ul class="nav-menu">
+                <!-- 2 -->
+                <li class="">
+                  <a href="about.html" class="nav1" data-i18n-text="navigations.biology"></a>
                 </li>
-                <li>繁</li>
-                <li>簡</li>
+                <!-- 3 -->
+                <li class="">
+                  <a href="hall.html" class="nav2" data-i18n-text="navigations.hall"></a>
+                </li>
+                <!-- 4 -->
+                <li class="active">
+                  <a href="faq.html" class="nav3" data-i18n-text="navigations.zhuanjia"></a>
+                </li>
+                <!-- 5 -->
+                <li class="">
+                  <a href="news.html" class="nav4" data-i18n-text="navigations.news"></a>
+                </li>
+                <!-- 6 -->
+                <li class="">
+                  <a href="memberLogin.html" class="nav5" data-i18n-text="navigations.member"></a>
+                </li>
+                <!-- 7 -->
+                <li class="">
+                  <a href="contact.html" class="nav6" data-i18n-text="navigations.concat"></a>
+                </li>
+                <li class="booking">
+                  <a class="btn theme6" href="booking.html">
+                    <span class="icon">
+                      <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+                    </span> 
+                    <span data-i18n-text="navigations.booking"></span>
+                  </a>
+                </li>
+                <ul class="lang-btn clearfix select-language" aria-labelledby="dLabel">
+                  
+                </ul>
               </ul>
-            </ul>
           </div>
 
 
@@ -147,7 +143,7 @@
         </ul>
 
         <div class="pos-search">
-          <input class="widget-search lang_faq_search"  placeholder="">
+          <input class="widget-search lang_faq_search"  data-i18n-placeholder="faq.useKw">
           <button type="button" class="searchBtn" >
             <i class="fa fa-search"></i>
           </button>
@@ -161,7 +157,7 @@
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane active" id="home">
             <div class="col-xs-12 col-sm-4 character">
-              <a href="faq_question.html">
+              <a href="faq_question.html" class="location_query">
                 <img src="images/faq/character.png" alt="提问" class="img-full">
               </a>
             </div>
@@ -516,7 +512,7 @@
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <!-- <!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> --> -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>

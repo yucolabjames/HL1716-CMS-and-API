@@ -66,38 +66,43 @@
                 <hr>
                  <nav class="navbar-menu">
                     <div class="collapse navbar-collapse" id="login-menu">
-                      <ul class="nav-menu">
-						<!-- 2 -->
-                        <li class="">
-                            <a href="about.html" class="nav1"></a>
-                        </li>
-						<!-- 3 -->
-                        <li class="">
-                            <a href="hall.html" class="nav2"></a>
-                        </li>
-						<!-- 4 -->
-                        <li class="">
-                            <a href="faq.html" class="nav3"></a>
-                        </li>
-						<!-- 5 -->
-                        <li class="">
-                            <a href="news.html" class="nav4"></a>
-                        </li>
-						<!-- 6 -->
-                        <li class="">
-                            <a href="memberLogin.html" class="nav5"></a>
-                        </li>
-						<!-- 7 -->
-                        <li class="active">
-                            <a href="contact.html" class="nav6"></a>
-                        </li>
-                        <li class="booking"><a class="btn theme6" href="booking.html" ><span class="icon"><img src="images/common/icon-calendar2.svg" class="svg img-fluid"></span> <span class="nav7"></span></a></li>
-                         <ul class="lang-btn clearfix  select-language" aria-labelledby="dLabel">
-                            <li><img src="images/common/icon-lang.svg"></li>
-                            <li>繁</li>
-                            <li>簡</li>
-                          </ul>
-                      </ul>
+                        <ul class="nav-menu">
+                            <!-- 2 -->
+                            <li class="">
+                                <a href="about.html" class="nav1" data-i18n-text="navigations.biology"></a>
+                            </li>
+                            <!-- 3 -->
+                            <li class="">
+                                <a href="hall.html" class="nav2" data-i18n-text="navigations.hall"></a>
+                            </li>
+                            <!-- 4 -->
+                            <li class="">
+                                <a href="faq.html" class="nav3" data-i18n-text="navigations.zhuanjia"></a>
+                            </li>
+                            <!-- 5 -->
+                            <li class="">
+                                <a href="news.html" class="nav4" data-i18n-text="navigations.news"></a>
+                            </li>
+                            <!-- 6 -->
+                            <li class="">
+                                <a href="memberLogin.html" class="nav5" data-i18n-text="navigations.member"></a>
+                            </li>
+                            <!-- 7 -->
+                            <li class="active">
+                                <a href="contact.html" class="nav6" data-i18n-text="navigations.concat"></a>
+                            </li>
+                            <li class="booking">
+                                <a class="btn theme6" href="booking.html">
+                                <span class="icon">
+                                    <img src="images/common/icon-calendar2.svg" class="svg img-fluid">
+                                </span> 
+                                <span data-i18n-text="navigations.booking"></span>
+                                </a>
+                            </li>
+                            <ul class="lang-btn clearfix select-language" aria-labelledby="dLabel">
+                                
+                            </ul>
+                        </ul>
                     </div>
 
                    
@@ -121,20 +126,41 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-6 grid-info">
+
           <div class="field clearfix">
-            <span class="cssLabel col-xs-12 col-sm-12 col-md-4"><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span><span class="conc_phone"></span></span>
+            <span class="cssLabel col-xs-12 col-sm-12 col-md-4">
+                <span class="icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </span>
+                <span class="conc_phone" data-i18n-text="concat.labelTel"></span>
+            </span>
             <div class="cssDescpt col-xs-12 col-sm-12 col-md-8 concat_phone"></div>
           </div>
+
           <div class="field clearfix">
-            <span class="cssLabel col-xs-12 col-sm-12 col-md-4"><span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="conc_email"></span></span>
+            <span class="cssLabel col-xs-12 col-sm-12 col-md-4">
+                <span class="icon">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </span>
+                <span class="conc_email" data-i18n-text="concat.labelEmail"></span></span>
             <div class="cssDescpt col-xs-12 col-sm-12 col-md-8 concat_email"></div>
           </div>
+
           <div class="field clearfix">
-            <span class="cssLabel col-xs-12 col-sm-12 col-md-4"><span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="conc_addr"></span></span>
+            <span class="cssLabel col-xs-12 col-sm-12 col-md-4">
+                <span class="icon">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </span>
+                <span class="conc_addr" data-i18n-text="concat.labelOfficeAddress"></span></span>
             <div class="cssDescpt col-xs-12 col-sm-12 col-md-8 concat_addr"></div>
           </div>
+
           <div class="field clearfix">
-            <span class="cssLabel col-xs-12 col-sm-12 col-md-4"><span class="icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span><span class="conc_office_time"></span></span>
+            <span class="cssLabel col-xs-12 col-sm-12 col-md-4">
+                <span class="icon">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                </span>
+                <span class="conc_office_time" data-i18n-text="concat.labelOfficeTime"></span></span>
             <div class="cssDescpt col-xs-12 col-sm-12 col-md-8 concat_office"></div>
           </div>
          
@@ -149,22 +175,22 @@
   <section class="session-form widget-contactForm">
     <div class="container">
       <div class="text-center">
-        <h2 class="sessionTitle"></h2>
+        <h2 class="sessionTitle" data-i18n-text="concat.sessionTitle"></h2>
       </div>
         <form class="question_form">
             <div class="form-field">
-              <input class="form-control concat_username username" placeholder="">
+              <input class="form-control concat_username username" data-i18n-placeholder="concat.name">
             </div>
             <div class="form-field clearfix">
-              <div class="grid col-xs-6"><input class="form-control concat_email email" placeholder=""></div>
-              <div class="grid col-xs-6"><input class="form-control concat_phone phone" placeholder=""></div>
+              <div class="grid col-xs-6"><input class="form-control concat_email email" data-i18n-placeholder="concat.phone"></div>
+              <div class="grid col-xs-6"><input class="form-control concat_phone phone" data-i18n-placeholder="concat.email"></div>
             </div>
             <div class="form-field">
-              <textarea class="form-control concat_reason content" placeholder=""></textarea>
+              <textarea class="form-control concat_reason content" data-i18n-placeholder="concat.reason"></textarea>
             </div>
             <div class="btn-wrapper text-center">
-              <a href="" class="btn theme5 concat_reset"></a>
-              <a href="" class="btn theme6 concat_submit"></a>
+              <a href="" class="btn theme5 concat_reset"  data-i18n-text="concat.reset"></a>
+              <a href="" class="btn theme6 concat_submit" data-i18n-text="concat.submit"></a>
             </div>
         </form>
          <div class="pos-item spaceM"><div class="ani-float"><img src="images/contact/spaceM.png" class="img-fluid"></div></div>
@@ -216,7 +242,7 @@
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <!-- <!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> --> -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/vendor/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>

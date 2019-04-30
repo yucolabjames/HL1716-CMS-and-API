@@ -1,5 +1,13 @@
 $(function(){
-  var lan_id = getQueryString('lan_id') || 0
+  var lang = getLocalStorage('hk_language');
+  var language, lan_id;
+  if(lang){
+      language = lang.lan;
+      lan_id = lang.lan_id;
+  } else {
+      language = 'CHT';
+      lan_id = 3;
+  }
   $.post(api_host+'/api/Eqaa/typelist', {
     language: lan_id
   }, res => {
@@ -9,8 +17,6 @@ $(function(){
         questionHtml += `<option value="${item.id}">${item.name}</option>`
       })
       $('.faq_question_list').html(questionHtml)
-      
-      
     }
   }, 'json')
 
